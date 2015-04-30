@@ -1,0 +1,82 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* city
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-08 03:16+0000\n"
+"PO-Revision-Date: 2013-11-08 04:47+0000\n"
+"Last-Translator: hbto [Vauxoo] http://www.vauxoo.com "
+"<humbertoarocha@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-10-07 06:57+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
+
+#. module: city
+#: view:res.country.state.city:0
+#: field:res.partner,city_id:0
+msgid "City"
+msgstr "Ciudad"
+
+#. module: city
+#: help:res.country.state.city,name:0
+msgid "Administrative divisions of a state."
+msgstr "División administrativa de un estado"
+
+#. module: city
+#: field:res.country.state.city,name:0
+msgid "Name"
+msgstr "Nombre"
+
+#. module: city
+#: view:res.country.state.city:0
+#: field:res.country.state.city,state_id:0
+#: view:res.partner:0
+msgid "State"
+msgstr "Estado"
+
+#. module: city
+#: model:ir.model,name:city.model_res_country_state_city
+msgid "Country state city"
+msgstr "Pais-estado-ciudad"
+
+#. module: city
+#: field:res.country.state.city,country_id:0
+msgid "Country"
+msgstr "Pais"
+
+#. module: city
+#: field:res.country.state.city,code:0
+msgid "City Code"
+msgstr "Código de Ciudad"
+
+#. module: city
+#: model:res.groups,name:city.group_res_country_state_city_manager
+msgid "City Manager"
+msgstr "Administrador de Ciudades"
+
+#. module: city
+#: view:res.partner:0
+msgid "Ciudad"
+msgstr "Ciudad"
+
+#. module: city
+#: help:res.country.state.city,code:0
+msgid "The city code in max. five chars."
+msgstr "Código de la ciudad, máximo 5 caracteres"
+
+#. module: city
+#: model:ir.model,name:city.model_res_partner
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: city
+#: model:ir.actions.act_window,name:city.action_country_state_city
+#: model:ir.ui.menu,name:city.menu_country_state_city_partner
+msgid "Cities"
+msgstr "Ciudades"
