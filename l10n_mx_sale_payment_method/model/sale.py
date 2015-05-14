@@ -71,7 +71,7 @@ class inherits_sale(osv.Model):
         '''Overwrite this method to set payment term new to sale order '''
         if context is None:
             context = {}
-        res = super(inherits_sale,self).onchange_partner_id(cr, uid, ids,
+        res = super(sale_order,self).onchange_partner_id(cr, uid, ids,
                                                             part, context)
         if part:
             part = self.pool.get('res.partner').browse(cr, uid, part, context)

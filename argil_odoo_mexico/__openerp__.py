@@ -19,20 +19,20 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{   "name" : "OpenERP Mexican Localization",
-    "version" : "",
+{   "name" : "Odoo (v8) Mexican Localization",
+    "version" : "1.0",
     "depends" : [
-                "city",
+                #"city",
                 "email_template_multicompany",
-                "l10n_mx_account_invoice_tax",
+                #"l10n_mx_account_invoice_tax",
                 "l10n_mx_account_tax_category",
                 "l10n_mx_base_vat_split",
-                "l10n_mx_cities",
+                #"l10n_mx_cities",
                 "l10n_mx_company_cif",
                 "l10n_mx_company_multi_address",
                 "l10n_mx_diot_report",
                 "l10n_mx_facturae",
-                "l10n_mx_facturae_cbb",
+                #"l10n_mx_facturae_cbb",
                 "l10n_mx_facturae_cer",
                 "l10n_mx_facturae_groups",
                 "l10n_mx_facturae_group_show_wizards",
@@ -41,7 +41,7 @@
                 "l10n_mx_facturae_pac_sf",
                 "l10n_mx_facturae_report",
                 "l10n_mx_facturae_seq",
-                "l10n_mx_import_info",
+                #"l10n_mx_import_info",
                 "l10n_mx_invoice_amount_to_text",
                 "l10n_mx_invoice_currency_chgdft",
                 "l10n_mx_invoice_datetime",
@@ -64,29 +64,23 @@
                 "account_move_line_base_tax",
                 "account_move_report",
                 "account_voucher_tax",
-                "hr_expense_analytic",
-                "hr_expense_replenishment",
-                "hr_expense_replenishment_tax",
+                #"hr_expense_analytic",
+                #"hr_expense_replenishment",
+                #"hr_expense_replenishment_tax",
                 "report_multicompany",
                 ],
-    "author" : "Vauxoo",
+    "author" : "Argil Consulting",
     "description" : """
 Install all apps needed to comply with Mexican laws
 ===================================================
 
 This module will install for you:
   
-  -  city
-  
   -  email_template_multicompany
-  
-  -  l10n_mx_account_invoice_tax
   
   -  l10n_mx_account_tax_category
   
   -  l10n_mx_base_vat_split
-  
-  -  l10n_mx_cities
   
   -  l10n_mx_company_cif
   
@@ -95,8 +89,6 @@ This module will install for you:
   -  l10n_mx_diot_report
   
   -  l10n_mx_facturae
-  
-  -  l10n_mx_facturae_cbb
   
   -  l10n_mx_facturae_cer
   
@@ -113,8 +105,6 @@ This module will install for you:
   -  l10n_mx_facturae_report
   
   -  l10n_mx_facturae_seq
-  
-  -  l10n_mx_import_info
   
   -  l10n_mx_invoice_amount_to_text
   
@@ -159,12 +149,6 @@ Additionally of lp:addons-vauxoo, will be installed:
   -  account_move_line_base_tax
   
   -  account_voucher_tax
-  
-  -  hr_expense_analytic
-  
-  -  hr_expense_replenishment
-  
-  -  hr_expense_replenishment_tax
   
   -  report_multicompany
                     """,

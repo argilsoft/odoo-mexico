@@ -31,10 +31,10 @@ from openerp import pooler, tools
 class purchase_order(osv.Model):
     _inherit = 'purchase.order'
 
-    def onchange_partner_id(self, cr, uid, ids, partner_id):
+    def onchange_partner_id(self, cr, uid, ids, partner_id, context=None):
         partner = self.pool.get('res.partner')
         res = super(purchase_order, self).onchange_partner_id(
-            cr, uid, ids, partner_id)
+            cr, uid, ids, partner_id, context=context)
         if partner_id:
             partner_bank_obj = self.pool.get('res.partner.bank')
             bank_partner_id = partner_bank_obj.search(

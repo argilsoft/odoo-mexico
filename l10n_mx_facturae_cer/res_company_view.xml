@@ -7,28 +7,30 @@
             <field name="model">res.company.facturae.certificate</field>
             <field name="arch" type="xml">
                 <form string="Certificates">
-                    <separator string="Certificates DER FORMAT (Original)" colspan="4"/>
-                    <field name="certificate_file" colspan="4"/>
-                    <field name="certificate_key_file" colspan="4"/>
-                    <newline/>
-                    <field name="certificate_password" password="True" on_change="onchange_certificate_info(certificate_file, certificate_key_file, certificate_password)"/>
-                    <separator string="Certificates PEM FORMAT (Transformed)" colspan="4"/>
-                    <field name="certificate_file_pem" colspan="4"/>
-                    <field name="certificate_key_file_pem" colspan="4"/>
-                    <separator string="General Information of Certificate" colspan="4"/>
-                    <field name="serial_number"/>
-                    <newline/>
-                    <field name="date_start"/>
-                    <newline/>
-                    <field name="date_end"/>
-                    <separator string="Extra Information" colspan="4"/>
-                    <field name="fname_xslt"/>
-                    <newline/>
-                    <field name="company_id" widget="selection" groups="base.group_multi_company"/>
-                    <newline/>
-                    <field name="active"/>
-                    <newline/>
-                    <button name="get_certificate_info" string="Get Certificate Info" type="object"/>
+                    <group col="4" colspan="4">
+                        <separator string="Certificates DER FORMAT (Original)" colspan="4"/>
+                        <field name="certificate_file" colspan="4"/>
+                        <field name="certificate_key_file" colspan="4"/>
+                        <newline/>
+                        <field name="certificate_password" password="True" on_change="onchange_certificate_info(certificate_file, certificate_key_file, certificate_password)"/>
+                        <separator string="Certificates PEM FORMAT (Transformed)" colspan="4"/>
+                        <field name="certificate_file_pem" colspan="4"/>
+                        <field name="certificate_key_file_pem" colspan="4"/>
+                        <separator string="General Information of Certificate" colspan="4"/>
+                        <field name="serial_number"/>
+                        <newline/>
+                        <field name="date_start"/>
+                        <newline/>
+                        <field name="date_end"/>
+                        <separator string="Extra Information" colspan="4"/>
+                        <field name="fname_xslt"/>
+                        <newline/>
+                        <field name="company_id" widget="selection" groups="base.group_multi_company"/>
+                        <newline/>
+                        <field name="active"/>
+                        <newline/>
+                        <button name="get_certificate_info" string="Get Certificate Info" type="object"/>
+                    </group>
                 </form>
             </field>
         </record>

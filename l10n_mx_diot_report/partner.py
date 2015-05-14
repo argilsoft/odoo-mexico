@@ -21,12 +21,12 @@
 
 from operator import itemgetter
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 class res_partner(osv.osv):
 
     _inherit = 'res.partner'
-    _description = 'Partner'
+#    _description = 'Partner'
 
     _columns = {
         'type_of_third':fields.selection([

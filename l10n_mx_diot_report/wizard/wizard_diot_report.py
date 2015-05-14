@@ -19,10 +19,11 @@
 #
 ##############################################################################
 
-from openerp.osv import osv, fields
-from tools.translate import _
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
+from openerp import pooler, tools
 import base64
-import pooler
+#import pooler
 from time import strftime
 from string import upper
 from string import join
