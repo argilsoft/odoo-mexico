@@ -30,29 +30,32 @@ from openerp import pooler, tools
 
 class stock_picking(osv.Model):
     _inherit = 'stock.picking'
-
-    def action_invoice_create(self, cursor, user, ids, journal_id=False,
-                              group=False, type='out_invoice', context=None):
+    
+    
+    def _get_invoice_vals(self, cr, uid, key, inv_type, journal_id, move, context=None):
         if context is None:
             context = {}
-        invoice_obj = self.pool.get('account.invoice')
-        purchase_obj = self.pool.get('purchase.order')
-        picking_id__invoice_id_dict = super(
-            stock_picking, self).action_invoice_create(cursor, user, ids,
-                journal_id=journal_id, group=group, type=type, context=context)
-        for picking_id in picking_id__invoice_id_dict.keys():
-            invoice_id = picking_id__invoice_id_dict[picking_id]
-            purchase_id = self.browse(
-                cursor, user, picking_id, context=context).purchase_id.id
-            if purchase_id:
-                purchase_order_id = purchase_obj.browse(
-                    cursor, user, purchase_id, context=context)
-                acc_payment_id = purchase_order_id.acc_payment and \
-                    purchase_order_id.acc_payment.id or False
-                payment_method_id = purchase_order_id.pay_method_id and \
-                    purchase_order_id.pay_method_id.id or False
-                invoice_obj.write(cursor, user, [invoice_id], {
-                    'acc_payment': acc_payment_id}, context=context)
-                invoice_obj.write(cursor, user, [invoice_id], {
-                    'pay_method_id': payment_method_id}, context=context)
-        return picking_id__invoice_id_dict
+        res = super(stock_picking, self)._get_invoice_vals(cr, uid, key, inv_type, journal_id, move, context=context)
+        if inv_type in ('out_invoice', 'out_refund'):
+            acc_payment_id = move.picking_id and move.picking_id.sale_id and \
+                             move.picking_id.sale_id.acc_payment and \
+                             move.picking_id.sale_id.acc_payment.id or False
+            
+            payment_method_id = move.picking_id and move.picking_id.sale_id and \
+                             move.picking_id.sale_id.pay_method_id and \
+                             move.picking_id.sale_id.pay_method_id.id or False            
+        else:
+            acc_payment_id = move.purchase_line_id and move.purchase_line_id.order_id and \
+                             move.purchase_line_id.order_id.acc_payment and \
+                             move.purchase_line_id.order_id.acc_payment.id or False
+            
+            payment_method_id = move.purchase_line_id and move.purchase_line_id.order_id and \
+                             move.purchase_line_id.order_id.pay_method_id and \
+                             move.purchase_line_id.order_id.pay_method_id.id or False
+                    
+        res.update({'acc_payment': acc_payment_id})
+        res.update({'pay_method_id': payment_method_id})
+        
+        return res
+        
+        

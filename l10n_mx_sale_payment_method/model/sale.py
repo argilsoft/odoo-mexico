@@ -30,7 +30,7 @@ from openerp.osv import fields
 from openerp.tools.translate import _
 
 
-class inherits_sale(osv.Model):
+class sale_order(osv.Model):
     
     '''Inherit sale order to add a new field, Payment Terms'''
     
