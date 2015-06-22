@@ -64,6 +64,7 @@
                 "account_move_line_base_tax",
                 "account_move_report",
                 "account_voucher_tax",
+                "account_invoice_number",
                 #"hr_expense_analytic",
                 #"hr_expense_replenishment",
                 #"hr_expense_replenishment_tax",
