@@ -28,7 +28,7 @@
     "version" : "1.1",
     'author': 'Vauxoo',
     'category' : "Localization/Mexico",
-    'depends': ['l10n_mx_payment_method','purchase'],
+    'depends': ['l10n_mx_payment_method','purchase','l10n_mx_sale_payment_method'],
     'description': """
 This module add in purchase view fieds to bank
     """,

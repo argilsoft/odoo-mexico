@@ -245,16 +245,20 @@ class account_invoice(osv.Model):
             res[invoice.id] = fname
         return res
 
-    def action_cancel_draft(self, cr, uid, ids, *args):
+    def action_cancel_draft(self, cr, uid, ids, context=None):
+        if context is None:
+            context = {}
         ids = isinstance(ids, (int, long)) and [ids] or ids
-        self.write(cr, uid, ids, {
-            'no_certificado': False,
-            'certificado': False,
-            'sello': False,
-            'cadena_original': False,
-            'date_invoice_cancel': False,
-        })
-        return super(account_invoice, self).action_cancel_draft(cr, uid, ids, args)
+        for invoice in self.browse(cr, uid, ids):
+            if invoice.type in ('out_invoice', 'out_refund'):
+                self.write(cr, uid, ids, {
+                    'no_certificado': False,
+                    'certificado': False,
+                    'sello': False,
+                    'cadena_original': False,
+                    'date_invoice_cancel': False,
+                })
+        return super(account_invoice, self).action_cancel_draft(cr, uid, ids, context=context)
 
     def action_cancel(self, cr, uid, ids, context=None):
         if context is None:
