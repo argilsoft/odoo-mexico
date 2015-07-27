@@ -55,7 +55,7 @@ class sale_order(osv.Model):
         '''Overwrite this method to send the payment term new to invoice '''
         if context is None:
             context = {}
-        res = super(inherits_sale,self)._prepare_invoice(cr, uid, order,
+        res = super(sale_order,self)._prepare_invoice(cr, uid, order,
                                                          lines, context)
         res.update({'pay_method_id':order.pay_method_id and\
                                         order.pay_method_id.id or False,

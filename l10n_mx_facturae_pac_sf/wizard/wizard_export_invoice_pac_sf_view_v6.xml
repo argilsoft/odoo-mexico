@@ -2,7 +2,7 @@
 <openerp>
     <data>
 
-
+<!--
         
         <record id="view_wizard_export_pac_sf_form_v6" model="ir.ui.view">
              <field name="name">view.wizard.export.pac.sf.form.v6</field>
@@ -31,6 +31,7 @@
             key2="client_action_multi"
             id="action_wizard_export_pac_sf_form"
             groups="l10n_mx_facturae_group_show_wizards.res_group_facturae_show_default_wizards"/>
+-->
             
     </data>
 </openerp>

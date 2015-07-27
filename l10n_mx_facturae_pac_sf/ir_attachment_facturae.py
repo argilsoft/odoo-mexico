@@ -251,8 +251,8 @@ class ir_attachment_facturae_mx(osv.Model):
                             'Failed to consult the SAT.\nCode 312'))
                     elif codigo_timbrado == '200' and codigo_validacion == '200':
                         fecha_timbrado = resultado['resultados']['fechaTimbrado'] or False
-                        fecha_timbrado = fecha_timbrado and time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(fecha_timbrado[:19], '%Y-%m-%dT%H:%M:%S')) or False
-                        fecha_timbrado = fecha_timbrado and datetime.strptime(fecha_timbrado, '%Y-%m-%d %H:%M:%S') + timedelta(hours=htz) or False
+                        #fecha_timbrado = fecha_timbrado and time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(fecha_timbrado[:19], '%Y-%m-%dT%H:%M:%S')) or False
+                        #fecha_timbrado = fecha_timbrado and datetime.strptime(fecha_timbrado, '%Y-%m-%d %H:%M:%S') + timedelta(hours=htz) or False
                         
                         cfdi_data = {
                             'cfdi_cbb': resultado['resultados']['qrCode'] or False,  # ya lo regresa en base64

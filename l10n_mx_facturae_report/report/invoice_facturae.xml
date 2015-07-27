@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
 <data>
-    
-    
-<!--### Template que maneja el Layout de la pagina     -->
+        
+
 <template id="l10n_mx_facturae_report_layout">
     <!-- Multicompany -->
     <t t-if="o and 'company_id' in o">
@@ -13,14 +12,35 @@
         <t t-set="company" t-value="res_company"></t>
     </t>
 
-    <t t-call="report.external_layout_header" />
+    <div class="header">
+        <div class="row" style="font-size: 8px;">
+            <table style="width: 100%">
+                <tr style="text-align: center;border-bottom:1px dotted #AAAAAA;">
+                    <td style="width: 15%">
+                        <span t-esc="time.strftime('%Y-%m-%d')"/>
+                        <span t-esc="time.strftime('%H:%M')"/>
+                    </td>
+                    <td style="width: 70%">
+                        <span t-esc="company.name"/>
+                    </td>
+                    <td style="width: 15%">
+                        <ul class="list-inline">
+                            <li><span class="page"/></li>
+                            <li>/</li>
+                            <li><span class="topage"/></li>
+                        </ul>                            
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
     <t t-raw="0" />
-    <t t-call="report.external_layout_footer" />
 </template>
     
     
+    
 <template id="account.report_invoice_document">
-    <t t-call="report.external_layout">
+    <t t-call="l10n_mx_facturae_report.l10n_mx_facturae_report_layout">
         <div class="page">
             <div class="row" style="font-size:9px">
                 <table class="table">
@@ -350,14 +370,17 @@
     </t>
 </template>
 
-<!--
+
 <template id="account.report_invoice">
     <t t-call="report.html_container">
+        <t t-set="data_report_margin_top" t-value="20"/> 
+        <t t-set="data_report_header_spacing" t-value="10"/>
+        <t t-set="data_report_dpi" t-value="600"/>
         <t t-foreach="doc_ids" t-as="doc_id">
             <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'account.report_invoice_document')"/>
         </t>
     </t>
 </template>
--->
+
 </data>
 </openerp>
