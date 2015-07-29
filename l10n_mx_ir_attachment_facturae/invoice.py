@@ -58,12 +58,12 @@ class account_invoice(osv.Model):
             context = {}
     
         if not partner.is_company:
-            raise osv.except_osv(_('Warning'),_("Partner - (ID: %s) %s - has unckecked field 'Is Company', to use this partner in Invoices you must check this field") % (partner.id,partner.name))
+            raise osv.except_osv(_('Advertencia'),_("Partner - (ID: %s) %s - has unckecked field 'Is Company', to use this partner in Invoices you must check this field") % (partner.id,partner.name))
         if not (partner.street and partner.city and partner.street2 and \
                 partner.state_id and partner.zip and partner.l10n_mx_city2 and partner.country_id):
-            raise osv.except_osv(_('Warning'),_("Partner - (ID: %s) %s - has incomplete address, please verify data") % (partner.id,partner.name))
+            raise osv.except_osv(_('Advertencia'),_("Partner - (ID: %s) %s - has incomplete address, please verify data") % (partner.id,partner.name))
         if not partner.vat:
-            raise osv.except_osv(_('Warning'),_("Partner - (ID: %s) %s - has no VAT ID defined, to use this partner in Invoices this field must not be empty") % (partner.id,partner.name))
+            raise osv.except_osv(_('Advertencia'),_("La Empresa - (ID: %s) %s - no tiene el RFC definido, para usar esta empresato use this partner in Invoices this field must not be empty") % (partner.id,partner.name))
         return
     
     def create_ir_attachment_facturae(self, cr, uid, ids, context=None):
@@ -79,12 +79,12 @@ class account_invoice(osv.Model):
             'out_refund': True,
             'in_invoice': False,
             'in_refund': False}
-        for invoice in self.browse(cr, uid, ids, context=context):
-            self.check_partner_data(cr, uid, invoice.partner_id, context=context)
-            self.check_partner_data(cr, uid, invoice.address_issued_id, context=context)
-            self.check_partner_data(cr, uid, invoice.company_emitter_id.address_invoice_parent_company_id, context=context)
-            
+        for invoice in self.browse(cr, uid, ids, context=context):            
             if inv_type_facturae.get(invoice.type, False):
+                self.check_partner_data(cr, uid, invoice.partner_id, context=context)
+                self.check_partner_data(cr, uid, invoice.address_issued_id, context=context)
+                self.check_partner_data(cr, uid, invoice.company_emitter_id.address_invoice_parent_company_id, context=context)
+
                 approval_id = invoice.invoice_sequence_id and invoice.invoice_sequence_id.approval_id or False
                 if approval_id:
                     attach_ids.append( ir_attach_obj.create(cr, uid, {
