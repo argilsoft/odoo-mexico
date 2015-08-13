@@ -105,6 +105,14 @@
                         </td>
                         <td rowspan="3" style="width:33%;border: 1px solid gray; border-collapse: collapse;">
                             <table style="border: 0px; border-collapse: collapse; ">
+                                <tr>
+                                    <td colspan="2" style="padding:2px;padding-right:9px;">
+                                        <strong>
+                                            <span t-if="o.type=='out_invoice'">Factura</span>
+                                            <span t-if="o.type=='out_refund'">Nota de Crédito</span>
+                                        </strong>
+                                    </td>
+                                </tr>                                
                                 <tr >
                                     <td style="width:40%;padding:2px;padding-right:9px;"><strong>Serie / Folio</strong></td>
                                     <td style="width:60%;padding:2px;">
