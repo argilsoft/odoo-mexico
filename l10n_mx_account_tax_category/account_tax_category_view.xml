@@ -6,15 +6,17 @@
             <field name="model">account.tax.category</field>
             <field name="arch" type="xml">
                 <form string="Categories">
-                    <separator string="Categories" colspan="4"/>
-                    <field name="name" colspan="2"/>
-                    <field name="code" colspan="2"/>
-                    <newline/>
-                    <field name="active" colspan="2"/>
-                    <field name="sign" colspan="2"/>
-                    <field name="value_tax" colspan="2"/>
-                    <newline/>
-                    <field name="company_id" widget="selection"/>
+                    <group colspan="4">
+                        <separator string="Categories" colspan="4"/>
+                        <field name="name" colspan="2"/>
+                        <field name="code" colspan="2"/>
+                        <newline/>
+                        <field name="active" colspan="2"/>
+                        <field name="sign" colspan="2"/>
+                        <field name="value_tax" colspan="2"/>
+                        <newline/>
+                        <field name="company_id" widget="selection"/>
+                    </group>
                 </form>
             </field>
         </record>

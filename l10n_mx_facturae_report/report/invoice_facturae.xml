@@ -82,7 +82,7 @@
                                 <tr>
                                     <td style="padding:2px;padding-right: 9px;"><strong>Municipio</strong></td>
                                     <td style="padding:2px;">
-                                        <span t-field="o.company_emitter_id.partner_id.city"/> CP: <span t-field="o.company_emitter_id.partner_id.zip"/>
+                                        <span t-field="o.company_emitter_id.partner_id.city"/> <strong>CP:</strong> <span t-field="o.company_emitter_id.partner_id.zip"/>
                                     </td>
                                 </tr>
                                 <tr>
@@ -106,7 +106,7 @@
                         <td rowspan="3" style="width:33%;border: 1px solid gray; border-collapse: collapse;">
                             <table style="border: 0px; border-collapse: collapse; ">
                                 <tr>
-                                    <td colspan="2" style="padding:2px;padding-right:9px;">
+                                    <td colspan="2" style="padding:2px;padding-right:9px;text-align:center;font-size:14px">
                                         <strong>
                                             <span t-if="o.type=='out_invoice'">Factura</span>
                                             <span t-if="o.type=='out_refund'">Nota de Crédito</span>
@@ -224,7 +224,7 @@
                                 <tr>
                                     <td style="padding:2px;padding-right:9px;"><strong>Municipio</strong></td>
                                     <td style="padding:2px;">
-                                        <span t-raw="'%s &lt;br&gt;' % o.partner_id.parent_id.city if o.partner_id.parent_id else o.partner_id.city"/> CP: <span t-raw="'%s &lt;br&gt;' % o.partner_id.parent_id.zip if o.partner_id.parent_id else o.partner_id.zip"/>
+                                        <span t-raw="'%s &lt;br&gt;' % o.partner_id.parent_id.city if o.partner_id.parent_id else o.partner_id.city"/> <strong>CP:</strong> <span t-raw="'%s &lt;br&gt;' % o.partner_id.parent_id.zip if o.partner_id.parent_id else o.partner_id.zip"/>
                                     </td>
                                 </tr>
                                 <tr>
@@ -270,7 +270,7 @@
                                 <tr>
                                     <td style="padding:2px;padding-right:9px;"><strong>Municipio</strong></td>
                                     <td style="padding:2px;">
-                                        <span t-field="o.address_issued_id.city"/> CP: <span t-field="o.address_issued_id.zip"/>
+                                        <span t-field="o.address_issued_id.city"/> <strong>CP:</strong> <span t-field="o.address_issued_id.zip"/>
                                     </td>
                                 </tr>
                                 <tr>
@@ -309,7 +309,7 @@
                             <span t-raw="'%s &lt;br&gt;' % l.name if l.name.find('] ') &lt; 0 else l.name[l.name.find('] ')+2:]"/>
                         </td>
                         <td class="text-right"><span t-field="l.quantity"/></td>
-                        <td><span t-field="l.uos_id"/></td>
+                        <td style="text-align:center;"><span t-field="l.uos_id"/></td>
                         <td class="text-right"><span t-field="l.price_unit"/></td>
                         <td class="text-right"><span t-field="l.price_subtotal" 
                                 t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
@@ -353,7 +353,7 @@
                         <strong>Origen:</strong><p t-field="o.origin"/>
                     </td>
                     <td style="width:15%;">
-                        <strong>Referencia:</strong><p t-field="o.reference"/>
+                        <strong>Referencia:</strong><p t-field="o.name"/>
                     </td>
                     <td style="text-align:right;width:70%;">Importe con letra: <span t-field="o.amount_to_text"/></td>
                 </tr>
