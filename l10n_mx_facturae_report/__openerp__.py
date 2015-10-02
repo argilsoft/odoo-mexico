@@ -38,7 +38,9 @@
     "depends" : [
         "account", 
         "l10n_mx_regimen_fiscal",
-        "l10n_mx_notes_invoice"],
+        "l10n_mx_notes_invoice",
+        "qweb_usertime",
+    ],
     "demo" : [],
     "data" : [
         "l10n_mx_facturae_report.xml",

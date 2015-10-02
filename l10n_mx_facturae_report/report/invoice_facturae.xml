@@ -17,8 +17,9 @@
             <table style="width: 100%">
                 <tr style="text-align: center;border-bottom:1px dotted #AAAAAA;">
                     <td style="width: 15%">
-                        <span t-esc="time.strftime('%Y-%m-%d')"/>
-                        <span t-esc="time.strftime('%H:%M')"/>
+                        <t t-usertime="%Y-%m-%d %H:%M:%S" />
+                        <!--<span t-esc="   time.strftime('%Y-%m-%d')"/>
+                        <span t-esc="time.strftime('%H:%M')"/> -->
                     </td>
                     <td style="width: 70%">
                         <span t-esc="company.name"/>
