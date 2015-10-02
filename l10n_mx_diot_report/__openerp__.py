@@ -46,6 +46,7 @@
     "license" : "AGPL-3",
     "depends" : [
         "base_vat",
+        "account",
         "account_move_line_base_tax",
         "account_accountant",
         #"l10n_mx_account_invoice_tax",

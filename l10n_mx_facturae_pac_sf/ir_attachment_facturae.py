@@ -273,7 +273,7 @@ class ir_attachment_facturae_mx(osv.Model):
                             # invoice_obj.cfdi_data_write(cr, uid, [invoice.id], cfdi_data, context=context)
                             cfdi_xml = cfdi_data.pop('cfdi_xml')
                         if cfdi_xml:
-                            print "cfdi_data: ", cfdi_data
+                            #print "cfdi_data: ", cfdi_data
                             invoice_obj.write(cr, uid, [invoice.id], cfdi_data)
                             cfdi_data['cfdi_xml'] = cfdi_xml
                         else:

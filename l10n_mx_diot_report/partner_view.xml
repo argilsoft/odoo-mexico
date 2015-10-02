@@ -4,7 +4,7 @@
         <record id="view_partner_diot_form" model="ir.ui.view">
             <field name="name">res.partner.form.diot</field>
             <field name="model">res.partner</field>
-            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="inherit_id" ref="account.view_partner_property_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='bank_ids']" position="before">
                     <group colspan="4" col="4" attrs="{'invisible':[('supplier','=', False)]}">
