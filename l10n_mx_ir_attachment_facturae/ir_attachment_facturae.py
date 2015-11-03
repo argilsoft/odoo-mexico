@@ -263,8 +263,8 @@ class ir_attachment_facturae_mx(osv.Model):
         return self.write(cr, uid, ids, {'state': 'signed'}, context=context)
 
     def signal_printable(self, cr, uid, ids, context=None):
-        print "· · · · · · · · · · · · · · · · · · ·"
-        print "Entrando a def signal_printable"
+        #print "· · · · · · · · · · · · · · · · · · ·"
+        #print "Entrando a def signal_printable"
         try:
             if context is None:
                 context = {}
@@ -288,7 +288,7 @@ class ir_attachment_facturae_mx(osv.Model):
             report_name = "account.report_invoice"
             if report_ids:
                 report_name = report_multicompany_obj.browse(cr, uid, report_ids[0]).report_name
-            print "invoice.fname_invoice: ", invoice.fname_invoice
+            #print "invoice.fname_invoice: ", invoice.fname_invoice
             #report_xml_pool = self.pool.get('ir.actions.report.xml')
             #report = report_xml_pool.browse(cr, uid, report_ids[0], context)
             #print "report.report_name: ", report.report_name
@@ -302,7 +302,7 @@ class ir_attachment_facturae_mx(osv.Model):
             ext = "." + format
             if not report_name.endswith(ext):
                 report_name += ext
-            print "report_name: ", report_name
+            #print "report_name: ", report_name
             attachment_ids = attachment_obj.search(cr, uid, [
                 ('res_model', '=', 'account.invoice'),
                 ('res_id', '=', invoice.id),

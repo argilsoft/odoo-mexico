@@ -62,7 +62,7 @@
                 "account_invoice_line_currency",
                 "account_invoice_tax",
                 "account_move_line_base_tax",
-                "account_move_report",
+                #"account_move_report",
                 "account_voucher_tax",
                 "account_invoice_number",
                 #"hr_expense_analytic",
