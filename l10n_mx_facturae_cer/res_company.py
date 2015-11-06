@@ -28,7 +28,7 @@
 from openerp.osv import fields, osv
 from openerp.tools.translate import _
 from openerp import pooler, tools, release
-
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 import os
 import time
 import tempfile
@@ -95,7 +95,7 @@ class res_company_facturae_certificate(osv.Model):
         data = self.onchange_certificate_info(
             cr, uid, ids, cer_der_b64str, key_der_b64str, password, context=context)
         if data['warning']:
-            raise osv.except_osv(data['warning'][
+            raise except_orm(data['warning'][
                                  'title'], data['warning']['message'])
         return self.write(cr, uid, ids, data['value'], context)
 

@@ -34,7 +34,7 @@ import logging
 _logger = logging.getLogger(__name__)
 import traceback
 import sys
-
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 class ir_attachment_facturae_mx(osv.Model):
     _name = 'ir.attachment.facturae.mx'
@@ -124,7 +124,7 @@ class ir_attachment_facturae_mx(osv.Model):
         from openerp.addons.l10n_mx_facturae_lib import facturae_lib
         msj, app_xsltproc_fullpath, app_openssl_fullpath, app_xmlstarlet_fullpath = facturae_lib.library_openssl_xsltproc_xmlstarlet(cr, uid, ids, context)
         if msj:
-            raise osv.except_osv(_('Warning'),_(msj))
+            raise except_orm(_('Warning'),_(msj))
         try:
             if context is None:
                 context = {}
@@ -173,7 +173,7 @@ class ir_attachment_facturae_mx(osv.Model):
                     msj = _("Attached Successfully XML CFD 2.2")
                 save_attach = True
             else:
-                raise osv.except_osv(_("Type Electronic Invoice Unknow!"), _(
+                raise except_orm(_("Type Electronic Invoice Unknow!"), _(
                     "The Type Electronic Invoice:" + (type or '')))
             if save_attach:
                 self.write(cr, uid, ids,
@@ -316,14 +316,14 @@ class ir_attachment_facturae_mx(osv.Model):
             if aids:
                 msj = _("Attached Successfully PDF\n")
             else:
-                raise osv.except_osv(_('Warning'), _('Not Attached PDF\n'))
+                raise except_orm(_('Warning'), _('Not Attached PDF\n'))
             self.write(cr, uid, ids, {
                 'file_pdf': aids or False,
                 'msj': msj,
                 'last_date': time.strftime('%Y-%m-%d %H:%M:%S'),
                 'file_pdf_index': index_pdf}, context=context)
             wf_service.trg_validate(uid, self._name, ids[0], 'action_printable', cr)
-            #raise osv.except_osv('Pausa','Pausa')
+            #raise except_orm('Pausa','Pausa')
             return True
         except Exception, e:
             error = tools.ustr(traceback.format_exc())
@@ -380,7 +380,7 @@ class ir_attachment_facturae_mx(osv.Model):
                                 encryption=smtp_server.smtp_encryption,
                                 smtp_debug=smtp_server.smtp_debug)
                         except Exception, e:
-                            raise osv.except_osv(_("Connection test failed!"), _(
+                            raise except_orm(_("Connection test failed!"), _(
                                 "Configure outgoing mail server named FacturaE:\n %s") % tools.ustr(e))
                     mail_compose_message_pool = self.pool.get(
                         'mail.compose.message')
@@ -454,16 +454,16 @@ class ir_attachment_facturae_mx(osv.Model):
                                             uid, self._name, ids[0], 'action_send_customer', cr)
                                         return True
                             else:
-                                raise osv.except_osv(
+                                raise except_orm(
                                     _('Warning'), _('This user does not have mail'))
                         else:
-                            raise osv.except_osv(
+                            raise except_orm(
                                 _('Warning'), _('The customer %s does not have mail') % (partner_name))
                     else:
-                        raise osv.except_osv(
+                        raise except_orm(
                             _('Warning'), _('Check that your template is assigned outgoing mail server named %s.\nAlso the field has report_template = Factura Electronica Report.\nTemplate is associated with the same company') % (server_name))
                 else:
-                    raise osv.except_osv(_('Warning'), _('Not Found\
+                    raise except_orm(_('Warning'), _('Not Found\
                     outgoing mail server.Configure the outgoing mail server named "FacturaE"'))
         except Exception, e:
             error = tools.ustr(traceback.format_exc())
@@ -574,7 +574,7 @@ class ir_attachment_facturae_mx(osv.Model):
                     msj = 'cancelled'
                     inv_cancel_status = True
                 else:
-                    raise osv.except_osv(_("Type Electronic Invoice Unknow!"), _(
+                    raise except_orm(_("Type Electronic Invoice Unknow!"), _(
                         "The Type Electronic Invoice:" + (ir_attach_facturae_mx_id.type or '')))
                 self.write(cr, uid, ids, {
                            'last_date': time.strftime('%Y-%m-%d %H:%M:%S'),
@@ -627,7 +627,7 @@ class ir_attachment(osv.Model):
                                                                    '|', ('file_input', 'in', ids), ('file_xml_sign', 'in', ids), ('file_pdf', 'in',
                                                                                                                                   ids)])
         if attachments:
-            raise osv.except_osv(_('Warning!'), _(
+            raise except_orm(_('Warning!'), _(
                 'You can not remove an attachment of an invoice'))
         return super(ir_attachment, self).unlink(cr, uid, ids, context=context)
 

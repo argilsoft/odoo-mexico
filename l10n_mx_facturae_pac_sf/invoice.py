@@ -49,7 +49,7 @@ import pytz
 import time
 from datetime import datetime, timedelta
 import time
-
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 class account_invoice(osv.Model):
     _inherit = 'account.invoice'
@@ -286,7 +286,7 @@ class account_invoice(osv.Model):
             inv_xml = atta_brw.datas or False
         else:
             inv_xml = False
-            raise osv.except_osv(('State of Cancellation!'), (
+            raise except_orm(('State of Cancellation!'), (
                 "This invoice hasn't stamped, so that not possible cancel."))
         return {'file': inv_xml}
 

@@ -34,6 +34,7 @@ import datetime
 from pytz import timezone
 import pytz
 from dateutil.relativedelta import relativedelta
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 import time
 import os
@@ -187,9 +188,9 @@ class account_invoice(osv.Model):
                             res['invoice_datetime'] = dt_invoice
                             res['date_invoice'] = values['date_invoice']
                         else:
-                            raise osv.except_osv(_('Warning!'), _('Invoice dates should be equal'))
+                            raise except_orm(_('Warning!'), _('Invoice dates should be equal'))
                     else:
-                        raise osv.except_osv(_('Warning!'), _('Invoice dates should be equal'))
+                        raise except_orm(_('Warning!'), _('Invoice dates should be equal'))
                             
         if  not values.get('invoice_datetime', False) and\
                                         not values.get('date_invoice', False):

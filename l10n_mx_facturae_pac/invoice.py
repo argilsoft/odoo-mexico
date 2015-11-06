@@ -39,7 +39,7 @@ except:
     pass
 import time
 from openerp import tools
-
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 class account_invoice(osv.Model):
     _inherit = 'account.invoice'
@@ -170,18 +170,18 @@ class account_invoice(osv.Model):
         msg2=''
 
         if not txt_str:
-            raise osv.except_osv(_('Error in Original String!'), _(
+            raise except_orm(_('Error in Original String!'), _(
                 "Can't get the string original of the voucher.\nCkeck your configuration.\n%s" % (msg2)))
 
         if not data_dict[comprobante].get('folio', ''):
-            raise osv.except_osv(_('Error in Folio!'), _(
+            raise except_orm(_('Error in Folio!'), _(
                 "Can't get the folio of the voucher.\nBefore generating the XML, click on the button, generate invoice.\nCkeck your configuration.\n%s" % (msg2)))
 
         context.update({'fecha': data_dict[comprobante]['fecha']})
         sign_str = self._get_sello(
             cr=False, uid=False, ids=False, context=context)
         if not sign_str:
-            raise osv.except_osv(_('Error in Stamp !'), _(
+            raise except_orm(_('Error in Stamp !'), _(
                 "Can't generate the stamp of the voucher.\nCkeck your configuration.\ns%s") % (msg2))
 
         nodeComprobante = doc_xml.getElementsByTagName(comprobante)[0]
@@ -190,14 +190,14 @@ class account_invoice(osv.Model):
 
         noCertificado = self._get_noCertificado(cr, uid, ids, context['fname_cer'])
         if not noCertificado:
-            raise osv.except_osv(_('Error in No. Certificate !'), _(
+            raise except_orm(_('Error in No. Certificate !'), _(
                 "Can't get the Certificate Number of the voucher.\nCkeck your configuration.\n%s") % (msg2))
         nodeComprobante.setAttribute("noCertificado", noCertificado)
         data_dict[comprobante]['noCertificado'] = noCertificado
 
         cert_str = self._get_certificate_str(context['fname_cer'])
         if not cert_str:
-            raise osv.except_osv(_('Error in Certificate!'), _(
+            raise except_orm(_('Error in Certificate!'), _(
                 "Can't get the Certificate Number of the voucher.\nCkeck your configuration.\n%s") % (msg2))
         cert_str = cert_str.replace(' ', '').replace('\n', '')
         nodeComprobante.setAttribute("certificado", cert_str)
@@ -251,5 +251,5 @@ class account_invoice(osv.Model):
                     fname_out = certificate_lib.b64str_to_tempfile(cr, uid, ids, base64.encodestring(''), file_suffix='.txt', file_prefix='openerp__' + (False or '') + '__schema_validation_result__' )
                     result = certificate_lib.check_xml_scheme(cr, uid, ids, fname_data_xml, fname_scheme, fname_out)
                     if result: #Valida el xml mediante el archivo xsd
-                        raise osv.except_osv('Error al validar la estructura del xml!', 'Validación de XML versión %s:\n%s'%(facturae_version, result))
+                        raise except_orm('Error al validar la estructura del xml!', 'Validación de XML versión %s:\n%s'%(facturae_version, result))
         return True

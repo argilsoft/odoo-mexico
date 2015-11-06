@@ -29,6 +29,7 @@ from openerp.tools.translate import _
 from openerp.osv import fields, osv
 from openerp import tools, release
 from openerp import SUPERUSER_ID
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 class account_invoice(osv.Model):
     _inherit = 'account.invoice'
@@ -124,7 +125,7 @@ class account_invoice(osv.Model):
                     number = self.pool.get('ir.sequence').get_id(
                         cr, uid, sid, 'id=%s', context=tmp_context)
                 if not number:
-                    raise osv.except_osv(
+                    raise except_orm(
                         'Warning !', "Not defined a secuence of folios !")
 
                 if invtype in ('in_invoice', 'in_refund'):

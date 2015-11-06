@@ -26,7 +26,7 @@ from openerp.tools.translate import _
 from openerp import pooler, tools
 from openerp import netsvc
 import time
-
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 class account_invoice(osv.Model):
     _inherit = 'account.invoice'
@@ -58,12 +58,12 @@ class account_invoice(osv.Model):
             context = {}
     
         if not partner.is_company:
-            raise osv.except_osv(_('Advertencia'),_("Partner - (ID: %s) %s - has unckecked field 'Is Company', to use this partner in Invoices you must check this field") % (partner.id,partner.name))
+            raise except_orm(_('Advertencia'),_("Partner - (ID: %s) %s - has unckecked field 'Is Company', to use this partner in Invoices you must check this field") % (partner.id,partner.name))
         if not (partner.street and partner.city and partner.street2 and \
                 partner.state_id and partner.zip and partner.l10n_mx_city2 and partner.country_id):
-            raise osv.except_osv(_('Advertencia'),_("Partner - (ID: %s) %s - has incomplete address, please verify data") % (partner.id,partner.name))
+            raise except_orm(_('Advertencia'),_("Partner - (ID: %s) %s - has incomplete address, please verify data") % (partner.id,partner.name))
         if not partner.vat:
-            raise osv.except_osv(_('Advertencia'),_("La Empresa - (ID: %s) %s - no tiene el RFC definido, para usar esta empresato use this partner in Invoices this field must not be empty") % (partner.id,partner.name))
+            raise except_orm(_('Advertencia'),_("La Empresa - (ID: %s) %s - no tiene el RFC definido, para usar esta empresato use this partner in Invoices this field must not be empty") % (partner.id,partner.name))
         return
     
     def create_ir_attachment_facturae(self, cr, uid, ids, context=None):

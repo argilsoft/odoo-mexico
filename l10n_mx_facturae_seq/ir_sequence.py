@@ -28,7 +28,7 @@
 from openerp.osv import fields, osv
 from openerp.tools.translate import _
 from openerp import release
-
+from openerp.exceptions import except_orm, Warning, RedirectWarning
 
 class ir_sequence_approval(osv.Model):
     _name = 'ir.sequence.approval'
@@ -171,7 +171,7 @@ class ir_sequence(osv.Model):
                     }
                     data = {'warning': warning}
                     break
-                    # raise osv.except_osv(_('Warning !'), _('You cannot
+                    # raise except_orm(_('Warning !'), _('You cannot
                     # remove/deactivate an account which is set as a property
                     # to any Partner!'))
         print "_check_sequence_number_diff [data]", [data]
@@ -198,7 +198,7 @@ class ir_sequence(osv.Model):
                     approval_id = approval_id and approval_obj.browse(
                         cr, uid, [approval_id], context=context)[0] or False
                     if not approval_id:
-                        raise osv.except_osv(
+                        raise except_orm(
                             'Error !', 'No hay una aprobacion valida de folios.')
                     """
                     else:
@@ -208,7 +208,7 @@ class ir_sequence(osv.Model):
                             - sequence.next_number
                         if sequence_number_diff <= sequence_number_diff_rate:
                             #warning ya esta proximo a vencer
-                            #raise osv.except_osv(_('Warning !'), _('You \
+                            #raise except_orm(_('Warning !'), _('You \
                                 cannot remove/deactivate an account which is \
                                 set as a property to any Partner!'))
                             pass
@@ -245,7 +245,7 @@ class ir_sequence(osv.Model):
                     approval_id = approval_id and approval_obj.browse(
                         cr, uid, [approval_id], context=context)[0] or False
                     if not approval_id:
-                        raise osv.except_osv(
+                        raise except_orm(
                             'Error !', 'No hay una aprobacion valida de folios.')
                     return super(ir_sequence, self).get_id(cr, uid, res['id'], 'id')
             return super(ir_sequence, self).get_id(cr, uid, sequence_id, test)
