@@ -258,7 +258,7 @@ class account_invoice(osv.Model):
                     'cadena_original': False,
                     'date_invoice_cancel': False,
                 })
-        return super(account_invoice, self).action_cancel_draft(cr, uid, ids, context=context)
+        return super(account_invoice, self).action_cancel_draft(cr, uid, ids, context=context.copy())
 
     def action_cancel(self, cr, uid, ids, context=None):
         if context is None:
@@ -1370,8 +1370,9 @@ class account_invoice(osv.Model):
         @param partner_bank_id : Id of bank account that is used in the invoice
         @param company_id : Id of the company from invoice
         """
-        res = super(account_invoice, self).onchange_partner_id(cr, uid, ids,
-            type, partner_id, date_invoice, payment_term, partner_bank_id, company_id, context=context)
+        res = super(account_invoice, self).onchange_partner_id(cr, uid, ids, type, partner_id, 
+                        date_invoice=date_invoice, payment_term=payment_term,
+                        partner_bank_id=partner_bank_id, company_id=company_id)
         partner_bank_obj = self.pool.get('res.partner.bank')
         acc_partner_bank = False
         if partner_id:
