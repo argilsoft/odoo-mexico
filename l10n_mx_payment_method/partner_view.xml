@@ -2,14 +2,14 @@
 <openerp>
     <data>
 
-        <record model="ir.ui.view" id="view_partner_form_inh_xml22">
+        <record model="ir.ui.view" id="view_partner_form_inh_xml22b">
             <field name="name">view.partner.form.inh.xml22</field>
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="account.view_partner_property_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='property_payment_term']" position="before">
+                <field name="property_payment_term" position="before">
                     <field name="pay_method_id" colspan="2"/>
-                </xpath>
+                </field>
             </field>
         </record>
     </data>

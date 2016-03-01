@@ -2,14 +2,14 @@
 <openerp>
     <data>
 
-        <record model="ir.ui.view" id="view_partner_form_inh_xml22">
+        <record model="ir.ui.view" id="view_partner_form_inh_xml22a">
             <field name="name">view.partner.form.inh.xml22</field>
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="account.view_partner_property_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='last_reconciliation_date']" position="after">
+                <field name="last_reconciliation_date" position="after">
                     <field name="regimen_fiscal_id" colspan="2" groups="l10n_mx_facturae_groups.group_l10n_mx_facturae_user"/>
-                </xpath>
+                </field>
             </field>
         </record>
     </data>

@@ -340,7 +340,7 @@ class wizard_account_diot_mx(osv.osv_memory):
             'VAT for returns, discounts and rebates on purchases' : ' IVA correspondiente a las devoluciones, descuentos y bonificaciones'
             })
         sum_dic = {'type_of_third': '', 'value_of_acts_or_activities_paid_at_the_rate_of_16%' : 0,
-            'value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT' : 0,
+            #'value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT' : 0,
             'value_of_the_other_acts_or_activities_paid_at_the_rate_of_0%_VAT' : 0,
             'value_of_acts_or_activities_paid_by_those_who_do_not_pay_the_VAT_(Exempt)' : 0,
             'tax Withheld by the taxpayer' : 0}
@@ -365,7 +365,7 @@ class wizard_account_diot_mx(osv.osv_memory):
                'tax Withheld by the taxpayer': int(round((values_diot[11]), 0)),
                })
             sum_dic.update({'value_of_acts_or_activities_paid_at_the_rate_of_16%' : sum_dic['value_of_acts_or_activities_paid_at_the_rate_of_16%'] + int(round((values_diot[7]), 0)),
-                'value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT' : sum_dic['value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT'] + int(round((values_diot[8]), 0)),
+                #'value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT' : sum_dic['value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT'] + int(round((values_diot[8]), 0)),
                 'value_of_the_other_acts_or_activities_paid_at_the_rate_of_0%_VAT' : sum_dic['value_of_the_other_acts_or_activities_paid_at_the_rate_of_0%_VAT'] + int(round((values_diot[9]), 0)),
                 'value_of_acts_or_activities_paid_by_those_who_do_not_pay_the_VAT_(Exempt)' : sum_dic['value_of_acts_or_activities_paid_by_those_who_do_not_pay_the_VAT_(Exempt)'] + int(round((values_diot[10]), 0)),
                 'tax Withheld by the taxpayer' : sum_dic['tax Withheld by the taxpayer'] + int(round((values_diot[11]), 0)),
@@ -380,8 +380,8 @@ class wizard_account_diot_mx(osv.osv_memory):
                'nationality': values_diot[6],
                'value_of_acts_or_activities_paid_at_the_rate_of_16%': int(
                round((values_diot[7]), 0)),
-               'value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT': int(
-               round((values_diot[8]), 0)),
+               #'value_of_acts_or_activities_paid_at_the_rate_of_11%_VAT': int(
+               #round((values_diot[8]), 0)),
                'value_of_the_other_acts_or_activities_paid_at_the_rate_of'
                '_0%_VAT': int(round((values_diot[9]), 0)),
                'value_of_acts_or_activities_paid_by_those_who_do_not_pay_the'
