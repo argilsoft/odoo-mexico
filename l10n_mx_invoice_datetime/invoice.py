@@ -39,7 +39,7 @@ from openerp.exceptions import except_orm, Warning, RedirectWarning
 import time
 import os
 
-
+"""
 class account_payment_term(osv.Model):
     _inherit = "account.payment.term"
 
@@ -54,7 +54,7 @@ class account_payment_term(osv.Model):
                 pass
         return super(account_payment_term, self).compute(cr, uid, id, value,
             date_ref, context=context)
-
+"""
 
 class account_invoice(osv.Model):
     _inherit = 'account.invoice'
@@ -200,12 +200,13 @@ class account_invoice(osv.Model):
         return res
 
     def action_move_create(self, cr, uid, ids, context=None):
+        res = super(account_invoice, self).action_move_create(cr, uid, ids, context=context)
         for inv in self.browse(cr, uid, ids, context=context):
             if inv.type in ('out_invoice', 'out_refund'):
                 vals_date = self.assigned_datetime(cr, uid,
                     {'invoice_datetime': inv.invoice_datetime,
                         'date_invoice': inv.date_invoice},
                         context=context)
+                #print "vals_date: ", vals_date
                 self.write(cr, uid, ids, vals_date, context=context)
-        return super(account_invoice,
-                        self).action_move_create(cr, uid, ids, context=context)
+        return res

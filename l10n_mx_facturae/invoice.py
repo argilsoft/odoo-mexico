@@ -258,7 +258,7 @@ class account_invoice(osv.Model):
                     'cadena_original': False,
                     'date_invoice_cancel': False,
                 })
-        return super(account_invoice, self).action_cancel_draft(cr, uid, ids, context=context.copy())
+        return super(account_invoice, self).action_cancel_draft(cr, uid, ids, context)
 
     def action_cancel(self, cr, uid, ids, context=None):
         if context is None:
