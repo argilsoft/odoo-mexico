@@ -16,6 +16,6 @@
 
 import import_info
 import stock
-import product
-import report
+#import product
+#import report
 import invoice

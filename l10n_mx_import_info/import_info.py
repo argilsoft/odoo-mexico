@@ -24,6 +24,7 @@ class import_info(osv.Model):
     _description = "Information about customs"
     _order = 'name asc'
 
+    """
     def _get_audit(self, cr, uid, ids, field_name, arg, context=None):
         if context is None:
             context = {}
@@ -39,29 +40,21 @@ class import_info(osv.Model):
             result[i] = chain
         return result
 
+    """
+    
     _columns = {
-        'name': fields.char('Number of Operation', 15,
-                            help="Transaction Number of tramit Information"),
-        'customs': fields.char('Customs', 64,
-            help="What Customs was used in your country for import this lot (Generally it is a legal information)"),
-        'date': fields.date('Date',
-            help="Date of Custom and Import Information (In Document)"),
-        'lot_ids': fields.one2many('stock.tracking', 'import_id', 'Production Lot'),
-        'rate': fields.float('Exchange Rate', required=True, digits=(16, 4),
-            help='Exchange rate informed on Custom House when the transaction was approved'),
-        'company_id': fields.many2one('res.company', 'Company', required=True,
-            select=1, help="Company related to this document."),
-        'supplier_id': fields.many2one('res.partner', 'Supplier', select=1,
-            help="Partner who i bught this product related to to this document."),
-        'invoice_ids': fields.many2many('account.invoice', 'account_invoice_rel',
-            'import_id', 'invoice_id', 'Invoices Related'),
-        'product_info_ids': fields.one2many('product.import.info', 'import_id',
-            'Products Info', required=False),
-        'audit_note': fields.function(_get_audit, method=True, type='text',
-            string='Audit Notes'),
+        'name'          : fields.char('Número Pedimento', 15,help="Número de Pedimento o Trámite", required=True),
+        'customs'       : fields.char('Aduana', 64, help="Aduana usada para la importación de los productos", required=True),
+        'date'          : fields.date('Fecha', help="Fecha del Pedimento", required=True),
+        'package_ids'   : fields.one2many('stock.quant.package', 'import_id', 'Empaquetado'),
+        'rate'          : fields.float('Tipo de Cambio', required=True, digits=(16, 4),help='Tipo de Cambio utilizado en el Pedimento Aduanal'),
+        'company_id'    : fields.many2one('res.company', 'Compañía', required=True, select=1),
+        'supplier_id'   : fields.many2one('res.partner', 'Agencia Aduanal', select=1, help="Agencia aduanal con la que se realizó el trámite de importación ..."),
+        'invoice_ids'   : fields.many2many('account.invoice', 'account_invoice_rel', 'import_id', 'invoice_id', 'Facturas relacionadas'),
+        #'product_info_ids': fields.one2many('product.import.info', 'import_id', 'Productos', required=False),
+        'notes'         : fields.text('Observaciones'),
     }
 
     _defaults = {
-        'company_id': lambda s, cr, uid, c: s.pool.get('res.company').\
-            _company_default_get(cr, uid, 'import.info', context=c)
+        'company_id': lambda s, cr, uid, c: s.pool.get('res.company')._company_default_get(cr, uid, 'import.info', context=c)
     }

@@ -714,10 +714,10 @@ class account_invoice(osv.Model):
         parent = False
         if node:
             parent = True
-
         for element, attribute in self._dict_iteritems_sort(data_dict):
             if not parent:
                 doc = minidom.Document()
+            
             if isinstance(attribute, dict):
                 if not parent:
                     node = doc.createElement(element)
@@ -728,9 +728,13 @@ class account_invoice(osv.Model):
                     node.appendChild(child)
             elif isinstance(attribute, list):
                 child = doc.createElement(element)
-                for attr in attribute:
+                for attr in attribute:                    
                     if isinstance(attr, dict):
+                        if element=='cfdi:InformacionAduanera':
+                            child = doc.createElement(element) #AC
                         self.dict2xml(attr, child, doc)
+                        if element == 'cfdi:InformacionAduanera':
+                            node.appendChild(child) #AC
                 node.appendChild(child)
             else:
                 if isinstance(attribute, str) or isinstance(attribute, unicode):
@@ -836,6 +840,7 @@ class account_invoice(osv.Model):
             datas_xmls = []
         certificate_lib = self.pool.get('facturae.certificate.library')
         for data_xml in datas_xmls:
+            #print "data_xml: ", data_xml
             (fileno_data_xml, fname_data_xml) = tempfile.mkstemp('.xml', 'openerp_' + (False or '') + '__facturae__' )
             f = open(fname_data_xml, 'wb')
             data_xml = data_xml.replace("&amp;", "Y")#Replace temp for process with xmlstartlet
@@ -1219,6 +1224,19 @@ class account_invoice(osv.Model):
                     concepto.update({'noIdentificacion': product_code})
                 invoice_data['Conceptos'].append({'Concepto': concepto})
 
+                
+                if 'import_ids' in line._columns and line.import_ids:
+                    info_aduanera = []
+                    for pedimento in line.import_ids:
+                        informacion_aduanera = {
+                            'numero': pedimento.name or '',
+                            'fecha': pedimento.date or '',
+                            'aduana': pedimento.customs,
+                        }
+                        info_aduanera.append(informacion_aduanera)
+                    if info_aduanera:
+                        concepto.update({'cfdi:InformacionAduanera': info_aduanera})
+                """
                 pedimento = None
                 if 'tracking_id' in line._columns:
                     pedimento = line.tracking_id and line.tracking_id.import_id or False
@@ -1230,6 +1248,7 @@ class account_invoice(osv.Model):
                         }
                         concepto.update({
                                         'InformacionAduanera': informacion_aduanera})
+                """
                 # Termina seccion: Conceptos
             # Inicia seccion: impuestos
             invoice_data['Impuestos'] = {}

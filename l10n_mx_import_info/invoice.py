@@ -25,7 +25,18 @@ class account_invoice_line(osv.Model):
     _inherit = "account.invoice.line"
 
     _columns = {
-        'tracking_id': fields.many2one('stock.tracking', 'Pack',
-            help="Logistical shipping unit: pallet, box, pack ..."),
-        'move_id': fields.many2one('stock.move', 'Stock Move'),
+        'import_ids': fields.many2many('import.info', 'account_invoice_line_import_info_rel', 'invoice_line_id', 'import_id',
+                                        string='Pedimentos'),
+        #tracking_id
+        #'move_id': fields.many2one('stock.move', 'Stock Move'),
     }
+
+
+class import_info(osv.Model):
+    _inherit = "import.info"    
+    
+    _columns = {
+        'invoice_line_ids': fields.many2many('account.invoice.line', 'account_invoice_line_import_info_rel', 'import_id', 'invoice_line_id',
+                                             string='Líneas de Factura'),
+    }
+

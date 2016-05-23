@@ -1,19 +1,18 @@
 <?xml version="1.0"?>
 <openerp>
     <data>
-        <record model="ir.ui.view" id="view_production_lot_form_import">
-            <field name="name">stock.tracking.form.inherit</field>
-            <field name="model">stock.tracking</field>
-            <field name="inherit_id" ref="stock.view_tracking_form"/>
+        <record model="ir.ui.view" id="view_stock_quant_package_form_import">
+            <field name="name">stock.quant.package.form.inherit</field>
+            <field name="model">stock.quant.package</field>
+            <field name="inherit_id" ref="stock.view_quant_package_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='date']" position="after">
-                    <field name="import_id" domain="[]"/>
-                </xpath>
-                <!--                <field name="date" position="after">-->
-                <!--                    <field name="import_product_id"/>-->
-                <!--                </field>-->
+                <field name="parent_id" position="after">
+                    <field name="import_id" />
+                </field>
             </field>
         </record>
+
+        <!--
         <record model="ir.ui.view" id="stock_tracking_form">
             <field name="name">stock.tracking.form</field>
             <field name="model">stock.tracking</field>
@@ -29,6 +28,7 @@
                 </form>
             </field>
         </record>
+        
         <record model="ir.ui.view" id="stock_tracking_form">
             <field name="name">stock.report.tracklots.form</field>
             <field name="model">stock.report.tracklots</field>
@@ -84,5 +84,6 @@
             res_model="stock.report.tracklots"
             src_model="product.product"
         />
+        -->
     </data>
 </openerp>
