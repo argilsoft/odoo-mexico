@@ -730,10 +730,10 @@ class account_invoice(osv.Model):
                 child = doc.createElement(element)
                 for attr in attribute:                    
                     if isinstance(attr, dict):
-                        if element=='cfdi:InformacionAduanera':
+                        if element=='cfdi:InformacionAduanera': #AC
                             child = doc.createElement(element) #AC
                         self.dict2xml(attr, child, doc)
-                        if element == 'cfdi:InformacionAduanera':
+                        if element == 'cfdi:InformacionAduanera': #AC
                             node.appendChild(child) #AC
                 node.appendChild(child)
             else:
