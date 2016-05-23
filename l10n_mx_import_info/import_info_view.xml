@@ -33,16 +33,17 @@
                     </group>                    
                     <newline/>
                     <notebook colspan="4">
-                        <page string="Facturas relacionadas">
-                            <field name="invoice_ids" nolabel="1" domain="[('partner_id','=',supplier_id)]" readonly="1"/>
-                        </page>
+                        <page string="Trazabilidad Paquetes">
+                            <field name="package_ids" nolabel="1" colspan="4" readonly="1"/> <!-- context="{'form_view_ref' : 'l10n_mx_import_info.stock_tracking_form'}"/>-->
+                        </page>                        
                         <page string="Líneas de Facturas relacionadas">
                             <field name="invoice_line_ids" nolabel="1" readonly="1"/>
                         </page>
-                        <page string="Trazabilidad Paquetes">
-                            <field name="package_ids" nolabel="1" colspan="4" readonly="1"/> <!-- context="{'form_view_ref' : 'l10n_mx_import_info.stock_tracking_form'}"/>-->
+                        <!--<page string="Facturas relacionadas">
+                            <field name="invoice_ids" nolabel="1" domain="[('partner_id','=',supplier_id)]" readonly="1"/>
                         </page>
-                        <!--<page string="Productos">
+
+                        <page string="Productos">
                             <field name="product_info_ids" nolabel="1" colspan="4"
                                 mode="tree" string="Products">
                                 <form>
