@@ -1370,10 +1370,10 @@ class account_invoice(osv.Model):
                 'NumCtaPago'] = invoice.acc_payment.last_acc_number\
                     or 'No identificado'
             invoice_data_parents[0]['Comprobante'][
-                'metodoDePago'] = invoice.pay_method_id.name or 'No identificado'
+                'metodoDePago'] = invoice.pay_method_id.code or '99'
             invoice_data_parents[0]['Comprobante']['Emisor']['RegimenFiscal'] = {
                 'Regimen': invoice.company_emitter_id.partner_id.\
-                    regimen_fiscal_id.name or ''}
+                    regimen_fiscal_id.name or 'NA'}
             invoice_data_parents[0]['Comprobante']['LugarExpedicion'] = address
         return invoice_data_parents
 

@@ -32,6 +32,21 @@
     "category" : "Localization/Mexico",
     "description" : """Add "Payment Method" to partner and invoice, 
     it's used by l10n_mx_facturae module and "acc_payment" to invoice
+    
+    Correr el siguiente script ANTES de actualizar módulo.
+    
+update account_invoice ai
+set comment = comment || '\n' || (select pm.name from pay_method pm where pm.id=ai.pay_method_id)
+where ai.state in ('open','paid') and ai.type in ('out_invoice','out_refund');
+
+update sale_order so
+set note = note || '\n' || (select pm.name from pay_method pm where pm.id=so.pay_method_id)
+where so.state not in ('cancel');
+
+update purchase_order po
+set notes = notes || '\n' || (select pm.name from pay_method pm where pm.id=po.pay_method_id)
+where po.state not in ('cancel');
+
     """,
     "website" : "www.vauxoo.com",
     "license" : "AGPL-3",

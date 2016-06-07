@@ -6,9 +6,11 @@
             <field name="model">pay.method</field>
             <field name="arch" type="xml">
                 <form string="Payment Method">
-                    <field name="name"/>
-                    <field name="description"/>
-
+                    <group colspan="4" col="4">
+                        <field name="code"/>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
                 </form>
             </field>
         </record>
@@ -17,7 +19,8 @@
             <field name="name">view.pay.method.tree</field>
             <field name="model">pay.method</field>
             <field name="arch" type="xml">
-                <tree string="Payment Method">
+                <tree string="Payment Method" create="false">
+                    <field name="code"/>
                     <field name="name" select="1"/>
                     <field name="description"/>
                 </tree>
@@ -32,7 +35,7 @@
         </record>
 
         <menuitem
-            id="cfd_22_metodos_pago" name="Payment Method" parent='base.menu_config_address_book' sequence="50"
+            id="cfd_22_metodos_pago" name="Métodos de Pago" parent='base.menu_config_address_book' sequence="50"
             action='action_pay_method'
         />
     </data>

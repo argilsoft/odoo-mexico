@@ -35,6 +35,12 @@ import time
 class pay_method(osv.Model):
     _name = 'pay.method'
     _columns = {
+        'code': fields.char('Clave SAT', size=2, required=True),        
         'name': fields.char('Payment Method', size=128),
         'description': fields.text('Description'),
     }
+
+    _sql_constraints = [
+        ('name_uniq', 'unique(name)', 'El nombre del Método de Pago debe ser único !'),
+        ('code_uniq', 'unique(code)', 'La clave del Método de Pago debe ser único !'),
+    ]        
