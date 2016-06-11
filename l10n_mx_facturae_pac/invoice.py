@@ -236,7 +236,6 @@ class account_invoice(osv.Model):
             datas_xmls = []
         certificate_lib = self.pool.get('facturae.certificate.library')
         for data_xml in datas_xmls:
-            print "data_xml: ", data_xml
             (fileno_data_xml, fname_data_xml) = tempfile.mkstemp('.xml', 'openerp_' + (False or '') + '__facturae__' )
             f = open(fname_data_xml, 'wb')
             data_xml = data_xml.replace("&amp;", "Y")#Replace temp for process with xmlstartlet

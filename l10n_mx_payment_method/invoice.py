@@ -59,10 +59,11 @@ class account_invoice(osv.Model):
             partner = partner_obj.browse(cr, uid, partner_id)
             pay_method_id = partner and partner.pay_method_id and \
                 partner.pay_method_id.id or False
-        res['value']['pay_method_id'] = pay_method_id
+        res['value']['pay_method_ids'] = [pay_method_id]
         return res
 
     _columns = {
+        'pay_method_ids': fields.many2many('pay.method', 'account_invoice_pay_method_rel', 'invoice_id', 'pay_method_id', 'Métodos de Pago'),
         'pay_method_id': fields.many2one('pay.method', 'Payment Method',
             readonly=True, states={'draft': [('readonly', False)]},
                 help='Indicates the way it was paid or will be paid the invoice,\
