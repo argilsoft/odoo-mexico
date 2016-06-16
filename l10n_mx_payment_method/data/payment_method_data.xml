@@ -2,23 +2,14 @@
 <openerp>
     <data>
         <record id="pay_method_01" model="pay.method"><field name="code">01</field><field name="name">Efectivo</field><field name="description">Efectivo</field></record>
-        <record id="pay_method_02" model="pay.method"><field name="code">02</field><field name="name">Cheque</field><field name="description">Cheque</field></record>
-        <record id="pay_method_03" model="pay.method"><field name="code">03</field><field name="name">Transferencia</field><field name="description">Transferencia</field></record>
+        <record id="pay_method_02" model="pay.method"><field name="code">02</field><field name="name">Cheque nominativo</field><field name="description">Cheque</field></record>
+        <record id="pay_method_03" model="pay.method"><field name="code">03</field><field name="name">Transferencia electrónica de fondos</field><field name="description">Transferencia</field></record>
         <record id="pay_method_04" model="pay.method"><field name="code">04</field><field name="name">Tarjetas de crédito</field><field name="description">Tarjetas de crédito</field></record>
-        <record id="pay_method_05" model="pay.method"><field name="code">05</field><field name="name">Monederos electrónicos</field><field name="description">Monederos electrónicos</field></record>
+        <record id="pay_method_05" model="pay.method"><field name="code">05</field><field name="name">Monedero electrónico</field><field name="description">Monederos electrónicos</field></record>
         <record id="pay_method_06" model="pay.method"><field name="code">06</field><field name="name">Dinero electrónico</field><field name="description">Dinero electrónico</field></record>
-        <record id="pay_method_07" model="pay.method"><field name="code">07</field><field name="name">Tarjetas digitales</field><field name="description">Tarjetas digitales</field></record>
         <record id="pay_method_08" model="pay.method"><field name="code">08</field><field name="name">Vales de despensa</field><field name="description">Vales de despensa</field></record>
-        <record id="pay_method_09" model="pay.method"><field name="code">09</field><field name="name">Bienes</field><field name="description">Bienes</field></record>
-        <record id="pay_method_10" model="pay.method"><field name="code">10</field><field name="name">Servicio</field><field name="description">Servicio</field></record>
-        <record id="pay_method_11" model="pay.method"><field name="code">11</field><field name="name">Por cuenta de tercero</field><field name="description">Por cuenta de tercero</field></record>
-        <record id="pay_method_12" model="pay.method"><field name="code">12</field><field name="name">Dación en pago</field><field name="description">Dación en pago</field></record>
-        <record id="pay_method_13" model="pay.method"><field name="code">13</field><field name="name">Pago por subrogación</field><field name="description">Pago por subrogación</field></record>
-        <record id="pay_method_14" model="pay.method"><field name="code">14</field><field name="name">Pago por consignación</field><field name="description">Pago por consignación</field></record>
-        <record id="pay_method_15" model="pay.method"><field name="code">15</field><field name="name">Condonación</field><field name="description">Condonación</field></record>
-        <record id="pay_method_16" model="pay.method"><field name="code">16</field><field name="name">Cancelación</field><field name="description">Cancelación</field></record>
-        <record id="pay_method_17" model="pay.method"><field name="code">17</field><field name="name">Compensación</field><field name="description">Compensación</field></record>
-        <record id="pay_method_98" model="pay.method"><field name="code">98</field><field name="name">“NA”</field><field name="description">“NA”</field></record>
+        <record id="pay_method_28" model="pay.method"><field name="code">28</field><field name="name">Tarjeta de Débito</field><field name="description">Bienes</field></record>
+        <record id="pay_method_29" model="pay.method"><field name="code">29</field><field name="name">Tarjeta de Servicio</field><field name="description">Servicio</field></record>
         <record id="pay_method_99" model="pay.method"><field name="code">99</field><field name="name">Otros</field><field name="description">Otros</field></record>
      </data>
 </openerp>
