@@ -9,13 +9,13 @@
         <record id="res_country_state_mx_ags" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Aguascalientes</field>
-            <field name="code">AGU</field>
+            <field name="code">AGS</field>
         </record>
         
         <record id="res_country_state_mx_bc" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
-            <field name="name">Baja California Norte</field>
-            <field name="code">BCN</field>
+            <field name="name">Baja California</field>
+            <field name="code">BC</field>
         </record>
         
         <record id="res_country_state_mx_bcs" model="res.country.state">
@@ -33,19 +33,19 @@
         <record id="res_country_state_mx_chis" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Chiapas</field>
-            <field name="code">CHP</field>
+            <field name="code">CHIS</field>
         </record>
         
         <record id="res_country_state_mx_chih" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Chihuahua</field>
-            <field name="code">CHH</field>
+            <field name="code">CHI</field>
         </record>
         
         <record id="res_country_state_mx_coah" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Coahuila</field>
-            <field name="code">COA</field>
+            <field name="code">COAH</field>
         </record>
         
         <record id="res_country_state_mx_col" model="res.country.state">
@@ -56,20 +56,20 @@
         
         <record id="res_country_state_mx_df" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
-            <field name="name">Distrito Federal</field>
-            <field name="code">DIF</field>
+            <field name="name">Ciudad de México</field>
+            <field name="code">CDMX</field>
         </record>
         
         <record id="res_country_state_mx_dgo" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Durango</field>
-            <field name="code">DUR</field>
+            <field name="code">DGO</field>
         </record>
         
         <record id="res_country_state_mx_gto" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Guanajuato</field>
-            <field name="code">GUA</field>
+            <field name="code">GTO</field>
         </record>
         
         <record id="res_country_state_mx_gro" model="res.country.state">
@@ -81,7 +81,7 @@
         <record id="res_country_state_mx_hgo" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Hidalgo</field>
-            <field name="code">HID</field>
+            <field name="code">HGO</field>
         </record>
         
         <record id="res_country_state_mx_jal" model="res.country.state">
@@ -99,7 +99,7 @@
         <record id="res_country_state_mx_mich" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Michoacán</field>
-            <field name="code">MIC</field>
+            <field name="code">MICH</field>
         </record>
         
         <record id="res_country_state_mx_mor" model="res.country.state">
@@ -117,7 +117,7 @@
         <record id="res_country_state_mx_nl" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Nuevo León</field>
-            <field name="code">NLE</field>
+            <field name="code">NL</field>
         </record>
         
         <record id="res_country_state_mx_oax" model="res.country.state">
@@ -135,13 +135,13 @@
         <record id="res_country_state_mx_qro" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Querétaro</field>
-            <field name="code">QUE</field>
+            <field name="code">QRO</field>
         </record>
         
         <record id="res_country_state_mx_qr" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Quintana Roo</field>
-            <field name="code">ROO</field>
+            <field name="code">QR</field>
         </record>
         
         <record id="res_country_state_mx_slp" model="res.country.state">
@@ -171,13 +171,13 @@
         <record id="res_country_state_mx_tamps" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Tamaulipas</field>
-            <field name="code">TAM</field>
+            <field name="code">TAMPS</field>
         </record>
         
         <record id="res_country_state_mx_talx" model="res.country.state">
             <field name="country_id" ref="base.mx"/>
             <field name="name">Tlaxcala</field>
-            <field name="code">TLA</field>
+            <field name="code">TLAX</field>
         </record>
         
         <record id="res_country_state_mx_ver" model="res.country.state">
