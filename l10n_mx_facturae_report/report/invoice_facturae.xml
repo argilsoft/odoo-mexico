@@ -149,6 +149,8 @@
                                     <td style="padding:2px;padding-right:9px;"><strong>Método de Pago</strong></td>
                                     <td style="padding:2px;">
                                         <span t-raw="'%s &lt;br&gt;' % o.pay_method_ids and ','.join([x.code for x in o.pay_method_ids]) or '99'"/>
+                                        <BR/>
+                                        <span t-raw="'%s &lt;br&gt;' % o.pay_method_ids and ','.join([x.name for x in o.pay_method_ids]) or 'Otros'"/>
                                     </td>
                                 </tr>
                                 <tr>
