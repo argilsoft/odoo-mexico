@@ -1,2 +1,2 @@
 import sale
-#import stock
+import stock

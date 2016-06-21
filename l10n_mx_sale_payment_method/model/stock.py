@@ -41,26 +41,19 @@ class inherit_picking(osv.Model):
     _inherit = 'stock.picking'
     
 
-
-    def _prepare_invoice(self, cr, uid, picking, partner, inv_type,
-                         journal_id, context=None):
-        """ Builds the dict containing the values for the invoice with the new
-            payment term fields
-        """
+    def _get_invoice_vals(self, cr, uid, key, inv_type, journal_id, move, context=None):
         if context is None:
             context = {}
-        res = super(inherit_picking,self)._prepare_invoice(cr, uid, picking,
-                                                           partner, inv_type,
-                                                           journal_id,
-                                                           context)
-        if picking.type == 'out':
+        res = super(inherit_picking,self)._get_invoice_vals(cr, uid, key, inv_type, journal_id, move, context=None)
+        
+        if inv_type in ('out_invoice', 'out_refund'):
             res.update({
-                'pay_method_id': picking.sale_id and \
-                                    picking.sale_id.pay_method_id and \
-                                    picking.sale_id.pay_method_id.id or False,
-                'acc_payment': picking.sale_id and \
-                                    picking.sale_id.acc_payment and \
-                                    picking.sale_id.acc_payment.id or False,
-            })
+                'pay_method_ids': move.picking_id.sale_id and \
+                                    move.picking_id.sale_id.pay_method_id and \
+                                    [(6, 0, [move.picking_id.sale_id.pay_method_id.id])] or False,
+                'acc_payment': move.picking_id.sale_id and \
+                                    move.picking_id.sale_id.acc_payment and \
+                                    move.picking_id.sale_id.acc_payment.id or False,
+                    })
         return res 
 

@@ -58,7 +58,7 @@ class sale_order(osv.Model):
         res = super(sale_order,self)._prepare_invoice(cr, uid, order,
                                                          lines, context)
         res.update({'pay_method_ids': order.pay_method_id and\
-                                        [order.pay_method_id.id] or False,
+                                        [(6, 0, [order.pay_method_id.id])] or False,
                     'acc_payment':order.acc_payment and\
                                         order.acc_payment.id or False,
         })
