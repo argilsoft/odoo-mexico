@@ -63,6 +63,7 @@ class account_invoice(osv.Model):
         return res
 
     _columns = {
+        'forma_pago'    : fields.char('Forma de Pago', required=False),
         'pay_method_ids': fields.many2many('pay.method', 'account_invoice_pay_method_rel', 'invoice_id', 'pay_method_id', 'Métodos de Pago'),
         'pay_method_id': fields.many2one('pay.method', 'Payment Method',
             readonly=True, states={'draft': [('readonly', False)]},
@@ -75,4 +76,8 @@ class account_invoice(osv.Model):
                 help='Is the account with which the client pays the invoice, \
                 if not know which account will used for pay leave empty and \
                 the XML will show "“Unidentified”".'),
+    }
+
+    _defaults = {
+        'forma_pago': 'PAGO EN UNA SOLA EXHIBICION',
     }

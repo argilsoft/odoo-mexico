@@ -132,7 +132,6 @@ class account_invoice(osv.Model):
         res = {}
         if values.get('date_invoice', False) and\
                                     not values.get('invoice_datetime', False):
-                                    
             user_hour = self._get_time_zone(cr, uid, [], context=context)
             time_invoice = datetime.time(abs(user_hour), 0, 0)
 
@@ -142,7 +141,8 @@ class account_invoice(osv.Model):
             dt_invoice = datetime.datetime.combine(
                 date_invoice, time_invoice).strftime('%Y-%m-%d %H:%M:%S')
 
-            res['invoice_datetime'] = dt_invoice
+            #res['invoice_datetime'] = dt_invoice
+            res['invoice_datetime'] = datetime.datetime.now()
             res['date_invoice'] = values['date_invoice']
             
         if values.get('invoice_datetime', False) and not\
@@ -152,7 +152,7 @@ class account_invoice(osv.Model):
                 tools.DEFAULT_SERVER_DATETIME_FORMAT), context=context)
             res['date_invoice'] = date_invoice
             res['invoice_datetime'] = values['invoice_datetime']
-        
+            
         if 'invoice_datetime' in values  and 'date_invoice' in values:
             if values['invoice_datetime'] and values['date_invoice']:
                 date_invoice = datetime.datetime.strptime(
@@ -191,12 +191,10 @@ class account_invoice(osv.Model):
                             raise except_orm(_('Warning!'), _('Invoice dates should be equal'))
                     else:
                         raise except_orm(_('Warning!'), _('Invoice dates should be equal'))
-                            
         if  not values.get('invoice_datetime', False) and\
                                         not values.get('date_invoice', False):
             res['date_invoice'] = fields.date.context_today(self,cr,uid,context=context)
             res['invoice_datetime'] = fields.datetime.now()
-            
         return res
 
     def action_move_create(self, cr, uid, ids, context=None):

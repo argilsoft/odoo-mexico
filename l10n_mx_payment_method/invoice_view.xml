@@ -10,6 +10,7 @@
                 <xpath expr="//field[@name='fiscal_position']" position="after">
                     <newline/>
                     <!-- <field name="pay_method_id" colspan="2" groups="l10n_mx_facturae_groups.group_l10n_mx_facturae_user" />-->
+                    <field name="forma_pago" required="1" colspan="2"/>
                     <field name="pay_method_ids" colspan="2" widget="many2many_tags"
                            groups="l10n_mx_facturae_groups.group_l10n_mx_facturae_user" required="1"/>
                     <field name="acc_payment" colspan="2" domain = "[('partner_id', '=', partner_id)]" groups="l10n_mx_facturae_groups.group_l10n_mx_facturae_user"/>

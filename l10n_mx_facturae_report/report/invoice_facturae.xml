@@ -143,7 +143,7 @@
                                 </tr>
                                 <tr>
                                     <td style="padding:2px;padding-right:9px;"><strong>Forma de Pago</strong></td>
-                                    <td style="padding:2px;">Pago en una sola exhibición</td>
+                                    <td style="padding:2px;"><span t-field="o.forma_pago"/></td>
                                 </tr>
                                 <tr>
                                     <td style="padding:2px;padding-right:9px;"><strong>Método de Pago</strong></td>

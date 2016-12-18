@@ -299,11 +299,7 @@ class account_invoice(osv.Model):
                 0] or False
         return res
 
-    _columns = {
-        # Extract date_invoice from original, but add datetime
-        #'date_invoice': fields.datetime('Date Invoiced', states={'open':[('readonly',True)],'close':[('readonly',True)]}, help="Keep empty to use the current date"),
-        #'invoice_sequence_id': fields.function(_get_invoice_sequence, method=True, type='many2one', relation='ir.sequence', string='Invoice Sequence', store=True),
-        #'certificate_id': fields.function(_get_invoice_certificate, method=True, type='many2one', relation='res.company.facturae.certificate', string='Invoice Certificate', store=True),
+    _columns = {        
         'fname_invoice':  fields.function(_get_fname_invoice, method=True,
             type='char', size=26, string='File Name Invoice',
             help='Name used for the XML of electronic invoice'),
@@ -327,9 +323,7 @@ class account_invoice(osv.Model):
         'pac_id': fields.many2one('params.pac', 'Pac', help='Pac used in singned of the invoice'),
     }
 
-    _defaults = {
-        #'date_invoice': lambda *a: time.strftime('%Y-%m-%d %H:%M:%S'),
-    }
+
 
     def copy(self, cr, uid, id, default={}, context=None):
         if context is None:
@@ -1006,7 +1000,7 @@ class account_invoice(osv.Model):
                 invoice.date_invoice_tz, '%Y-%m-%d %H:%M:%S'))
                 or '',
                 'tipoDeComprobante': tipoComprobante,
-                'formaDePago': u'Pago en una sola exhibición',
+                #'formaDePago': u'Pago en una sola exhibición',
                 'noCertificado': '@',
                 'sello': '@',
                 'certificado': '@',
@@ -1369,8 +1363,8 @@ class account_invoice(osv.Model):
             invoice_data_parents[0]['Comprobante'][
                 'NumCtaPago'] = invoice.acc_payment.last_acc_number\
                     or 'No identificado'
-            invoice_data_parents[0]['Comprobante'][
-                'metodoDePago'] = invoice.pay_method_ids and ','.join([x.code for x in invoice.pay_method_ids])  or '99'
+            invoice_data_parents[0]['Comprobante']['metodoDePago'] = invoice.pay_method_ids and ','.join([x.code for x in invoice.pay_method_ids])  or '99'
+            invoice_data_parents[0]['Comprobante']['formaDePago'] = invoice.forma_pago or 'PAGO EN UNA SOLA EXHIBICION'
             invoice_data_parents[0]['Comprobante']['Emisor']['RegimenFiscal'] = {
                 'Regimen': invoice.company_emitter_id.partner_id.\
                     regimen_fiscal_id.name or 'NA'}
