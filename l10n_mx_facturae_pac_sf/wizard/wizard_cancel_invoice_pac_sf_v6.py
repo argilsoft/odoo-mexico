@@ -63,12 +63,21 @@ class wizard_cancel_invoice_pac_sf(osv.TransientModel):
         return res['file']
 
     def upload_cancel_to_pac(self, cr, uid, ids, context=None):
+        print "-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
+        print "-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
+        print "Entrando..."
+        print "-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
+        print "-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
         if context is None:
             context = {}
         res = {}
-        invoice_obj = self.pool.get('account.invoice')
-        res = invoice_obj.sf_cancel(cr, uid, context[
-                                    'active_ids'], context=None)
+        ir_attach_obj = self.pool.get ('ir.attachment.facturae.mx')
+        invoice_ids = context['active_ids']
+        res_ir_attach = ir_attach_obj.search([('invoice_id','in',invoice_ids),('state','not in',('draft','confirmed','cancel'))])
+        res = ir_attach_obj.sf_cancel(cr, res_ir_attach, context=context)
+        #invoice_obj = self.pool.get ('account.invoice')
+        #res = invoice_obj.sf_cancel(cr, uid, context[
+        #                            'active_ids'], context=None)
         self.write(cr, uid, ids, {'message': res['message']}, context=None)
         return True
 

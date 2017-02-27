@@ -1,0 +1,1494 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Client	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^from suds.client import Client$/;"	kind:namespace	line:30
+ConfigParser	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^import ConfigParser$/;"	kind:namespace	line:41
+DF	l10n_mx_settings_facturae/model/res_config.py	/^from openerp.tools import DEFAULT_SERVER_DATE_FORMAT as DF$/;"	kind:namespace	line:28
+ET	l10n_mx_cities/tools/add_node.py	/^import xml.etree.cElementTree as ET$/;"	kind:namespace	line:29
+ET	l10n_mx_cities/tools/read_write_xml.py	/^import xml.etree.cElementTree as ET$/;"	kind:namespace	line:29
+HTTPError	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from urllib2 import Request, urlopen, URLError, HTTPError$/;"	kind:namespace	line:40
+RedirectWarning	l10n_mx_facturae_cer/res_company.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:31
+RedirectWarning	l10n_mx_facturae_pac/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:42
+RedirectWarning	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:52
+RedirectWarning	l10n_mx_facturae_seq/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:32
+RedirectWarning	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:31
+RedirectWarning	l10n_mx_invoice_datetime/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:37
+RedirectWarning	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:29
+RedirectWarning	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:37
+Request	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from urllib2 import Request, urlopen, URLError, HTTPError$/;"	kind:namespace	line:40
+SAT	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^        'file': fields.binary('File', readonly=True, help='This file, you can import the SAT'),$/;"	kind:namespace	line:50
+SUPERUSER_ID	city/partner_address.py	/^from openerp import SUPERUSER_ID$/;"	kind:namespace	line:31
+SUPERUSER_ID	l10n_mx_facturae_seq/invoice.py	/^from openerp import SUPERUSER_ID$/;"	kind:namespace	line:31
+SUPERUSER_ID	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp import SUPERUSER_ID$/;"	kind:namespace	line:32
+SUPERUSER_ID	l10n_mx_partner_address/partner_address.py	/^from openerp import SUPERUSER_ID$/;"	kind:namespace	line:31
+SUPERUSER_ID	l10n_mx_partner_address/res_company.py	/^from openerp import SUPERUSER_ID$/;"	kind:namespace	line:28
+SUPERUSER_ID	l10n_mx_settings_facturae/model/res_config.py	/^from openerp import SUPERUSER_ID$/;"	kind:namespace	line:32
+StringIO	l10n_mx_facturae_pac_sf/invoice.py	/^import StringIO$/;"	kind:namespace	line:36
+StringIO	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import StringIO$/;"	kind:namespace	line:37
+StringIO	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import StringIO$/;"	kind:namespace	line:37
+StringIO	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import StringIO$/;"	kind:namespace	line:36
+StringIO	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import StringIO$/;"	kind:namespace	line:33
+StringIO	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import StringIO$/;"	kind:namespace	line:32
+URLError	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from urllib2 import Request, urlopen, URLError, HTTPError$/;"	kind:namespace	line:40
+WSDL	l10n_mx_facturae_pac/invoice.py	/^    from SOAPpy import WSDL$/;"	kind:namespace	line:36
+WSDL	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    from SOAPpy import WSDL$/;"	kind:namespace	line:55
+WSDL	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^    from SOAPpy import WSDL$/;"	kind:namespace	line:44
+Warning	l10n_mx_facturae_cer/res_company.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:31
+Warning	l10n_mx_facturae_pac/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:42
+Warning	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:52
+Warning	l10n_mx_facturae_seq/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:32
+Warning	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:31
+Warning	l10n_mx_invoice_datetime/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:37
+Warning	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:29
+Warning	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:37
+_	city/partner_address.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:33
+_	city/res_city.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_account_invoice_tax/account_invoice_tax.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_account_tax_category/account_tax_category.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:23
+_	l10n_mx_account_tax_category/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_base_vat_split/base_vat.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:26
+_	l10n_mx_company_cif/res_company.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_company_cif/wizard/installer.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:26
+_	l10n_mx_company_multi_address/account_journal.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_company_multi_address/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_company_multi_address/res_company.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:23
+_	l10n_mx_facturae/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_facturae/ir_sequence_approval.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_facturae/wizard/installer.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:24
+_	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_facturae_cbb/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_facturae_cer/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_facturae_cer/res_company.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_facturae_lib/facturae_lib.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_facturae_lib/facturae_lib.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_facturae_pac/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:34
+_	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:46
+_	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:31
+_	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_facturae_seq/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_import_info/import_info.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:18
+_	l10n_mx_import_info/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:19
+_	l10n_mx_import_info/product.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:24
+_	l10n_mx_import_info/report/label_report.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:4
+_	l10n_mx_import_info/stock.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:19
+_	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_invoice_amount_to_text/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_invoice_currency_chgdft/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_invoice_datetime/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_invoice_discount/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_invoice_discount/partner.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:25
+_	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:24
+_	l10n_mx_ir_attachment_facturae/res_config.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:24
+_	l10n_mx_notes_invoice/res_company.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_params_pac/params_pac.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_partner_address/partner_address.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_payment_method/invoice.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_payment_method/partner.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_payment_method/pay_method.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_purchase_payment_method/purchase.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_purchase_payment_method/stock.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_regimen_fiscal/partner.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:28
+_	l10n_mx_sale_payment_method/model/sale.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_sale_payment_method/model/stock.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:30
+_	l10n_mx_settings_facturae/model/res_config.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:29
+_	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp.tools.translate import _$/;"	kind:namespace	line:27
+_	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^from tools.translate import _$/;"	kind:namespace	line:27
+_____________get_facturae_invoice_txt_data	l10n_mx_facturae/invoice.py	/^    def _____________get_facturae_invoice_txt_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:483
+________action_number	l10n_mx_facturae/invoice.py	/^    def ________action_number(self, cr, uid, ids, *args):$/;"	kind:member	line:175
+____get_current_certificate	l10n_mx_facturae_cer/res_company.py	/^    def ____get_current_certificate(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:228
+__init__	l10n_mx_import_info/report/label_report.py	/^    def __init__(self, cr, user, name, context):$/;"	kind:member	line:9
+__init__	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    def __init__(self):$/;"	kind:member	line:38
+__init__.py	argil_odoo_mexico/__init__.py	1;"	kind:file	line:1
+__init__.py	city/__init__.py	1;"	kind:file	line:1
+__init__.py	email_template_multicompany/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_account_invoice_tax/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_account_tax_category/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_base_vat_split/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_cities/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_company_cif/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_company_cif/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_company_multi_address/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_diot_report/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_diot_report/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_cbb/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_cer/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_cer/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_group_show_wizards/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_groups/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_lib/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_pac/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_pac_sf/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_pac_sf/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_report/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_seq/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_facturae_seq/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_import_info/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_import_info/report/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_amount_to_text/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_currency_chgdft/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_datetime/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_discount/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_ftp/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_ftp/wizard/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_invoice_wkf_security/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_ir_attachment_facturae/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_notes_invoice/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_params_pac/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_partner_address/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_payment_method/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_purchase_payment_method/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_regimen_fiscal/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_res_partner_bank/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_sale_payment_method/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_sale_payment_method/model/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_settings_facturae/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_settings_facturae/model/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_states/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_upload_ftp/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_validate_xml_sat/__init__.py	1;"	kind:file	line:1
+__init__.py	l10n_mx_validate_xml_sat/wizard/__init__.py	1;"	kind:file	line:1
+__openerp__.py	argil_odoo_mexico/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	city/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	email_template_multicompany/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_account_invoice_tax/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_account_tax_category/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_base_vat_split/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_cities/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_company_cif/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_company_multi_address/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_diot_report/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_cbb/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_cer/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_group_show_wizards/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_groups/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_lib/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_pac/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_pac_sf/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_report/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_facturae_seq/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_import_info/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_invoice_amount_to_text/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_invoice_currency_chgdft/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_invoice_datetime/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_invoice_discount/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_invoice_ftp/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_invoice_wkf_security/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_ir_attachment_facturae/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_notes_invoice/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_params_pac/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_partner_address/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_payment_method/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_purchase_payment_method/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_regimen_fiscal/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_res_partner_bank/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_sale_payment_method/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_settings_facturae/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_states/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_upload_ftp/__openerp__.py	1;"	kind:file	line:1
+__openerp__.py	l10n_mx_validate_xml_sat/__openerp__.py	1;"	kind:file	line:1
+__terp__.py	l10n_mx_invoice_ftp/__terp__.py	1;"	kind:file	line:1
+__terp__.py	l10n_mx_invoice_wkf_security/__terp__.py	1;"	kind:file	line:1
+__terp__.py	l10n_mx_regimen_fiscal/__terp__.py	1;"	kind:file	line:1
+__terp__.py	l10n_mx_upload_ftp/__terp__.py	1;"	kind:file	line:1
+_address_fields	l10n_mx_partner_address/partner_address.py	/^    def _address_fields(self, cr, uid, context=None):$/;"	kind:member	line:50
+_amount_to_text	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    def _amount_to_text(self, n, lFemenino=0):$/;"	kind:member	line:109
+_assign_vat	l10n_mx_facturae/wizard/installer.py	/^    def _assign_vat(self, cr, uid, vat, company_id, context=None):$/;"	kind:member	line:45
+_auto	l10n_mx_facturae_lib/facturae_lib.py	/^    _auto = False$/;"	kind:variable	line:130
+_check_numbers_range	l10n_mx_facturae_seq/ir_sequence.py	/^    def _check_numbers_range(self, cr, uid, ids, context=None):$/;"	kind:member	line:80
+_check_sequence_number_diff	l10n_mx_facturae_seq/ir_sequence.py	/^    def _check_sequence_number_diff(self, cr, uid, ids, context=None):$/;"	kind:member	line:154
+_columns	city/partner_address.py	/^    _columns = {$/;"	kind:variable	line:44
+_columns	city/res_city.py	/^    _columns = {$/;"	kind:variable	line:41
+_columns	email_template_multicompany/email_template.py	/^    _columns = {$/;"	kind:variable	line:33
+_columns	email_template_multicompany/ir_mail_server.py	/^    _columns = {$/;"	kind:variable	line:33
+_columns	l10n_mx_account_invoice_tax/account_invoice_tax.py	/^    _columns = {$/;"	kind:variable	line:33
+_columns	l10n_mx_account_tax_category/account_tax_category.py	/^    _columns = {$/;"	kind:variable	line:30
+_columns	l10n_mx_account_tax_category/account_tax_category.py	/^    _columns = {$/;"	kind:variable	line:57
+_columns	l10n_mx_account_tax_category/invoice.py	/^    _columns = {$/;"	kind:variable	line:69
+_columns	l10n_mx_base_vat_split/base_vat.py	/^    _columns = {$/;"	kind:variable	line:41
+_columns	l10n_mx_company_cif/res_company.py	/^    _columns = {$/;"	kind:variable	line:38
+_columns	l10n_mx_company_cif/wizard/installer.py	/^    _columns = {$/;"	kind:variable	line:51
+_columns	l10n_mx_company_multi_address/account_journal.py	/^    _columns = {$/;"	kind:variable	line:34
+_columns	l10n_mx_company_multi_address/invoice.py	/^    _columns = {$/;"	kind:variable	line:72
+_columns	l10n_mx_company_multi_address/res_company.py	/^    _columns = {$/;"	kind:variable	line:60
+_columns	l10n_mx_diot_report/partner.py	/^    _columns = {$/;"	kind:variable	line:31
+_columns	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^    _columns = {$/;"	kind:variable	line:41
+_columns	l10n_mx_facturae/invoice.py	/^    _columns = {        $/;"	kind:variable	line:302
+_columns	l10n_mx_facturae/ir_attachment_facturae.py	/^    _columns = {$/;"	kind:variable	line:44
+_columns	l10n_mx_facturae/ir_sequence_approval.py	/^    _columns = {$/;"	kind:variable	line:45
+_columns	l10n_mx_facturae/wizard/installer.py	/^    _columns = {$/;"	kind:variable	line:69
+_columns	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    _columns = {$/;"	kind:variable	line:58
+_columns	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^    _columns = {$/;"	kind:variable	line:40
+_columns	l10n_mx_facturae_cbb/invoice.py	/^    _columns = {$/;"	kind:variable	line:76
+_columns	l10n_mx_facturae_cbb/ir_attachment_facturae.py	/^    _columns = {$/;"	kind:variable	line:44
+_columns	l10n_mx_facturae_cbb/ir_sequence_approval.py	/^    _columns = {$/;"	kind:variable	line:44
+_columns	l10n_mx_facturae_cer/invoice.py	/^    _columns = {$/;"	kind:variable	line:54
+_columns	l10n_mx_facturae_cer/res_company.py	/^    _columns = {$/;"	kind:variable	line:295
+_columns	l10n_mx_facturae_cer/res_company.py	/^    _columns = {$/;"	kind:variable	line:43
+_columns	l10n_mx_facturae_pac_sf/invoice.py	/^    _columns = {$/;"	kind:variable	line:57
+_columns	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    _columns = {$/;"	kind:variable	line:86
+_columns	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	/^    _columns = {$/;"	kind:variable	line:42
+_columns	l10n_mx_facturae_pac_sf/params_pac.py	/^    _columns = {$/;"	kind:variable	line:49
+_columns	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^    _columns = {$/;"	kind:variable	line:75
+_columns	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^    _columns = {$/;"	kind:variable	line:81
+_columns	l10n_mx_facturae_seq/invoice.py	/^    _columns = {$/;"	kind:variable	line:72
+_columns	l10n_mx_facturae_seq/ir_sequence.py	/^    _columns = {$/;"	kind:variable	line:144
+_columns	l10n_mx_facturae_seq/ir_sequence.py	/^    _columns = {$/;"	kind:variable	line:44
+_columns	l10n_mx_import_info/import_info.py	/^    _columns = {$/;"	kind:variable	line:45
+_columns	l10n_mx_import_info/invoice.py	/^    _columns = {$/;"	kind:variable	line:27
+_columns	l10n_mx_import_info/invoice.py	/^    _columns = {$/;"	kind:variable	line:38
+_columns	l10n_mx_import_info/stock.py	/^    _columns = {$/;"	kind:variable	line:26
+_columns	l10n_mx_invoice_amount_to_text/invoice.py	/^    _columns = {$/;"	kind:variable	line:51
+_columns	l10n_mx_invoice_currency_chgdft/invoice.py	/^    _columns = {$/;"	kind:variable	line:40
+_columns	l10n_mx_invoice_datetime/invoice.py	/^    _columns = {$/;"	kind:variable	line:82
+_columns	l10n_mx_invoice_discount/invoice.py	/^    _columns = {$/;"	kind:variable	line:135
+_columns	l10n_mx_invoice_discount/invoice.py	/^    _columns = {$/;"	kind:variable	line:147
+_columns	l10n_mx_invoice_discount/partner.py	/^    _columns = {$/;"	kind:variable	line:37
+_columns	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^    _columns = {$/;"	kind:variable	line:64
+_columns	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    _columns = {$/;"	kind:variable	line:57
+_columns	l10n_mx_ir_attachment_facturae/res_config.py	/^    _columns = {$/;"	kind:variable	line:33
+_columns	l10n_mx_notes_invoice/res_company.py	/^    _columns = {$/;"	kind:variable	line:36
+_columns	l10n_mx_params_pac/params_pac.py	/^    _columns = {$/;"	kind:variable	line:44
+_columns	l10n_mx_partner_address/partner_address.py	/^    _columns = {$/;"	kind:variable	line:41
+_columns	l10n_mx_partner_address/res_company.py	/^    _columns={$/;"	kind:variable	line:64
+_columns	l10n_mx_payment_method/invoice.py	/^    _columns = {$/;"	kind:variable	line:65
+_columns	l10n_mx_payment_method/partner.py	/^    _columns = {$/;"	kind:variable	line:39
+_columns	l10n_mx_payment_method/pay_method.py	/^    _columns = {$/;"	kind:variable	line:37
+_columns	l10n_mx_purchase_payment_method/purchase.py	/^    _columns = {$/;"	kind:variable	line:48
+_columns	l10n_mx_regimen_fiscal/partner.py	/^    _columns = {$/;"	kind:variable	line:37
+_columns	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^    _columns = {$/;"	kind:variable	line:36
+_columns	l10n_mx_res_partner_bank/res_bank.py	/^    _columns = {$/;"	kind:variable	line:48
+_columns	l10n_mx_sale_payment_method/model/sale.py	/^    _columns = {$/;"	kind:variable	line:39
+_columns	l10n_mx_settings_facturae/model/res_config.py	/^    _columns = {$/;"	kind:variable	line:39
+_columns	l10n_mx_upload_ftp/upload_ftp.py	/^    _columns = {$/;"	kind:variable	line:96
+_columns	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    _columns = {$/;"	kind:variable	line:181
+_columns	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    _columns = {$/;"	kind:variable	line:87
+_constraints	l10n_mx_facturae_seq/ir_sequence.py	/^    _constraints = [$/;"	kind:variable	line:106
+_create_facturae_file	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^def _create_facturae_file(self, cr, uid, data, context=None):$/;"	kind:function	line:52
+_create_facturae_txt	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^def _create_facturae_txt(self, cr, uid, data, context=None):$/;"	kind:function	line:85
+_default_company	l10n_mx_settings_facturae/model/res_config.py	/^    def _default_company(self, cr, uid, context=None):$/;"	kind:member	line:63
+_defaults	email_template_multicompany/email_template.py	/^    _defaults = {$/;"	kind:variable	line:38
+_defaults	email_template_multicompany/ir_mail_server.py	/^    _defaults = {$/;"	kind:variable	line:37
+_defaults	l10n_mx_account_tax_category/account_tax_category.py	/^    _defaults = {$/;"	kind:variable	line:46
+_defaults	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^    _defaults = {$/;"	kind:variable	line:58
+_defaults	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    _defaults = {$/;"	kind:variable	line:90
+_defaults	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^    _defaults = {$/;"	kind:variable	line:58
+_defaults	l10n_mx_facturae_cbb/invoice.py	/^    _defaults = {$/;"	kind:variable	line:85
+_defaults	l10n_mx_facturae_cer/res_company.py	/^    _defaults = {$/;"	kind:variable	line:78
+_defaults	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^    _defaults = {$/;"	kind:variable	line:82
+_defaults	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^    _defaults = {$/;"	kind:variable	line:88
+_defaults	l10n_mx_facturae_seq/ir_sequence.py	/^    _defaults = {$/;"	kind:variable	line:66
+_defaults	l10n_mx_import_info/import_info.py	/^    _defaults = {$/;"	kind:variable	line:58
+_defaults	l10n_mx_invoice_datetime/invoice.py	/^    _defaults = {$/;"	kind:variable	line:95
+_defaults	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^    _defaults = {$/;"	kind:variable	line:70
+_defaults	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    _defaults = {$/;"	kind:variable	line:97
+_defaults	l10n_mx_notes_invoice/res_company.py	/^    _defaults = {$/;"	kind:variable	line:47
+_defaults	l10n_mx_params_pac/params_pac.py	/^    _defaults = {$/;"	kind:variable	line:65
+_defaults	l10n_mx_partner_address/partner_address.py	/^    _defaults = {$/;"	kind:variable	line:151
+_defaults	l10n_mx_payment_method/invoice.py	/^    _defaults = {$/;"	kind:variable	line:81
+_defaults	l10n_mx_settings_facturae/model/res_config.py	/^    _defaults = {$/;"	kind:variable	line:67
+_description	city/res_city.py	/^    _description = "Country state city"$/;"	kind:variable	line:39
+_description	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^    _description = 'Account - DIOT Report for Mexico'$/;"	kind:variable	line:40
+_description	l10n_mx_facturae/wizard/installer.py	/^    _description = __doc__$/;"	kind:variable	line:33
+_description	l10n_mx_import_info/import_info.py	/^    _description = "Information about customs"$/;"	kind:variable	line:24
+_dict_iteritems_sort	l10n_mx_facturae/invoice.py	/^    def _dict_iteritems_sort(self, data_dict):  # cr=False, uid=False, ids=[], context=None):$/;"	kind:member	line:677
+_fields	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^_fields = {$/;"	kind:variable	line:41
+_fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^_fields = {$/;"	kind:variable	line:69
+_fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^_fields = {$/;"	kind:variable	line:42
+_fields	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^_fields ={$/;"	kind:variable	line:45
+_getAdd	l10n_mx_import_info/report/label_report.py	/^    def _getAdd(self, obj):$/;"	kind:member	line:16
+_get_address_data	l10n_mx_partner_address/res_company.py	/^    def _get_address_data(self, cr, uid, ids, field_names, arg, context=None):$/;"	kind:member	line:33
+_get_address_issued_invoice	l10n_mx_company_multi_address/invoice.py	/^    def _get_address_issued_invoice(self, cr, uid, ids, name, args, context=None):$/;"	kind:member	line:34
+_get_amount_to_text	l10n_mx_invoice_amount_to_text/invoice.py	/^    def _get_amount_to_text(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:39
+_get_base_vat_split	l10n_mx_base_vat_split/base_vat.py	/^    def _get_base_vat_split(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:33
+_get_cancel_invoice_id	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^    def _get_cancel_invoice_id(self, cr, uid, data, context=None):$/;"	kind:member	line:54
+_get_certificate_str	l10n_mx_facturae/invoice.py	/^    def _get_certificate_str(self, fname_cer_pem=""):$/;"	kind:member	line:933
+_get_cfd_xml_invoice	l10n_mx_facturae/invoice.py	/^    def _get_cfd_xml_invoice(self, cr, uid, ids, field_name=None, arg=False, context=None):$/;"	kind:member	line:288
+_get_company_emitter_invoice	l10n_mx_company_multi_address/invoice.py	/^    def _get_company_emitter_invoice(self, cr, uid, ids, name, args, context=None):$/;"	kind:member	line:56
+_get_current_approval	l10n_mx_facturae_seq/ir_sequence.py	/^    def _get_current_approval(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:124
+_get_current_certificate	l10n_mx_facturae_cer/res_company.py	/^    def _get_current_certificate(self, cr, uid, ids, field_names=False, arg=False, context=None):$/;"	kind:member	line:258
+_get_data_to_lines	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def _get_data_to_lines(self, cr, uid, ids, xml_id=None, context=None):$/;"	kind:member	line:142
+_get_date_invoice_tz	l10n_mx_invoice_datetime/invoice.py	/^    def _get_date_invoice_tz(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:63
+_get_default_country_id	l10n_mx_partner_address/partner_address.py	/^    def _get_default_country_id(self, cr, uid, context=None):$/;"	kind:member	line:56
+_get_facturae	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def _get_facturae(self, cr, uid, context=None):$/;"	kind:member	line:80
+_get_facturae	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^    def _get_facturae(self, cr, uid, data, context=None):$/;"	kind:member	line:52
+_get_facturae_fname	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def _get_facturae_fname(self, cr, uid, context=None):$/;"	kind:member	line:75
+_get_facturae_fname	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^    def _get_facturae_fname(self, cr, uid, data, context=None):$/;"	kind:member	line:46
+_get_facturae_invoice_dict_data	l10n_mx_facturae/invoice.py	/^    def _get_facturae_invoice_dict_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:961
+_get_facturae_invoice_dict_data	l10n_mx_facturae_pac/invoice.py	/^    def _get_facturae_invoice_dict_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:47
+_get_facturae_invoice_dict_data	l10n_mx_invoice_discount/invoice.py	/^    def _get_facturae_invoice_dict_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:48
+_get_facturae_invoice_txt_data	l10n_mx_facturae/invoice.py	/^    def _get_facturae_invoice_txt_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:506
+_get_facturae_invoice_xml_data	l10n_mx_facturae/invoice.py	/^    def _get_facturae_invoice_xml_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:744
+_get_facturae_invoice_xml_data	l10n_mx_facturae_pac/invoice.py	/^    def _get_facturae_invoice_xml_data(self, cr, uid, ids, context=None):$/;"	kind:member	line:121
+_get_file	l10n_mx_facturae_pac_sf/invoice.py	/^    def _get_file(self, cr, uid, inv_ids, context=None):$/;"	kind:member	line:141
+_get_file_cancel	l10n_mx_facturae_pac_sf/invoice.py	/^    def _get_file_cancel(self, cr, uid, inv_ids, context=None):$/;"	kind:member	line:276
+_get_file_globals	l10n_mx_facturae/invoice.py	/^    def _get_file_globals(self, cr, uid, ids, context=None):$/;"	kind:member	line:355
+_get_files	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^    def _get_files(self, cr, uid, context=None):$/;"	kind:member	line:55
+_get_files	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^def _get_files(self, cr, uid, data, context):$/;"	kind:function	line:64
+_get_fname_invoice	l10n_mx_facturae/invoice.py	/^    def _get_fname_invoice(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:217
+_get_fname_invoice	l10n_mx_facturae_cbb/invoice.py	/^    def _get_fname_invoice(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:44
+_get_folio	l10n_mx_facturae/invoice.py	/^    def _get_folio(self, cr, uid, ids, context=None):$/;"	kind:member	line:595
+_get_invoice_certificate	l10n_mx_facturae_cer/invoice.py	/^    def _get_invoice_certificate(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:36
+_get_invoice_facturae_xml	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^def _get_invoice_facturae_xml(self, cr, uid, data, context=None):$/;"	kind:function	line:46
+_get_invoice_facturae_xml	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^    def _get_invoice_facturae_xml(self, cr, uid, data, context=None):$/;"	kind:member	line:63
+_get_invoice_id	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^    def _get_invoice_id(self, cr, uid, data, context=None):$/;"	kind:member	line:50
+_get_invoice_line_vals	l10n_mx_import_info/stock.py	/^    def _get_invoice_line_vals(self, cr, uid, move, partner, inv_type, context=None):$/;"	kind:member	line:35
+_get_invoice_sequence	l10n_mx_facturae_seq/invoice.py	/^    def _get_invoice_sequence(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:37
+_get_invoice_vals	l10n_mx_purchase_payment_method/stock.py	/^    def _get_invoice_vals(self, cr, uid, key, inv_type, journal_id, move, context=None):$/;"	kind:member	line:35
+_get_invoice_vals	l10n_mx_sale_payment_method/model/stock.py	/^    def _get_invoice_vals(self, cr, uid, key, inv_type, journal_id, move, context=None):$/;"	kind:member	line:44
+_get_invoices_date	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^def _get_invoices_date(self, cr, uid, data, context=None):$/;"	kind:function	line:171
+_get_invoices_month	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^def _get_invoices_month(self, cr, uid, data, context=None):$/;"	kind:function	line:132
+_get_md5_cad_orig	l10n_mx_facturae/invoice.py	/^    def _get_md5_cad_orig(self, cadorig_str, fname_cadorig_digest):$/;"	kind:member	line:952
+_get_method_type_selection	l10n_mx_facturae_pac_sf/params_pac.py	/^    def _get_method_type_selection(self, cr, uid, context=None):$/;"	kind:member	line:40
+_get_method_type_selection	l10n_mx_params_pac/params_pac.py	/^    def _get_method_type_selection(self, cr, uid, context=None):$/;"	kind:member	line:37
+_get_month_selection	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^def _get_month_selection(self=False):$/;"	kind:function	line:39
+_get_month_selection	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def _get_month_selection(self, cr, uid, context=None):$/;"	kind:member	line:41
+_get_noCertificado	l10n_mx_facturae/invoice.py	/^    def _get_noCertificado(self, cr, uid, ids, fname_cer, pem=True, context=None):$/;"	kind:member	line:885
+_get_note	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def _get_note(self, cr, uid, context=None):$/;"	kind:member	line:85
+_get_param_dates	l10n_mx_facturae_lib/facturae_lib.py	/^    def _get_param_dates(self, cr, uid, ids, fname, fname_out=None,$/;"	kind:member	line:233
+_get_param_serial	l10n_mx_facturae_lib/facturae_lib.py	/^    def _get_param_serial(self, cr, uid, ids, fname, fname_out=None, type='DER', context=None):$/;"	kind:member	line:198
+_get_params	l10n_mx_facturae_lib/facturae_lib.py	/^    def _get_params(self, cr, uid, ids, fname, params=None, fname_out=None, type='DER', context=None):$/;"	kind:member	line:280
+_get_params_dict	l10n_mx_facturae_lib/facturae_lib.py	/^    def _get_params_dict(self, cr, uid, ids, fname, params=None, fname_out=None, type='DER', context=None):$/;"	kind:member	line:259
+_get_sello	l10n_mx_facturae/invoice.py	/^    def _get_sello(self, cr=False, uid=False, ids=False, context=None):$/;"	kind:member	line:901
+_get_take_digits	l10n_mx_res_partner_bank/res_bank.py	/^    def _get_take_digits(self, cr, uid, ids, field, args, context=None):$/;"	kind:member	line:35
+_get_tax_data	l10n_mx_account_tax_category/invoice.py	/^    def _get_tax_data(self, cr, uid, ids, field_names=None, arg=False, context=None):$/;"	kind:member	line:40
+_get_time_zone	l10n_mx_facturae_pac_sf/invoice.py	/^    def _get_time_zone(self, cr, uid, invoice_id, context=None):$/;"	kind:member	line:254
+_get_time_zone	l10n_mx_invoice_datetime/invoice.py	/^    def _get_time_zone(self, cr, uid, invoice_id, context=None):$/;"	kind:member	line:107
+_get_type	l10n_mx_facturae/ir_attachment_facturae.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:34
+_get_type	l10n_mx_facturae/ir_sequence_approval.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:35
+_get_type	l10n_mx_facturae_cbb/ir_attachment_facturae.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:34
+_get_type	l10n_mx_facturae_cbb/ir_sequence_approval.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:34
+_get_type	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:62
+_get_type	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:34
+_get_type	l10n_mx_facturae_seq/ir_sequence.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:38
+_get_type	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def _get_type(self, cr, uid, ids=None, context=None):$/;"	kind:member	line:43
+_get_type_sequence	l10n_mx_facturae_pac_sf/invoice.py	/^    def _get_type_sequence(self, cr, uid, ids, context=None):$/;"	kind:member	line:237
+_inherit	city/partner_address.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:42
+_inherit	email_template_multicompany/email_template.py	/^    _inherit = "email.template"$/;"	kind:variable	line:32
+_inherit	email_template_multicompany/ir_mail_server.py	/^    _inherit = "ir.mail_server"$/;"	kind:variable	line:32
+_inherit	l10n_mx_account_invoice_tax/account_invoice_tax.py	/^    _inherit = 'account.invoice.tax'$/;"	kind:variable	line:32
+_inherit	l10n_mx_account_tax_category/account_tax_category.py	/^    _inherit = 'account.tax'$/;"	kind:variable	line:55
+_inherit	l10n_mx_account_tax_category/invoice.py	/^    _inherit = "account.invoice.tax"$/;"	kind:variable	line:38
+_inherit	l10n_mx_base_vat_split/base_vat.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:31
+_inherit	l10n_mx_company_cif/res_company.py	/^    _inherit = 'res.company'$/;"	kind:variable	line:36
+_inherit	l10n_mx_company_cif/wizard/installer.py	/^    _inherit = 'res.config'$/;"	kind:variable	line:32
+_inherit	l10n_mx_company_multi_address/account_journal.py	/^    _inherit = 'account.journal'$/;"	kind:variable	line:32
+_inherit	l10n_mx_company_multi_address/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:32
+_inherit	l10n_mx_company_multi_address/res_company.py	/^    _inherit = 'res.company'$/;"	kind:variable	line:36
+_inherit	l10n_mx_diot_report/partner.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:28
+_inherit	l10n_mx_facturae/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:119
+_inherit	l10n_mx_facturae/ir_attachment_facturae.py	/^    _inherit = 'ir.attachment.facturae.mx'$/;"	kind:variable	line:32
+_inherit	l10n_mx_facturae/ir_sequence_approval.py	/^    _inherit = 'ir.sequence.approval'$/;"	kind:variable	line:33
+_inherit	l10n_mx_facturae/wizard/installer.py	/^    _inherit = 'res.config'$/;"	kind:variable	line:32
+_inherit	l10n_mx_facturae_cbb/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:42
+_inherit	l10n_mx_facturae_cbb/ir_attachment_facturae.py	/^    _inherit = 'ir.attachment.facturae.mx'$/;"	kind:variable	line:32
+_inherit	l10n_mx_facturae_cbb/ir_sequence_approval.py	/^    _inherit = 'ir.sequence.approval'$/;"	kind:variable	line:32
+_inherit	l10n_mx_facturae_cer/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:34
+_inherit	l10n_mx_facturae_cer/res_company.py	/^    _inherit = 'res.company'$/;"	kind:variable	line:226
+_inherit	l10n_mx_facturae_pac/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:45
+_inherit	l10n_mx_facturae_pac_sf/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:55
+_inherit	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    _inherit = 'ir.attachment.facturae.mx'$/;"	kind:variable	line:60
+_inherit	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	/^    _inherit = 'ir.sequence.approval'$/;"	kind:variable	line:32
+_inherit	l10n_mx_facturae_pac_sf/params_pac.py	/^    _inherit = 'params.pac'$/;"	kind:variable	line:38
+_inherit	l10n_mx_facturae_seq/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:35
+_inherit	l10n_mx_facturae_seq/ir_sequence.py	/^    _inherit = 'ir.sequence'$/;"	kind:variable	line:113
+_inherit	l10n_mx_import_info/invoice.py	/^    _inherit = "account.invoice.line"$/;"	kind:variable	line:25
+_inherit	l10n_mx_import_info/invoice.py	/^    _inherit = "import.info"    $/;"	kind:variable	line:36
+_inherit	l10n_mx_import_info/stock.py	/^    _inherit = "stock.move"    $/;"	kind:variable	line:33
+_inherit	l10n_mx_import_info/stock.py	/^    _inherit = "stock.quant.package"$/;"	kind:variable	line:25
+_inherit	l10n_mx_invoice_amount_to_text/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:37
+_inherit	l10n_mx_invoice_currency_chgdft/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:36
+_inherit	l10n_mx_invoice_datetime/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:60
+_inherit	l10n_mx_invoice_discount/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:46
+_inherit	l10n_mx_invoice_discount/invoice.py	/^    _inherit = 'account.invoice.line'$/;"	kind:variable	line:146
+_inherit	l10n_mx_invoice_discount/partner.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:35
+_inherit	l10n_mx_ir_attachment_facturae/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:32
+_inherit	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    _inherit = 'ir.attachment'$/;"	kind:variable	line:622
+_inherit	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    _inherit = 'ir.mail_server'$/;"	kind:variable	line:636
+_inherit	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    _inherit = ['mail.thread', 'ir.needaction_mixin']$/;"	kind:variable	line:41
+_inherit	l10n_mx_ir_attachment_facturae/res_config.py	/^    _inherit = 'res.config.settings'$/;"	kind:variable	line:29
+_inherit	l10n_mx_notes_invoice/res_company.py	/^    _inherit = 'res.company'$/;"	kind:variable	line:34
+_inherit	l10n_mx_partner_address/partner_address.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:39
+_inherit	l10n_mx_partner_address/res_company.py	/^    _inherit = 'res.company'$/;"	kind:variable	line:31
+_inherit	l10n_mx_payment_method/invoice.py	/^    _inherit = 'account.invoice'$/;"	kind:variable	line:46
+_inherit	l10n_mx_payment_method/partner.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:37
+_inherit	l10n_mx_purchase_payment_method/purchase.py	/^    _inherit = 'purchase.order'$/;"	kind:variable	line:32
+_inherit	l10n_mx_purchase_payment_method/stock.py	/^    _inherit = 'stock.picking'$/;"	kind:variable	line:32
+_inherit	l10n_mx_regimen_fiscal/partner.py	/^    _inherit = 'res.partner'$/;"	kind:variable	line:35
+_inherit	l10n_mx_res_partner_bank/res_bank.py	/^    _inherit = 'res.partner.bank'$/;"	kind:variable	line:33
+_inherit	l10n_mx_sale_payment_method/model/sale.py	/^    _inherit = 'sale.order'$/;"	kind:variable	line:37
+_inherit	l10n_mx_sale_payment_method/model/stock.py	/^    _inherit = 'stock.picking'$/;"	kind:variable	line:41
+_inherit	l10n_mx_settings_facturae/model/res_config.py	/^    _inherit = 'res.config.settings'$/;"	kind:variable	line:37
+_inherit	l10n_mx_upload_ftp/upload_ftp.py	/^    _inherit = 'ir.attachment'$/;"	kind:variable	line:43
+_logger	l10n_mx_facturae_lib/facturae_lib.py	/^_logger = logging.getLogger(__name__)$/;"	kind:variable	line:39
+_logger	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^_logger = logging.getLogger(__name__)$/;"	kind:variable	line:53
+_logger	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^_logger = logging.getLogger(__name__)$/;"	kind:variable	line:34
+_name	city/res_city.py	/^    _name = 'res.country.state.city'$/;"	kind:variable	line:40
+_name	l10n_mx_account_tax_category/account_tax_category.py	/^    _name = 'account.tax.category'$/;"	kind:variable	line:28
+_name	l10n_mx_company_cif/wizard/installer.py	/^    _name = 'cif.config'$/;"	kind:variable	line:31
+_name	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^    _name = 'account.diot.report'$/;"	kind:variable	line:39
+_name	l10n_mx_facturae/wizard/installer.py	/^    _name = 'facturae.config'$/;"	kind:variable	line:31
+_name	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    _name = 'wizard.invoice.facturae.txt.v6'$/;"	kind:variable	line:39
+_name	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^    _name = 'wizard.invoice.facturae.xml.v6'$/;"	kind:variable	line:38
+_name	l10n_mx_facturae_cer/res_company.py	/^    _name = 'res.company.facturae.certificate'$/;"	kind:variable	line:39
+_name	l10n_mx_facturae_lib/facturae_lib.py	/^    _name = 'facturae.certificate.library'$/;"	kind:variable	line:129
+_name	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^    _name = 'wizard.cancel.invoice.pac.sf'$/;"	kind:variable	line:52
+_name	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^    _name = 'wizard.export.invoice.pac.sf.v6'$/;"	kind:variable	line:48
+_name	l10n_mx_facturae_seq/ir_sequence.py	/^    _name = 'ir.sequence.approval'$/;"	kind:variable	line:34
+_name	l10n_mx_import_info/import_info.py	/^    _name = "import.info"$/;"	kind:variable	line:23
+_name	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^    _name = 'wizard.facturae.ftp'$/;"	kind:variable	line:43
+_name	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    _name = 'ir.attachment.facturae.mx'$/;"	kind:variable	line:40
+_name	l10n_mx_ir_attachment_facturae/res_config.py	/^    _name = 'l10n.mx.email.config.settings'$/;"	kind:variable	line:28
+_name	l10n_mx_params_pac/params_pac.py	/^    _name = 'params.pac'$/;"	kind:variable	line:35
+_name	l10n_mx_payment_method/pay_method.py	/^    _name = 'pay.method'$/;"	kind:variable	line:36
+_name	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^    _name = 'regimen.fiscal'$/;"	kind:variable	line:35
+_name	l10n_mx_settings_facturae/model/res_config.py	/^    _name = 'facturae.config.settings'$/;"	kind:variable	line:36
+_name	l10n_mx_upload_ftp/upload_ftp.py	/^    _name = 'ftp.server'$/;"	kind:variable	line:94
+_name	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    _name = 'wizard.validate.uuid.sat'$/;"	kind:variable	line:40
+_name	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    _name = 'xml.to.validate.line'$/;"	kind:variable	line:120
+_order	city/res_city.py	/^    _order = 'name'$/;"	kind:variable	line:52
+_order	l10n_mx_import_info/import_info.py	/^    _order = 'name asc'$/;"	kind:variable	line:25
+_order	l10n_mx_ir_attachment_facturae/res_config.py	/^    _order = "id desc"$/;"	kind:variable	line:30
+_prepare_invoice	l10n_mx_sale_payment_method/model/sale.py	/^    def _prepare_invoice(self, cr, uid, order, lines, context=None):            $/;"	kind:member	line:54
+_read_file_attempts	l10n_mx_facturae_lib/facturae_lib.py	/^    def _read_file_attempts(self, file_obj, max_attempt=12, seconds_delay=0.5):$/;"	kind:member	line:148
+_rec_name	l10n_mx_facturae_cer/res_company.py	/^    _rec_name = 'serial_number'$/;"	kind:variable	line:41
+_rec_name	l10n_mx_facturae_seq/ir_sequence.py	/^    _rec_name = 'approval_number'$/;"	kind:variable	line:36
+_rec_name	l10n_mx_ir_attachment_facturae/res_config.py	/^    _rec_name = 'email_tmp_id'$/;"	kind:variable	line:31
+_set_address_data	l10n_mx_partner_address/res_company.py	/^    def _set_address_data(self, cr, uid, company_id, name, value, arg, context=None):$/;"	kind:member	line:49
+_sign	l10n_mx_facturae_lib/facturae_lib.py	/^    def _sign(self, cr, uid, ids, fname, fname_xslt, fname_key, fname_out, encrypt='sha1',$/;"	kind:member	line:303
+_sql_constraints	l10n_mx_facturae_seq/ir_sequence.py	/^    _sql_constraints = [$/;"	kind:variable	line:72
+_sql_constraints	l10n_mx_payment_method/pay_method.py	/^    _sql_constraints = [$/;"	kind:variable	line:43
+_transform_der_to_pem	l10n_mx_facturae_lib/facturae_lib.py	/^    def _transform_der_to_pem(self, fname_der, fname_out,$/;"	kind:member	line:168
+_transform_xml	l10n_mx_facturae_lib/facturae_lib.py	/^    def _transform_xml(self, cr, uid, ids, fname_xml, fname_xslt, fname_out, context=None):$/;"	kind:member	line:212
+_upload_ws_file	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    def _upload_ws_file(self, cr, uid, ids, fdata=None, context=None):$/;"	kind:member	line:163
+_write_company	l10n_mx_company_cif/wizard/installer.py	/^    def _write_company(self, cr, uid, cif_file, company_id, context=None):$/;"	kind:member	line:34
+_xml2cad_orig	l10n_mx_facturae/invoice.py	/^    def _xml2cad_orig(self, cr=False, uid=False, ids=False, context=None):$/;"	kind:member	line:921
+account_invoice	l10n_mx_company_multi_address/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:31
+account_invoice	l10n_mx_facturae/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:118
+account_invoice	l10n_mx_facturae_cbb/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:41
+account_invoice	l10n_mx_facturae_cer/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:33
+account_invoice	l10n_mx_facturae_pac/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:44
+account_invoice	l10n_mx_facturae_pac_sf/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:54
+account_invoice	l10n_mx_facturae_seq/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:34
+account_invoice	l10n_mx_invoice_amount_to_text/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:36
+account_invoice	l10n_mx_invoice_currency_chgdft/invoice.py	/^class account_invoice(osv.osv):$/;"	kind:class	line:35
+account_invoice	l10n_mx_invoice_datetime/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:59
+account_invoice	l10n_mx_invoice_discount/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:45
+account_invoice	l10n_mx_ir_attachment_facturae/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:31
+account_invoice	l10n_mx_payment_method/invoice.py	/^class account_invoice(osv.Model):$/;"	kind:class	line:45
+account_invoice_line	l10n_mx_import_info/invoice.py	/^class account_invoice_line(osv.Model):$/;"	kind:class	line:24
+account_invoice_line	l10n_mx_invoice_discount/invoice.py	/^class account_invoice_line(osv.Model):$/;"	kind:class	line:145
+account_invoice_tax	l10n_mx_account_invoice_tax/__init__.py	/^import account_invoice_tax$/;"	kind:namespace	line:26
+account_invoice_tax	l10n_mx_account_invoice_tax/account_invoice_tax.py	/^class account_invoice_tax(osv.Model):$/;"	kind:class	line:31
+account_invoice_tax	l10n_mx_account_tax_category/invoice.py	/^class account_invoice_tax(osv.Model):$/;"	kind:class	line:37
+account_invoice_tax.py	l10n_mx_account_invoice_tax/account_invoice_tax.py	1;"	kind:file	line:1
+account_journal	l10n_mx_company_multi_address/__init__.py	/^import account_journal$/;"	kind:namespace	line:31
+account_journal	l10n_mx_company_multi_address/account_journal.py	/^class account_journal(osv.Model):$/;"	kind:class	line:31
+account_journal.py	l10n_mx_company_multi_address/account_journal.py	1;"	kind:file	line:1
+account_tax	l10n_mx_account_tax_category/account_tax_category.py	/^class account_tax(osv.Model):$/;"	kind:class	line:54
+account_tax_category	l10n_mx_account_tax_category/__init__.py	/^import account_tax_category$/;"	kind:namespace	line:25
+account_tax_category	l10n_mx_account_tax_category/account_tax_category.py	/^class account_tax_category(osv.Model):$/;"	kind:class	line:27
+account_tax_category.py	l10n_mx_account_tax_category/account_tax_category.py	1;"	kind:file	line:1
+action_cancel	l10n_mx_facturae/invoice.py	/^    def action_cancel(self, cr, uid, ids, context=None):$/;"	kind:member	line:263
+action_cancel	l10n_mx_ir_attachment_facturae/invoice.py	/^    def action_cancel(self, cr, uid, ids, context=None):$/;"	kind:member	line:34
+action_cancel	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_cancel(self, cr, uid, ids, context=None):$/;"	kind:member	line:590
+action_cancel_draft	l10n_mx_facturae/invoice.py	/^    def action_cancel_draft(self, cr, uid, ids, context=None):$/;"	kind:member	line:248
+action_confirm	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_confirm(self, cr, uid, ids, context=None):$/;"	kind:member	line:193
+action_date_assign	l10n_mx_facturae/invoice.py	/^    def action_date_assign(self, cr, uid, ids, *args):$/;"	kind:member	line:271
+action_done	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_done(self, cr, uid, ids, context=None):$/;"	kind:member	line:517
+action_invoice_create	l10n_mx_purchase_payment_method/purchase.py	/^    def action_invoice_create(self, cr, uid, ids, context=None):$/;"	kind:member	line:62
+action_make_cfd	l10n_mx_facturae/invoice.py	/^    def action_make_cfd(self, cr, uid, ids, *args):$/;"	kind:member	line:171
+action_move_create	l10n_mx_invoice_datetime/invoice.py	/^    def action_move_create(self, cr, uid, ids, context=None):$/;"	kind:member	line:200
+action_number	l10n_mx_facturae_seq/invoice.py	/^    def action_number(self, cr, uid, ids, *args):$/;"	kind:member	line:79
+action_number5	l10n_mx_facturae_seq/invoice.py	/^    def action_number5(self, cr, uid, ids, *args):$/;"	kind:member	line:86
+action_printable	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_printable(self, cr, uid, ids, context=None):$/;"	kind:member	line:334
+action_send_backup	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_send_backup(self, cr, uid, ids, context=None):$/;"	kind:member	line:496
+action_send_customer	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_send_customer(self, cr, uid, ids, context=None):$/;"	kind:member	line:474
+action_sign	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def action_sign(self, cr, uid, ids, context=None):$/;"	kind:member	line:262
+add_addenta_xml	l10n_mx_facturae_pac_sf/invoice.py	/^    def add_addenta_xml(self, cr, ids, xml_res_str=None, comprobante=None, context=None):$/;"	kind:member	line:196
+add_node	l10n_mx_cities/tools/add_node.py	/^def add_node(node_name, attrs, parent_node, minidom_xml_obj, attrs_types, order=False):$/;"	kind:function	line:33
+add_node	l10n_mx_cities/tools/read_write_xml.py	/^from add_node import add_node$/;"	kind:namespace	line:31
+add_node	l10n_mx_facturae_pac_sf/invoice.py	/^    def add_node(self, node_name=None, attrs=None, parent_node=None,$/;"	kind:member	line:170
+add_node.py	l10n_mx_cities/tools/add_node.py	1;"	kind:file	line:1
+addons	l10n_mx_facturae/wizard/installer.py	/^from openerp import addons$/;"	kind:namespace	line:27
+all_paths	l10n_mx_facturae_lib/facturae_lib.py	/^all_paths = tools.config["addons_path"].split(",")$/;"	kind:variable	line:44
+amount_to_text	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    def amount_to_text(self, nNumero, lFemenino=False):$/;"	kind:member	line:80
+amount_to_text	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^class amount_to_text:$/;"	kind:class	line:32
+amount_to_text_cheque	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    def amount_to_text_cheque(self, nNumero, intermedio="pesos ", sufijo="M. N."):$/;"	kind:member	line:54
+amount_to_text_es_MX	l10n_mx_invoice_amount_to_text/__init__.py	/^import amount_to_text_es_MX$/;"	kind:namespace	line:29
+amount_to_text_es_MX	l10n_mx_invoice_amount_to_text/invoice.py	/^import amount_to_text_es_MX$/;"	kind:namespace	line:33
+amount_to_text_es_MX.py	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	1;"	kind:file	line:1
+app_openssl	l10n_mx_facturae_lib/facturae_lib.py	/^    app_openssl = 'openssl'$/;"	kind:variable	line:67
+app_openssl	l10n_mx_facturae_lib/facturae_lib.py	/^    app_openssl = 'openssl.exe'$/;"	kind:variable	line:63
+app_openssl_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^        app_openssl_fullpath = False$/;"	kind:variable	line:74
+app_openssl_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^    app_openssl_fullpath = tools.find_in_path(app_openssl)$/;"	kind:variable	line:72
+app_openssl_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^app_openssl_fullpath = os.path.join(openssl_path, app_openssl)$/;"	kind:variable	line:70
+app_xmlstarlet	l10n_mx_facturae_lib/facturae_lib.py	/^    app_xmlstarlet = 'xmlstarlet'$/;"	kind:variable	line:68
+app_xmlstarlet	l10n_mx_facturae_lib/facturae_lib.py	/^    app_xmlstarlet = 'xmlstarlet.exe'$/;"	kind:variable	line:64
+app_xmlstarlet_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^        app_xmlstarlet_fullpath = False$/;"	kind:variable	line:91
+app_xmlstarlet_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^    app_xmlstarlet_fullpath = tools.find_in_path( app_xmlstarlet )$/;"	kind:variable	line:89
+app_xmlstarlet_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^app_xmlstarlet_fullpath = os.path.join(xmlstarlet_path, app_xmlstarlet)$/;"	kind:variable	line:87
+app_xsltproc	l10n_mx_facturae_lib/facturae_lib.py	/^    app_xsltproc = 'xsltproc'$/;"	kind:variable	line:66
+app_xsltproc	l10n_mx_facturae_lib/facturae_lib.py	/^    app_xsltproc = 'xsltproc.exe'$/;"	kind:variable	line:62
+app_xsltproc_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^            app_xsltproc_fullpath = False$/;"	kind:variable	line:82
+app_xsltproc_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^        app_xsltproc_fullpath = tools.find_in_path(app_xsltproc) or False$/;"	kind:variable	line:80
+app_xsltproc_fullpath	l10n_mx_facturae_lib/facturae_lib.py	/^app_xsltproc_fullpath = os.path.join(xsltproc_path, app_xsltproc) or False$/;"	kind:variable	line:77
+assigned_datetime	l10n_mx_invoice_datetime/invoice.py	/^    def assigned_datetime(self, cr, uid, values, context=None):$/;"	kind:member	line:129
+b64str_to_tempfile	l10n_mx_facturae_lib/facturae_lib.py	/^    def b64str_to_tempfile(self, cr, uid, ids, b64_str=None, file_suffix=None, file_prefix=None, context=None):$/;"	kind:member	line:133
+base64	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^import base64$/;"	kind:namespace	line:25
+base64	l10n_mx_facturae/invoice.py	/^import base64$/;"	kind:namespace	line:37
+base64	l10n_mx_facturae/wizard/installer.py	/^import base64$/;"	kind:namespace	line:26
+base64	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^import base64$/;"	kind:namespace	line:31
+base64	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^import base64$/;"	kind:namespace	line:33
+base64	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^import base64$/;"	kind:namespace	line:32
+base64	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^import base64$/;"	kind:namespace	line:31
+base64	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^import base64$/;"	kind:namespace	line:33
+base64	l10n_mx_facturae_cbb/invoice.py	/^import base64$/;"	kind:namespace	line:36
+base64	l10n_mx_facturae_cer/res_company.py	/^import base64$/;"	kind:namespace	line:35
+base64	l10n_mx_facturae_lib/facturae_lib.py	/^import base64$/;"	kind:namespace	line:36
+base64	l10n_mx_facturae_pac/invoice.py	/^import base64$/;"	kind:namespace	line:31
+base64	l10n_mx_facturae_pac_sf/invoice.py	/^import base64$/;"	kind:namespace	line:33
+base64	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import base64$/;"	kind:namespace	line:34
+base64	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import base64$/;"	kind:namespace	line:36
+base64	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import base64$/;"	kind:namespace	line:35
+base64	l10n_mx_invoice_discount/invoice.py	/^import base64$/;"	kind:namespace	line:36
+base64	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import base64$/;"	kind:namespace	line:32
+base64	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import base64$/;"	kind:namespace	line:31
+base64	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import base64$/;"	kind:namespace	line:30
+base64	l10n_mx_payment_method/invoice.py	/^import base64$/;"	kind:namespace	line:37
+base64	l10n_mx_upload_ftp/upload_ftp.py	/^import base64$/;"	kind:namespace	line:39
+base64	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^import base64$/;"	kind:namespace	line:29
+base_vat	l10n_mx_base_vat_split/__init__.py	/^import base_vat$/;"	kind:namespace	line:26
+base_vat.py	l10n_mx_base_vat_split/base_vat.py	1;"	kind:file	line:1
+basename	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from os.path import basename$/;"	kind:namespace	line:33
+binary2file	l10n_mx_facturae/invoice.py	/^    def binary2file(self, cr, uid, ids, binary_data, file_prefix="", file_suffix=""):$/;"	kind:member	line:340
+binary2file	l10n_mx_facturae_lib/facturae_lib.py	/^    def binary2file(self, cr=False, uid=False, ids=[], binary_data=False,$/;"	kind:member	line:358
+binary2file	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^def binary2file(self, cr, uid, ids, binary_data, file_prefix="", file_suffix=""):$/;"	kind:function	line:50
+binary2file	l10n_mx_upload_ftp/upload_ftp.py	/^    def binary2file(self, cr, uid, ids, binary_data, file_prefix="", file_suffix=""):$/;"	kind:member	line:45
+binascii	l10n_mx_facturae_lib/facturae_lib.py	/^import binascii$/;"	kind:namespace	line:37
+button_reset_taxes	l10n_mx_invoice_discount/invoice.py	/^    def button_reset_taxes(self, cr, uid, ids, context=None):$/;"	kind:member	line:98
+cfdi_data_write	l10n_mx_facturae_pac_sf/invoice.py	/^    def cfdi_data_write(self, cr, uid, ids, cfdi_data, context=None):$/;"	kind:member	line:75
+check_partner_data	l10n_mx_ir_attachment_facturae/invoice.py	/^    def check_partner_data(self, cr, uid, partner, context=None):$/;"	kind:member	line:56
+check_tax_lines	l10n_mx_invoice_discount/invoice.py	/^    def check_tax_lines(self, cr, uid, inv, compute_taxes, ait_obj):$/;"	kind:member	line:83
+check_uuid_dat	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def check_uuid_dat(self, cr, uid, ids, context=None):$/;"	kind:member	line:93
+check_xml_scheme	l10n_mx_facturae_lib/facturae_lib.py	/^    def check_xml_scheme(self, cr, uid, ids, fname_xml, fname_scheme, fname_out, type_scheme="xsd",$/;"	kind:member	line:336
+cif_config	l10n_mx_company_cif/wizard/installer.py	/^class cif_config(osv.TransientModel):$/;"	kind:class	line:30
+cities	l10n_mx_cities/tools/read_write_xml.py	/^cities = []$/;"	kind:variable	line:51
+city	l10n_mx_cities/tools/read_write_xml.py	/^            city = a.text and a.text or ''$/;"	kind:variable	line:64
+city_code	l10n_mx_cities/tools/read_write_xml.py	/^            city_code = a.text and a.text or ''$/;"	kind:variable	line:62
+city_id	l10n_mx_cities/tools/read_write_xml.py	/^        city_id = 'res_country_state_city_mx_'+state_code+'_'+city_code$/;"	kind:variable	line:72
+city_state	l10n_mx_cities/tools/read_write_xml.py	/^    city_state = city_code+state_code$/;"	kind:variable	line:69
+codecs	l10n_mx_facturae/invoice.py	/^import codecs$/;"	kind:namespace	line:46
+codecs	l10n_mx_facturae_pac/invoice.py	/^import codecs$/;"	kind:namespace	line:30
+codecs	l10n_mx_facturae_pac_sf/invoice.py	/^import codecs$/;"	kind:namespace	line:41
+codecs	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import codecs$/;"	kind:namespace	line:42
+codecs	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import codecs$/;"	kind:namespace	line:42
+codecs	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import codecs$/;"	kind:namespace	line:41
+codecs	l10n_mx_invoice_discount/invoice.py	/^import codecs$/;"	kind:namespace	line:40
+codecs	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import codecs$/;"	kind:namespace	line:37
+codecs	l10n_mx_payment_method/invoice.py	/^import codecs$/;"	kind:namespace	line:40
+config	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            config = ConfigParser.RawConfigParser()$/;"	kind:variable	line:48
+config	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp.tools import config$/;"	kind:namespace	line:32
+content	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            content = doc.toxml().encode('utf-8')$/;"	kind:variable	line:117
+content	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            content = f.read()$/;"	kind:variable	line:112
+content_file	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    content_file = f.read()$/;"	kind:variable	line:91
+context	l10n_mx_facturae_cer/res_company.py	/^            context=c),$/;"	kind:variable	line:84
+conv_ascii	l10n_mx_facturae/invoice.py	/^def conv_ascii(text):$/;"	kind:function	line:86
+copy	l10n_mx_facturae/invoice.py	/^    def copy(self, cr, uid, id, default={}, context=None):$/;"	kind:member	line:328
+copy	l10n_mx_facturae_pac_sf/invoice.py	/^    def copy(self, cr, uid, id, default={}, context=None):$/;"	kind:member	line:112
+copy	l10n_mx_facturae_seq/ir_sequence.py	/^    def copy(self, cr, uid, id, default={}, context=None, done_list=[], local=False):$/;"	kind:member	line:115
+copy	l10n_mx_invoice_datetime/invoice.py	/^    def copy(self, cr, uid, id, default=None, context=None):$/;"	kind:member	line:99
+create	l10n_mx_settings_facturae/model/res_config.py	/^    def create(self, cr, uid, values, context=None):$/;"	kind:member	line:102
+create_diot	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^    def create_diot(self, cr, uid, ids, context=None):$/;"	kind:member	line:84
+create_facturae_txt	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def create_facturae_txt(self, cr, uid, ids, context=None):$/;"	kind:member	line:181
+create_ir_attachment_facturae	l10n_mx_ir_attachment_facturae/invoice.py	/^    def create_ir_attachment_facturae(self, cr, uid, ids, context=None):$/;"	kind:member	line:69
+create_ir_attachment_facturae	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def create_ir_attachment_facturae(self, cr, uid, ids, context=None):$/;"	kind:member	line:104
+create_report	l10n_mx_facturae/invoice.py	/^    def create_report(self, cr, uid, res_ids, report_name=False, file_name=False, context=None):$/;"	kind:member	line:121
+create_report	l10n_mx_facturae_cbb/invoice.py	/^    def create_report(self, cr, uid, res_ids, report_name=False, file_name=False, context=None):$/;"	kind:member	line:89
+create_report_pdf	l10n_mx_facturae/invoice.py	/^    def create_report_pdf(self, cr, uid, ids, context=None):$/;"	kind:member	line:145
+create_report_pdf	l10n_mx_facturae_cbb/invoice.py	/^    def create_report_pdf(self, cr, uid, ids, context=None):$/;"	kind:member	line:113
+csv	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^import csv$/;"	kind:namespace	line:34
+csv	l10n_mx_facturae_pac_sf/invoice.py	/^import csv$/;"	kind:namespace	line:37
+csv	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import csv$/;"	kind:namespace	line:38
+csv	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import csv$/;"	kind:namespace	line:38
+csv	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import csv$/;"	kind:namespace	line:37
+csv	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import csv$/;"	kind:namespace	line:34
+csv	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import csv$/;"	kind:namespace	line:33
+currency	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp.tools.misc import currency$/;"	kind:namespace	line:30
+data_full_path	l10n_mx_cities/tools/read_write_xml.py	/^data_full_path = os.path.join(data_path, 'l10n_mx_cities.xml')$/;"	kind:variable	line:115
+data_path	l10n_mx_cities/tools/read_write_xml.py	/^data_path = '..\/data'$/;"	kind:variable	line:33
+datetime	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^import datetime$/;"	kind:namespace	line:30
+datetime	l10n_mx_facturae/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:47
+datetime	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^import datetime$/;"	kind:namespace	line:35
+datetime	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^import datetime$/;"	kind:namespace	line:34
+datetime	l10n_mx_facturae_pac/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:33
+datetime	l10n_mx_facturae_pac_sf/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:46
+datetime	l10n_mx_facturae_pac_sf/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:50
+datetime	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:47
+datetime	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:43
+datetime	l10n_mx_invoice_datetime/invoice.py	/^import datetime$/;"	kind:namespace	line:33
+datetime	l10n_mx_invoice_discount/invoice.py	/^from datetime import datetime$/;"	kind:namespace	line:41
+datetime	l10n_mx_payment_method/invoice.py	/^from datetime import datetime$/;"	kind:namespace	line:42
+datetime	l10n_mx_sale_payment_method/model/stock.py	/^import datetime$/;"	kind:namespace	line:32
+datetime	l10n_mx_settings_facturae/model/res_config.py	/^import datetime$/;"	kind:namespace	line:23
+datetime	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:31
+default_get	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^    def default_get(self, cr, uid, fields, context=None):$/;"	kind:member	line:63
+default_get	l10n_mx_facturae/wizard/installer.py	/^    def default_get(self, cr, uid, fields_list=None, context=None):$/;"	kind:member	line:35
+default_get	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def default_get(self, cr, uid, fields, context=None):$/;"	kind:member	line:42
+dict2xml	l10n_mx_facturae/invoice.py	/^    def dict2xml(self, data_dict, node=False, doc=False):$/;"	kind:member	line:701
+doc	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            doc = xml.dom.minidom.parseString(content)$/;"	kind:variable	line:113
+doc_xml	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    doc_xml = xml.dom.minidom.parseString(content_file) # Convert content to doc$/;"	kind:variable	line:97
+dom	l10n_mx_cities/tools/add_node.py	/^import xml.dom.minidom$/;"	kind:namespace	line:30
+dom	l10n_mx_cities/tools/read_write_xml.py	/^import xml.dom.minidom$/;"	kind:namespace	line:28
+dom	l10n_mx_facturae_pac/invoice.py	/^import xml.dom.minidom$/;"	kind:namespace	line:32
+dom	l10n_mx_facturae_pac_sf/invoice.py	/^import xml.dom.minidom$/;"	kind:namespace	line:34
+dom	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import xml.dom.minidom$/;"	kind:namespace	line:35
+dom	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import xml.dom.minidom$/;"	kind:namespace	line:42
+dp	l10n_mx_invoice_discount/invoice.py	/^import decimal_precision as dp$/;"	kind:namespace	line:42
+dp	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^import decimal_precision as dp$/;"	kind:namespace	line:28
+email_template	email_template_multicompany/__init__.py	/^import email_template$/;"	kind:namespace	line:28
+email_template	email_template_multicompany/email_template.py	/^class email_template(osv.Model):$/;"	kind:class	line:31
+email_template.py	email_template_multicompany/email_template.py	1;"	kind:file	line:1
+end_fields	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^end_fields = {$/;"	kind:variable	line:79
+end_fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^end_fields = {$/;"	kind:variable	line:120
+end_fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^end_fields = {$/;"	kind:variable	line:88
+etree	city/partner_address.py	/^from lxml import etree$/;"	kind:namespace	line:38
+etree	city/res_city.py	/^from lxml import etree$/;"	kind:namespace	line:35
+etree	l10n_mx_cities/tools/add_node.py	/^import xml.etree.cElementTree as ET$/;"	kind:namespace	line:29
+etree	l10n_mx_cities/tools/read_write_xml.py	/^import xml.etree.cElementTree as ET$/;"	kind:namespace	line:29
+etree	l10n_mx_partner_address/partner_address.py	/^from lxml import etree$/;"	kind:namespace	line:35
+except_orm	l10n_mx_facturae_cer/res_company.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:31
+except_orm	l10n_mx_facturae_pac/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:42
+except_orm	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:52
+except_orm	l10n_mx_facturae_seq/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:32
+except_orm	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:31
+except_orm	l10n_mx_invoice_datetime/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:37
+except_orm	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:29
+except_orm	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp.exceptions import except_orm, Warning, RedirectWarning$/;"	kind:namespace	line:37
+exec_command_pipe	l10n_mx_facturae/invoice.py	/^def exec_command_pipe(name, *args):$/;"	kind:function	line:50
+exec_command_pipe	l10n_mx_facturae_lib/facturae_lib.py	/^def exec_command_pipe(*args):$/;"	kind:function	line:51
+execute	l10n_mx_company_cif/wizard/installer.py	/^    def execute(self, cr, uid, ids, context=None):$/;"	kind:member	line:39
+execute	l10n_mx_facturae/wizard/installer.py	/^    def execute(self, cr, uid, ids, context=None):$/;"	kind:member	line:60
+extension	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        extension = name_file_split[1]$/;"	kind:variable	line:127
+extraeDecimales	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    def extraeDecimales(self, nNumero, max_digits=2):$/;"	kind:member	line:70
+f	l10n_mx_cities/tools/read_write_xml.py	/^f = open(data_full_path, 'wb')$/;"	kind:variable	line:117
+f	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            f = urllib2.urlopen(url)$/;"	kind:variable	line:111
+f	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        f = urllib2.urlopen(url)$/;"	kind:variable	line:84
+facturae_certificate_library	l10n_mx_facturae_lib/facturae_lib.py	/^class facturae_certificate_library(osv.Model):$/;"	kind:class	line:128
+facturae_config	l10n_mx_facturae/wizard/installer.py	/^class facturae_config(osv.TransientModel):$/;"	kind:class	line:30
+facturae_config_settings	l10n_mx_settings_facturae/model/res_config.py	/^class facturae_config_settings(osv.osv_memory):$/;"	kind:class	line:35
+facturae_lib	l10n_mx_facturae_lib/__init__.py	/^import facturae_lib/;"	kind:namespace	line:27
+facturae_lib	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^        from openerp.addons.l10n_mx_facturae_lib import facturae_lib$/;"	kind:namespace	line:124
+facturae_lib.py	l10n_mx_facturae_lib/facturae_lib.py	1;"	kind:file	line:1
+fields	city/partner_address.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:30
+fields	city/res_city.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:28
+fields	email_template_multicompany/email_template.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:28
+fields	email_template_multicompany/ir_mail_server.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:28
+fields	l10n_mx_account_invoice_tax/account_invoice_tax.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_account_tax_category/account_tax_category.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:24
+fields	l10n_mx_account_tax_category/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_base_vat_split/base_vat.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+fields	l10n_mx_company_cif/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_company_cif/wizard/installer.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+fields	l10n_mx_company_multi_address/account_journal.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_company_multi_address/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+fields	l10n_mx_company_multi_address/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_diot_report/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:24
+fields	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:22
+fields	l10n_mx_facturae/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae/ir_attachment_facturae.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae/ir_sequence_approval.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae/wizard/installer.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:25
+fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae_cbb/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_cbb/ir_attachment_facturae.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_cbb/ir_sequence_approval.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_cer/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae_cer/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_lib/facturae_lib.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_pac/invoice.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:27
+fields	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:30
+fields	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae_seq/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_import_info/import_info.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:19
+fields	l10n_mx_import_info/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:18
+fields	l10n_mx_import_info/product.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:23
+fields	l10n_mx_import_info/stock.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:18
+fields	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_invoice_amount_to_text/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_invoice_currency_chgdft/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_invoice_datetime/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_invoice_discount/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_invoice_discount/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+fields	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^from osv import fields, osv$/;"	kind:namespace	line:27
+fields	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:24
+fields	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:23
+fields	l10n_mx_ir_attachment_facturae/res_config.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:22
+fields	l10n_mx_notes_invoice/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_params_pac/params_pac.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_partner_address/partner_address.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:27
+fields	l10n_mx_partner_address/res_company.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:27
+fields	l10n_mx_payment_method/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_payment_method/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_payment_method/pay_method.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+fields	l10n_mx_purchase_payment_method/purchase.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+fields	l10n_mx_purchase_payment_method/stock.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+fields	l10n_mx_regimen_fiscal/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+fields	l10n_mx_res_partner_bank/res_bank.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+fields	l10n_mx_sale_payment_method/model/sale.py	/^from openerp.osv import fields$/;"	kind:namespace	line:29
+fields	l10n_mx_sale_payment_method/model/stock.py	/^from openerp.osv import fields$/;"	kind:namespace	line:29
+fields	l10n_mx_settings_facturae/model/res_config.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:30
+fields	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+fields	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:26
+fields_view_get	city/partner_address.py	/^    def fields_view_get(self, cr, user, view_id=None, view_type='form',$/;"	kind:member	line:48
+fields_view_get	l10n_mx_partner_address/partner_address.py	/^    def fields_view_get(self, cr, user, view_id=None, view_type='form',$/;"	kind:member	line:137
+fields_view_get	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def fields_view_get(self, cr, uid, view_id=None, view_type=False, context=None, toolbar=False, submenu=False):$/;"	kind:member	line:122
+fields_view_get_address	l10n_mx_partner_address/partner_address.py	/^    def fields_view_get_address(self, cr, uid, arch, context=None):$/;"	kind:member	line:64
+file_conf	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        file_conf = sys.argv[1]$/;"	kind:variable	line:46
+file_ftp	l10n_mx_upload_ftp/upload_ftp.py	/^    def file_ftp(self, cr, uid, ids, context=None):$/;"	kind:member	line:53
+file_source	l10n_mx_cities/tools/read_write_xml.py	/^file_source = 'l10n_mx_cities.xml'$/;"	kind:variable	line:35
+find_in_subpath	l10n_mx_facturae/invoice.py	/^def find_in_subpath(name, subpath):$/;"	kind:function	line:69
+forward_email	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def forward_email(self, cr, uid, ids, context=None):$/;"	kind:member	line:602
+ftp_server	l10n_mx_upload_ftp/upload_ftp.py	/^class ftp_server(osv.Model):$/;"	kind:class	line:93
+ftplib	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import ftplib$/;"	kind:namespace	line:38
+ftplib	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import ftplib$/;"	kind:namespace	line:38
+ftplib	l10n_mx_upload_ftp/upload_ftp.py	/^import ftplib$/;"	kind:namespace	line:34
+get_address_invoice_parent_company_id	l10n_mx_company_multi_address/res_company.py	/^    def get_address_invoice_parent_company_id(self, cr, uid, ids, field, arg, context=None):$/;"	kind:member	line:38
+get_amount_to_text	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^def get_amount_to_text(self, amount, lang, currency=""):$/;"	kind:function	line:191
+get_certificate_info	l10n_mx_facturae_cer/res_company.py	/^    def get_certificate_info(self, cr, uid, ids, context=None):$/;"	kind:member	line:87
+get_default_email_tmp_id	l10n_mx_ir_attachment_facturae/res_config.py	/^    def get_default_email_tmp_id(self, cr, uid, fields, context=None):$/;"	kind:member	line:37
+get_default_email_tmp_id	l10n_mx_settings_facturae/model/res_config.py	/^    def get_default_email_tmp_id(self, cr, uid, fields, context=None):$/;"	kind:member	line:71
+get_default_mail_server_id	l10n_mx_settings_facturae/model/res_config.py	/^    def get_default_mail_server_id(self, cr, uid, fields, context=None):$/;"	kind:member	line:83
+get_default_temp_report_id	l10n_mx_settings_facturae/model/res_config.py	/^    def get_default_temp_report_id(self, cr, uid, fields, context=None):$/;"	kind:member	line:92
+get_driver_fc_cancel	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    def get_driver_fc_cancel(self):$/;"	kind:member	line:79
+get_driver_fc_cancel	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def get_driver_fc_cancel(self):$/;"	kind:member	line:53
+get_driver_fc_sign	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    def get_driver_fc_sign(self):$/;"	kind:member	line:72
+get_driver_fc_sign	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def get_driver_fc_sign(self):$/;"	kind:member	line:49
+get_id	l10n_mx_facturae_seq/ir_sequence.py	/^    def get_id(self, cr, uid, sequence_id, test='id=%s', context=None):$/;"	kind:member	line:180
+get_invoices_date	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def get_invoices_date(self, cr, uid, ids, context=None):$/;"	kind:member	line:103
+get_invoices_month	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^    def get_invoices_month(self, cr, uid, ids, context=None):$/;"	kind:member	line:142
+hashlib	l10n_mx_facturae/invoice.py	/^import hashlib$/;"	kind:namespace	line:43
+hashlib	l10n_mx_invoice_discount/invoice.py	/^import hashlib$/;"	kind:namespace	line:37
+hashlib	l10n_mx_payment_method/invoice.py	/^import hashlib$/;"	kind:namespace	line:38
+help	city/res_city.py	/^                            help='The city code in max. five chars.'),$/;"	kind:variable	line:50
+help	city/res_city.py	/^                help='Administrative divisions of a state.'),$/;"	kind:variable	line:43
+help	l10n_mx_account_tax_category/account_tax_category.py	/^                    help='Company where will add this category'),$/;"	kind:variable	line:32
+help	l10n_mx_account_tax_category/account_tax_category.py	/^                help='Amount of Tax Original'),$/;"	kind:variable	line:43
+help	l10n_mx_account_tax_category/account_tax_category.py	/^                help='Code for this category'),$/;"	kind:variable	line:36
+help	l10n_mx_account_tax_category/account_tax_category.py	/^                help='Indicate if this category is active'),$/;"	kind:variable	line:38
+help	l10n_mx_account_tax_category/account_tax_category.py	/^                help='Name for this category'),$/;"	kind:variable	line:34
+help	l10n_mx_company_cif/res_company.py	/^                help='This CIF is used for the Report of Electronic Invoice'),$/;"	kind:variable	line:40
+help	l10n_mx_company_multi_address/account_journal.py	/^            data of this company as emitter company."),$/;"	kind:variable	line:41
+help	l10n_mx_company_multi_address/account_journal.py	/^            this address as issuing address'),$/;"	kind:variable	line:38
+help	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^            help='This is File name'),$/;"	kind:variable	line:48
+help	l10n_mx_facturae_cer/res_company.py	/^            help='Company where you add this certificate'),$/;"	kind:variable	line:45
+help	l10n_mx_facturae_cer/res_company.py	/^            help='Number of serie of the certificate'),$/;"	kind:variable	line:66
+help	l10n_mx_facturae_cer/res_company.py	/^            help='This file .cer is proportionate by the SAT'),$/;"	kind:variable	line:48
+help	l10n_mx_facturae_pac_sf/invoice.py	/^                                                  help='If the invoice is cancel, this field saved the date when is cancel'),$/;"	kind:variable	line:67
+help	l10n_mx_facturae_pac_sf/invoice.py	/^                                               help='Date when is stamped the electronic invoice'),$/;"	kind:variable	line:65
+help	l10n_mx_facturae_pac_sf/invoice.py	/^                                            help='Original String used in the electronic invoice'),$/;"	kind:variable	line:63
+help	l10n_mx_facturae_pac_sf/invoice.py	/^                                           help='Serial Number of the Certificate'),$/;"	kind:variable	line:61
+help	l10n_mx_facturae_pac_sf/invoice.py	/^                                         help='Folio used in the electronic invoice'),$/;"	kind:variable	line:69
+help	l10n_mx_facturae_pac_sf/invoice.py	/^                                         help='UUID de Cancelación de Timbre de Factura'),$/;"	kind:variable	line:71
+help	l10n_mx_import_info/stock.py	/^            help="Imformación de Importación (Pedimento aduanal), necesaria para Facturación Electrónica."),$/;"	kind:variable	line:28
+help	l10n_mx_invoice_discount/partner.py	/^            help='Motive why partner has discount'),$/;"	kind:variable	line:41
+help	l10n_mx_invoice_discount/partner.py	/^            help='Percent discount to apply, example format: 10.00 if you want to apply ten percent'),$/;"	kind:variable	line:39
+help	l10n_mx_notes_invoice/res_company.py	/^            help='Put te variables used in text'),$/;"	kind:variable	line:40
+help	l10n_mx_notes_invoice/res_company.py	/^            help='This text will put in the report of Invoice'),$/;"	kind:variable	line:38
+help	l10n_mx_partner_address/partner_address.py	/^            help='External number of the partner address'),$/;"	kind:variable	line:43
+help	l10n_mx_partner_address/partner_address.py	/^            help='Internal number of the partner address'),$/;"	kind:variable	line:45
+help	l10n_mx_partner_address/partner_address.py	/^            help='Locality configurated for this partner'),$/;"	kind:variable	line:47
+help	l10n_mx_payment_method/partner.py	/^                paid the invoice, leave empty and the XML show “Unidentified”.'),$/;"	kind:variable	line:44
+help	l10n_mx_sale_payment_method/model/sale.py	/^            the invoice, leave empty and the XML show “Unidentified”.'),$/;"	kind:variable	line:51
+help	l10n_mx_upload_ftp/upload_ftp.py	/^            help='Format example "\/done"'),$/;"	kind:variable	line:101
+import_info	l10n_mx_import_info/__init__.py	/^import import_info$/;"	kind:namespace	line:17
+import_info	l10n_mx_import_info/import_info.py	/^class import_info(osv.Model):$/;"	kind:class	line:22
+import_info	l10n_mx_import_info/invoice.py	/^class import_info(osv.Model):$/;"	kind:class	line:35
+import_info.py	l10n_mx_import_info/import_info.py	1;"	kind:file	line:1
+inherit_picking	l10n_mx_sale_payment_method/model/stock.py	/^class inherit_picking(osv.Model):$/;"	kind:class	line:37
+installer	l10n_mx_company_cif/wizard/__init__.py	/^import installer$/;"	kind:namespace	line:27
+installer	l10n_mx_facturae/wizard/__init__.py	/^import installer$/;"	kind:namespace	line:29
+installer.py	l10n_mx_company_cif/wizard/installer.py	1;"	kind:file	line:1
+installer.py	l10n_mx_facturae/wizard/installer.py	1;"	kind:file	line:1
+invoice	l10n_mx_account_tax_category/__init__.py	/^import invoice$/;"	kind:namespace	line:24
+invoice	l10n_mx_company_multi_address/__init__.py	/^import invoice$/;"	kind:namespace	line:30
+invoice	l10n_mx_facturae/__init__.py	/^import invoice$/;"	kind:namespace	line:28
+invoice	l10n_mx_facturae_cbb/__init__.py	/^import invoice$/;"	kind:namespace	line:28
+invoice	l10n_mx_facturae_cer/__init__.py	/^import invoice$/;"	kind:namespace	line:29
+invoice	l10n_mx_facturae_pac/__init__.py	/^import invoice$/;"	kind:namespace	line:27
+invoice	l10n_mx_facturae_pac_sf/__init__.py	/^import invoice$/;"	kind:namespace	line:27
+invoice	l10n_mx_facturae_seq/__init__.py	/^import invoice$/;"	kind:namespace	line:28
+invoice	l10n_mx_import_info/__init__.py	/^import invoice/;"	kind:namespace	line:21
+invoice	l10n_mx_invoice_amount_to_text/__init__.py	/^import invoice$/;"	kind:namespace	line:28
+invoice	l10n_mx_invoice_currency_chgdft/__init__.py	/^import invoice$/;"	kind:namespace	line:28
+invoice	l10n_mx_invoice_datetime/__init__.py	/^import invoice$/;"	kind:namespace	line:28
+invoice	l10n_mx_invoice_discount/__init__.py	/^import invoice$/;"	kind:namespace	line:29
+invoice	l10n_mx_ir_attachment_facturae/__init__.py	/^import invoice$/;"	kind:namespace	line:23
+invoice	l10n_mx_payment_method/__init__.py	/^import invoice$/;"	kind:namespace	line:30
+invoice.py	l10n_mx_account_tax_category/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_company_multi_address/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_facturae/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_facturae_cbb/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_facturae_cer/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_facturae_pac/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_facturae_pac_sf/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_facturae_seq/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_import_info/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_invoice_amount_to_text/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_invoice_currency_chgdft/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_invoice_datetime/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_invoice_discount/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_ir_attachment_facturae/invoice.py	1;"	kind:file	line:1
+invoice.py	l10n_mx_payment_method/invoice.py	1;"	kind:file	line:1
+invoice_ftp	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^    def invoice_ftp(self, cr, uid, ids, context=None):$/;"	kind:member	line:45
+invoice_ftp	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^def invoice_ftp(self, cr, uid, data,context={}):$/;"	kind:function	line:58
+ir_attachment	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^class ir_attachment(osv.Model):$/;"	kind:class	line:621
+ir_attachment	l10n_mx_upload_ftp/upload_ftp.py	/^class ir_attachment(osv.Model):$/;"	kind:class	line:42
+ir_attachment_facturae	l10n_mx_facturae/__init__.py	/^import ir_attachment_facturae$/;"	kind:namespace	line:30
+ir_attachment_facturae	l10n_mx_facturae_cbb/__init__.py	/^import ir_attachment_facturae$/;"	kind:namespace	line:30
+ir_attachment_facturae	l10n_mx_facturae_pac_sf/__init__.py	/^import ir_attachment_facturae$/;"	kind:namespace	line:31
+ir_attachment_facturae	l10n_mx_ir_attachment_facturae/__init__.py	/^import ir_attachment_facturae$/;"	kind:namespace	line:24
+ir_attachment_facturae.py	l10n_mx_facturae/ir_attachment_facturae.py	1;"	kind:file	line:1
+ir_attachment_facturae.py	l10n_mx_facturae_cbb/ir_attachment_facturae.py	1;"	kind:file	line:1
+ir_attachment_facturae.py	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	1;"	kind:file	line:1
+ir_attachment_facturae.py	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	1;"	kind:file	line:1
+ir_attachment_facturae_mx	l10n_mx_facturae/ir_attachment_facturae.py	/^class ir_attachment_facturae_mx(osv.Model):$/;"	kind:class	line:31
+ir_attachment_facturae_mx	l10n_mx_facturae_cbb/ir_attachment_facturae.py	/^class ir_attachment_facturae_mx(osv.Model):$/;"	kind:class	line:31
+ir_attachment_facturae_mx	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^class ir_attachment_facturae_mx(osv.Model):$/;"	kind:class	line:59
+ir_attachment_facturae_mx	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^class ir_attachment_facturae_mx(osv.Model):$/;"	kind:class	line:39
+ir_mail_server	email_template_multicompany/__init__.py	/^import ir_mail_server$/;"	kind:namespace	line:29
+ir_mail_server	email_template_multicompany/ir_mail_server.py	/^class ir_mail_server(osv.Model):$/;"	kind:class	line:31
+ir_mail_server	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^class ir_mail_server(osv.Model):$/;"	kind:class	line:635
+ir_mail_server.py	email_template_multicompany/ir_mail_server.py	1;"	kind:file	line:1
+ir_sequence	l10n_mx_facturae_seq/__init__.py	/^import ir_sequence$/;"	kind:namespace	line:29
+ir_sequence	l10n_mx_facturae_seq/ir_sequence.py	/^class ir_sequence(osv.Model):$/;"	kind:class	line:112
+ir_sequence.py	l10n_mx_facturae_seq/ir_sequence.py	1;"	kind:file	line:1
+ir_sequence_approval	l10n_mx_facturae/__init__.py	/^import ir_sequence_approval$/;"	kind:namespace	line:31
+ir_sequence_approval	l10n_mx_facturae/ir_sequence_approval.py	/^class ir_sequence_approval(osv.Model):$/;"	kind:class	line:32
+ir_sequence_approval	l10n_mx_facturae_cbb/__init__.py	/^import ir_sequence_approval$/;"	kind:namespace	line:29
+ir_sequence_approval	l10n_mx_facturae_cbb/ir_sequence_approval.py	/^class ir_sequence_approval(osv.Model):$/;"	kind:class	line:31
+ir_sequence_approval	l10n_mx_facturae_pac_sf/__init__.py	/^import ir_sequence_approval$/;"	kind:namespace	line:30
+ir_sequence_approval	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	/^class ir_sequence_approval(osv.Model):$/;"	kind:class	line:31
+ir_sequence_approval	l10n_mx_facturae_seq/ir_sequence.py	/^class ir_sequence_approval(osv.Model):$/;"	kind:class	line:33
+ir_sequence_approval.py	l10n_mx_facturae/ir_sequence_approval.py	1;"	kind:file	line:1
+ir_sequence_approval.py	l10n_mx_facturae_cbb/ir_sequence_approval.py	1;"	kind:file	line:1
+ir_sequence_approval.py	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	1;"	kind:file	line:1
+itemgetter	l10n_mx_diot_report/partner.py	/^from operator import itemgetter$/;"	kind:namespace	line:22
+itemgetter	l10n_mx_settings_facturae/model/res_config.py	/^from operator import itemgetter$/;"	kind:namespace	line:25
+itemgetter	l10n_mx_upload_ftp/upload_ftp.py	/^from operator import itemgetter$/;"	kind:namespace	line:37
+join	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from string import join$/;"	kind:namespace	line:29
+l10n_mx_email_config_settings	l10n_mx_ir_attachment_facturae/res_config.py	/^class l10n_mx_email_config_settings(osv.TransientModel):$/;"	kind:class	line:27
+label_report	l10n_mx_import_info/report/__init__.py	/^import label_report$/;"	kind:namespace	line:2
+label_report	l10n_mx_import_info/report/label_report.py	/^class label_report(report_sxw.rml_parse):$/;"	kind:class	line:8
+label_report.py	l10n_mx_import_info/report/label_report.py	1;"	kind:file	line:1
+letra	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    letra = amount_to_text().amount_to_text(1500.25)$/;"	kind:variable	line:218
+letra	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^    letra = amount_to_text().amount_to_text_cheque(1500.25, 'pesos', 'M. N.')$/;"	kind:variable	line:217
+library_openssl_xsltproc_xmlstarlet	l10n_mx_facturae_lib/facturae_lib.py	/^def library_openssl_xsltproc_xmlstarlet(self, cr, uid, ids, context=None):$/;"	kind:function	line:94
+logging	city/partner_address.py	/^import logging$/;"	kind:namespace	line:36
+logging	city/res_city.py	/^import logging$/;"	kind:namespace	line:34
+logging	l10n_mx_facturae_lib/facturae_lib.py	/^import logging$/;"	kind:namespace	line:38
+logging	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import logging$/;"	kind:namespace	line:52
+logging	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import logging$/;"	kind:namespace	line:33
+logging	l10n_mx_partner_address/partner_address.py	/^import logging$/;"	kind:namespace	line:33
+main_node	l10n_mx_cities/tools/read_write_xml.py	/^main_node = add_node('data', {"noupdate": "True"}, nodeopenerp,$/;"	kind:variable	line:56
+math	city/partner_address.py	/^import math$/;"	kind:namespace	line:29
+math	city/res_city.py	/^import math$/;"	kind:namespace	line:32
+math	l10n_mx_partner_address/partner_address.py	/^import math$/;"	kind:namespace	line:30
+math	l10n_mx_sale_payment_method/model/stock.py	/^import math$/;"	kind:namespace	line:35
+minidom	l10n_mx_cities/tools/add_node.py	/^import xml.dom.minidom$/;"	kind:namespace	line:30
+minidom	l10n_mx_cities/tools/read_write_xml.py	/^import xml.dom.minidom$/;"	kind:namespace	line:28
+minidom	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from xml.dom import minidom$/;"	kind:namespace	line:35
+minidom	l10n_mx_facturae/invoice.py	/^from xml.dom import minidom$/;"	kind:namespace	line:35
+minidom	l10n_mx_facturae_pac/invoice.py	/^import xml.dom.minidom$/;"	kind:namespace	line:32
+minidom	l10n_mx_facturae_pac_sf/invoice.py	/^from xml.dom import minidom$/;"	kind:namespace	line:42
+minidom	l10n_mx_facturae_pac_sf/invoice.py	/^import xml.dom.minidom$/;"	kind:namespace	line:34
+minidom	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from xml.dom import minidom$/;"	kind:namespace	line:43
+minidom	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import xml.dom.minidom$/;"	kind:namespace	line:35
+minidom	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import xml.dom.minidom$/;"	kind:namespace	line:42
+minidom	l10n_mx_invoice_discount/invoice.py	/^from xml.dom import minidom$/;"	kind:namespace	line:34
+minidom	l10n_mx_payment_method/invoice.py	/^from xml.dom import minidom$/;"	kind:namespace	line:35
+model	l10n_mx_sale_payment_method/__init__.py	/^import model$/;"	kind:namespace	line:26
+model	l10n_mx_settings_facturae/__init__.py	/^import model$/;"	kind:namespace	line:23
+msg2	l10n_mx_facturae/invoice.py	/^msg2 = "Contact you administrator &\/or to info@vauxoo.com"$/;"	kind:variable	line:115
+msg2	l10n_mx_facturae_cbb/invoice.py	/^msg2 = "Contact you administrator &\/or info@vauxoo.com"$/;"	kind:variable	line:38
+name_file	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        name_file = text_name + '_l' + extension$/;"	kind:variable	line:128
+name_file	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    name_file = basename(urlsplit(url)[2])$/;"	kind:variable	line:74
+name_file_child	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            name_file_child = basename(urlsplit(url)[2])$/;"	kind:variable	line:106
+name_file_split	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        name_file_split = os.path.splitext(name_file)$/;"	kind:variable	line:125
+netsvc	l10n_mx_account_tax_category/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_facturae/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:28
+netsvc	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:30
+netsvc	l10n_mx_facturae_cbb/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:30
+netsvc	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp import netsvc$/;"	kind:namespace	line:33
+netsvc	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp import netsvc$/;"	kind:namespace	line:32
+netsvc	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_import_info/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:21
+netsvc	l10n_mx_invoice_amount_to_text/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_invoice_currency_chgdft/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:32
+netsvc	l10n_mx_invoice_datetime/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_invoice_discount/invoice.py	/^from openerp import netsvc, release$/;"	kind:namespace	line:31
+netsvc	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:29
+netsvc	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import netsvc$/;"	kind:namespace	line:29
+netsvc	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:27
+netsvc	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp import netsvc$/;"	kind:namespace	line:26
+netsvc	l10n_mx_payment_method/invoice.py	/^from openerp import netsvc$/;"	kind:namespace	line:31
+netsvc	l10n_mx_payment_method/partner.py	/^from openerp import netsvc$/;"	kind:namespace	line:32
+netsvc	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:28
+new_content	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        new_content = doc_xml.toxml().encode('utf-8')$/;"	kind:variable	line:124
+node_city_attrs	l10n_mx_cities/tools/read_write_xml.py	/^        node_city_attrs = {"name": city, }$/;"	kind:variable	line:92
+node_city_attrs_types	l10n_mx_cities/tools/read_write_xml.py	/^        node_city_attrs_types = {"name": 'att_text', }$/;"	kind:variable	line:93
+node_city_code_attrs	l10n_mx_cities/tools/read_write_xml.py	/^        node_city_code_attrs = {"code": city_code, }$/;"	kind:variable	line:99
+node_city_code_attrs_types	l10n_mx_cities/tools/read_write_xml.py	/^        node_city_code_attrs_types = {"code": 'att_text', }$/;"	kind:variable	line:100
+node_field	l10n_mx_cities/tools/read_write_xml.py	/^        node_field = add_node('field', node_record_attrs, node_record, xml_doc,$/;"	kind:variable	line:88
+node_field_city	l10n_mx_cities/tools/read_write_xml.py	/^        node_field_city = add_node('field', node_city_attrs, node_record,$/;"	kind:variable	line:95
+node_field_city_code	l10n_mx_cities/tools/read_write_xml.py	/^        node_field_city_code = add_node('field', node_city_code_attrs,$/;"	kind:variable	line:102
+node_field_states	l10n_mx_cities/tools/read_write_xml.py	/^        node_field_states = add_node('field', node_states_attrs, node_record,$/;"	kind:variable	line:111
+node_include	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        node_include = doc_xml.getElementsByTagName("xsl:include")  # Read node xsl:include of doc_xml$/;"	kind:variable	line:101
+node_record	l10n_mx_cities/tools/read_write_xml.py	/^        node_record = add_node('record', {"id": city_id,$/;"	kind:variable	line:73
+node_record_attrs	l10n_mx_cities/tools/read_write_xml.py	/^        node_record_attrs = {$/;"	kind:variable	line:78
+node_record_attrs_types	l10n_mx_cities/tools/read_write_xml.py	/^        node_record_attrs_types = {$/;"	kind:variable	line:82
+node_states_attrs	l10n_mx_cities/tools/read_write_xml.py	/^        node_states_attrs = {"name": 'state_id', 'ref': xml_id_states}$/;"	kind:variable	line:108
+node_states_attrs_types	l10n_mx_cities/tools/read_write_xml.py	/^        node_states_attrs_types = {"name": 'attribute', "ref": "attribute", }$/;"	kind:variable	line:109
+node_stylesheet	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    node_stylesheet = doc_xml.getElementsByTagName("xsl:stylesheet") # Read node xsl:stylesheet of doc_xml$/;"	kind:variable	line:98
+node_stylesheet2	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            node_stylesheet2 = doc.getElementsByTagName("xsl:stylesheet")$/;"	kind:variable	line:114
+nodeopenerp	l10n_mx_cities/tools/read_write_xml.py	/^nodeopenerp = xml_doc.getElementsByTagName('openerp')[0]$/;"	kind:variable	line:55
+onchange_certificate_info	l10n_mx_facturae_cer/res_company.py	/^    def onchange_certificate_info(self, cr, uid, ids, cer_der_b64str = None,$/;"	kind:member	line:102
+onchange_city	city/partner_address.py	/^    def onchange_city(self, cr, uid, ids, city_id, context=None):$/;"	kind:member	line:61
+onchange_journal_id	l10n_mx_company_multi_address/invoice.py	/^    def onchange_journal_id(self, cr, uid, ids, journal_id=False, context=None):$/;"	kind:member	line:83
+onchange_partner_id	l10n_mx_facturae/invoice.py	/^    def onchange_partner_id(self, cr, uid, ids, type, partner_id,$/;"	kind:member	line:1375
+onchange_partner_id	l10n_mx_invoice_discount/invoice.py	/^    def onchange_partner_id(self, cr, uid, ids, type, partner_id,$/;"	kind:member	line:120
+onchange_partner_id	l10n_mx_payment_method/invoice.py	/^    def onchange_partner_id(self, cr, uid, ids, type, partner_id,$/;"	kind:member	line:49
+onchange_partner_id	l10n_mx_purchase_payment_method/purchase.py	/^    def onchange_partner_id(self, cr, uid, ids, partner_id, context=None):$/;"	kind:member	line:34
+onchange_partner_id	l10n_mx_sale_payment_method/model/sale.py	/^    def onchange_partner_id(self, cr, uid, ids, part, context=None):                $/;"	kind:member	line:69
+onchange_state_city	city/partner_address.py	/^    def onchange_state_city(self, cr, uid, ids, state_id, city_id, context=None):$/;"	kind:member	line:70
+onchange_xml_id	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def onchange_xml_id(self, cr, uid, ids, xml_id, context=None):$/;"	kind:member	line:197
+open_parameters_pac	l10n_mx_settings_facturae/model/res_config.py	/^    def open_parameters_pac(self, cr, uid, ids, context=None):$/;"	kind:member	line:55
+openerp_node	l10n_mx_cities/tools/read_write_xml.py	/^openerp_node = xml_doc.createElement('openerp')$/;"	kind:variable	line:53
+openssl_path	l10n_mx_facturae_lib/facturae_lib.py	/^        openssl_path = my_path and os.path.join(my_path, 'l10n_mx_facturae', 'depends_app', u'openssl_win') or ''$/;"	kind:variable	line:47
+openssl_path	l10n_mx_facturae_lib/facturae_lib.py	/^openssl_path = ''$/;"	kind:variable	line:41
+opj	l10n_mx_settings_facturae/model/res_config.py	/^from os.path import join as opj$/;"	kind:namespace	line:26
+order	l10n_mx_cities/tools/read_write_xml.py	/^        order = ['code']$/;"	kind:variable	line:101
+order	l10n_mx_cities/tools/read_write_xml.py	/^        order = ['name', 'ref', ]$/;"	kind:variable	line:86
+order	l10n_mx_cities/tools/read_write_xml.py	/^        order = ['name', 'ref']$/;"	kind:variable	line:110
+order	l10n_mx_cities/tools/read_write_xml.py	/^        order = ['name']$/;"	kind:variable	line:94
+orm	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:28
+orm	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:29
+orm	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:24
+orm	l10n_mx_partner_address/partner_address.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:27
+os	l10n_mx_account_tax_category/invoice.py	/^import os$/;"	kind:namespace	line:34
+os	l10n_mx_cities/tools/read_write_xml.py	/^import os$/;"	kind:namespace	line:30
+os	l10n_mx_company_cif/res_company.py	/^import os$/;"	kind:namespace	line:31
+os	l10n_mx_company_multi_address/res_company.py	/^import os$/;"	kind:namespace	line:31
+os	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^import os$/;"	kind:namespace	line:32
+os	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^import os$/;"	kind:namespace	line:32
+os	l10n_mx_facturae/invoice.py	/^import os$/;"	kind:namespace	line:36
+os	l10n_mx_facturae/invoice.py	/^import os$/;"	kind:namespace	line:45
+os	l10n_mx_facturae_cbb/invoice.py	/^import os$/;"	kind:namespace	line:34
+os	l10n_mx_facturae_cer/res_company.py	/^import os$/;"	kind:namespace	line:32
+os	l10n_mx_facturae_lib/facturae_lib.py	/^import os$/;"	kind:namespace	line:32
+os	l10n_mx_facturae_pac/invoice.py	/^import os$/;"	kind:namespace	line:29
+os	l10n_mx_facturae_pac_sf/invoice.py	/^import os$/;"	kind:namespace	line:39
+os	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import os$/;"	kind:namespace	line:40
+os	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import os$/;"	kind:namespace	line:40
+os	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import os$/;"	kind:namespace	line:39
+os	l10n_mx_invoice_datetime/invoice.py	/^import os$/;"	kind:namespace	line:40
+os	l10n_mx_invoice_discount/invoice.py	/^import os$/;"	kind:namespace	line:35
+os	l10n_mx_invoice_discount/invoice.py	/^import os$/;"	kind:namespace	line:39
+os	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import os$/;"	kind:namespace	line:36
+os	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import os$/;"	kind:namespace	line:35
+os	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import os$/;"	kind:namespace	line:31
+os	l10n_mx_payment_method/invoice.py	/^import os$/;"	kind:namespace	line:36
+os	l10n_mx_upload_ftp/upload_ftp.py	/^import os$/;"	kind:namespace	line:36
+osv	city/partner_address.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:30
+osv	city/res_city.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:28
+osv	email_template_multicompany/email_template.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:28
+osv	email_template_multicompany/ir_mail_server.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:28
+osv	l10n_mx_account_invoice_tax/account_invoice_tax.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_account_tax_category/account_tax_category.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:24
+osv	l10n_mx_account_tax_category/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_base_vat_split/base_vat.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+osv	l10n_mx_company_cif/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_company_cif/wizard/installer.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+osv	l10n_mx_company_multi_address/account_journal.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_company_multi_address/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+osv	l10n_mx_company_multi_address/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_diot_report/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:24
+osv	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:22
+osv	l10n_mx_facturae/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae/ir_attachment_facturae.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae/ir_sequence_approval.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae/wizard/installer.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:25
+osv	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae_cbb/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_cbb/ir_attachment_facturae.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_cbb/ir_sequence_approval.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_cer/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae_cer/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_lib/facturae_lib.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_pac/invoice.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:27
+osv	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae_pac_sf/ir_sequence_approval.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:30
+osv	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae_seq/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_import_info/import_info.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:19
+osv	l10n_mx_import_info/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:18
+osv	l10n_mx_import_info/product.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:23
+osv	l10n_mx_import_info/stock.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:18
+osv	l10n_mx_invoice_amount_to_text/amount_to_text_es_MX.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_invoice_amount_to_text/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_invoice_currency_chgdft/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_invoice_datetime/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_invoice_discount/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_invoice_discount/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+osv	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^from osv import fields, osv$/;"	kind:namespace	line:27
+osv	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:24
+osv	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:23
+osv	l10n_mx_ir_attachment_facturae/res_config.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:22
+osv	l10n_mx_notes_invoice/res_company.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_params_pac/params_pac.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_partner_address/partner_address.py	/^from openerp.osv import fields, osv, orm$/;"	kind:namespace	line:27
+osv	l10n_mx_partner_address/res_company.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:27
+osv	l10n_mx_payment_method/invoice.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_payment_method/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_payment_method/pay_method.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:28
+osv	l10n_mx_purchase_payment_method/purchase.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+osv	l10n_mx_purchase_payment_method/stock.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+osv	l10n_mx_regimen_fiscal/partner.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:27
+osv	l10n_mx_res_partner_bank/res_bank.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:29
+osv	l10n_mx_sale_payment_method/model/sale.py	/^from openerp.osv import osv$/;"	kind:namespace	line:28
+osv	l10n_mx_sale_payment_method/model/stock.py	/^from openerp.osv import osv$/;"	kind:namespace	line:28
+osv	l10n_mx_settings_facturae/model/res_config.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:30
+osv	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp.osv import fields, osv$/;"	kind:namespace	line:26
+osv	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^from openerp.osv import osv, fields$/;"	kind:namespace	line:26
+params_pac	l10n_mx_facturae_pac_sf/__init__.py	/^import params_pac$/;"	kind:namespace	line:29
+params_pac	l10n_mx_facturae_pac_sf/params_pac.py	/^class params_pac(osv.Model):$/;"	kind:class	line:37
+params_pac	l10n_mx_params_pac/__init__.py	/^import params_pac$/;"	kind:namespace	line:26
+params_pac	l10n_mx_params_pac/params_pac.py	/^class params_pac(osv.Model):$/;"	kind:class	line:34
+params_pac.py	l10n_mx_facturae_pac_sf/params_pac.py	1;"	kind:file	line:1
+params_pac.py	l10n_mx_params_pac/params_pac.py	1;"	kind:file	line:1
+parser	l10n_mx_import_info/report/label_report.py	/^    parser=label_report$/;"	kind:variable	line:29
+parser_states_codes	l10n_mx_cities/tools/read_write_xml.py	/^parser_states_codes = {$/;"	kind:variable	line:39
+partner	l10n_mx_diot_report/__init__.py	/^import partner$/;"	kind:namespace	line:29
+partner	l10n_mx_invoice_discount/__init__.py	/^import partner$/;"	kind:namespace	line:27
+partner	l10n_mx_payment_method/__init__.py	/^import partner$/;"	kind:namespace	line:29
+partner	l10n_mx_regimen_fiscal/__init__.py	/^import partner$/;"	kind:namespace	line:29
+partner.py	l10n_mx_diot_report/partner.py	1;"	kind:file	line:1
+partner.py	l10n_mx_invoice_discount/partner.py	1;"	kind:file	line:1
+partner.py	l10n_mx_payment_method/partner.py	1;"	kind:file	line:1
+partner.py	l10n_mx_regimen_fiscal/partner.py	1;"	kind:file	line:1
+partner_address	city/__init__.py	/^import partner_address$/;"	kind:namespace	line:30
+partner_address	l10n_mx_partner_address/__init__.py	/^import partner_address$/;"	kind:namespace	line:28
+partner_address.py	city/partner_address.py	1;"	kind:file	line:1
+partner_address.py	l10n_mx_partner_address/partner_address.py	1;"	kind:file	line:1
+path_local	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            path_local = config.get('options', 'path_local')$/;"	kind:variable	line:51
+path_local	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        path_local = path_local_current$/;"	kind:variable	line:80
+path_local	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    path_local = path_local_current$/;"	kind:variable	line:72
+path_local	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    path_local = raw_input('\\nEnter the address (path_local): ')$/;"	kind:variable	line:58
+path_local_current	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^path_local_current = os.getcwd() # Knowing the current directory$/;"	kind:variable	line:66
+path_local_file	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        path_local_file = os.path.join(path_local, name_file)$/;"	kind:variable	line:77
+path_local_file	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        path_local_file = os.path.join(path_local_current, name_file)$/;"	kind:variable	line:79
+path_local_file2	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            path_local_file2 = os.path.join(path_local, name_file_child) # Generate Path local$/;"	kind:variable	line:109
+path_local_file3	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        path_local_file3 = os.path.join(path_local, name_file) # Generate Path local for local file$/;"	kind:variable	line:129
+pay_method	l10n_mx_payment_method/__init__.py	/^import pay_method$/;"	kind:namespace	line:28
+pay_method	l10n_mx_payment_method/pay_method.py	/^class pay_method(osv.Model):$/;"	kind:class	line:35
+pay_method.py	l10n_mx_payment_method/pay_method.py	1;"	kind:file	line:1
+pooler	city/partner_address.py	/^from openerp import tools, pooler$/;"	kind:namespace	line:32
+pooler	l10n_mx_account_tax_category/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_company_cif/res_company.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_company_multi_address/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:28
+pooler	l10n_mx_company_multi_address/res_company.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:24
+pooler	l10n_mx_facturae/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:28
+pooler	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:30
+pooler	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^from openerp import pooler$/;"	kind:namespace	line:28
+pooler	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_facturae_cbb/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_facturae_cer/res_company.py	/^from openerp import pooler, tools, release$/;"	kind:namespace	line:30
+pooler	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:32
+pooler	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:31
+pooler	l10n_mx_import_info/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:20
+pooler	l10n_mx_import_info/product.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:25
+pooler	l10n_mx_import_info/report/label_report.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:5
+pooler	l10n_mx_import_info/stock.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:20
+pooler	l10n_mx_invoice_amount_to_text/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_invoice_currency_chgdft/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_invoice_datetime/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_invoice_discount/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_invoice_discount/partner.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:29
+pooler	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import pooler$/;"	kind:namespace	line:30
+pooler	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:26
+pooler	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:25
+pooler	l10n_mx_ir_attachment_facturae/res_config.py	/^from openerp import pooler$/;"	kind:namespace	line:23
+pooler	l10n_mx_notes_invoice/res_company.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_params_pac/params_pac.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_partner_address/partner_address.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:29
+pooler	l10n_mx_payment_method/partner.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_payment_method/pay_method.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+pooler	l10n_mx_purchase_payment_method/purchase.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:28
+pooler	l10n_mx_purchase_payment_method/stock.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:28
+pooler	l10n_mx_regimen_fiscal/partner.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+pooler	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:29
+pooler	l10n_mx_sale_payment_method/model/stock.py	/^from openerp import pooler$/;"	kind:namespace	line:31
+pooler	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:28
+product.py	l10n_mx_import_info/product.py	1;"	kind:file	line:1
+purchase	l10n_mx_purchase_payment_method/__init__.py	/^import purchase$/;"	kind:namespace	line:26
+purchase.py	l10n_mx_purchase_payment_method/purchase.py	1;"	kind:file	line:1
+purchase_order	l10n_mx_purchase_payment_method/purchase.py	/^class purchase_order(osv.Model):$/;"	kind:class	line:31
+pytz	city/partner_address.py	/^import pytz$/;"	kind:namespace	line:37
+pytz	l10n_mx_facturae_pac_sf/invoice.py	/^import pytz$/;"	kind:namespace	line:48
+pytz	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import pytz$/;"	kind:namespace	line:49
+pytz	l10n_mx_invoice_datetime/invoice.py	/^import pytz$/;"	kind:namespace	line:35
+pytz	l10n_mx_partner_address/partner_address.py	/^import pytz$/;"	kind:namespace	line:34
+re	city/partner_address.py	/^import re$/;"	kind:namespace	line:35
+re	city/res_city.py	/^import re$/;"	kind:namespace	line:33
+re	l10n_mx_partner_address/partner_address.py	/^import re$/;"	kind:namespace	line:32
+read_write_xml.py	l10n_mx_cities/tools/read_write_xml.py	1;"	kind:file	line:1
+regimen_fiscal	l10n_mx_regimen_fiscal/__init__.py	/^import regimen_fiscal$/;"	kind:namespace	line:28
+regimen_fiscal	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^class regimen_fiscal(osv.Model):$/;"	kind:class	line:34
+regimen_fiscal.py	l10n_mx_regimen_fiscal/regimen_fiscal.py	1;"	kind:file	line:1
+relativedelta	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from dateutil.relativedelta import relativedelta$/;"	kind:namespace	line:36
+relativedelta	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^from dateutil.relativedelta import relativedelta$/;"	kind:namespace	line:35
+relativedelta	l10n_mx_invoice_datetime/invoice.py	/^from dateutil.relativedelta import relativedelta$/;"	kind:namespace	line:36
+relativedelta	l10n_mx_settings_facturae/model/res_config.py	/^from dateutil.relativedelta import relativedelta$/;"	kind:namespace	line:24
+release	l10n_mx_facturae/invoice.py	/^from openerp import release$/;"	kind:namespace	line:32
+release	l10n_mx_facturae_cer/res_company.py	/^from openerp import pooler, tools, release$/;"	kind:namespace	line:30
+release	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp import release$/;"	kind:namespace	line:34
+release	l10n_mx_facturae_seq/invoice.py	/^from openerp import tools, release$/;"	kind:namespace	line:30
+release	l10n_mx_facturae_seq/ir_sequence.py	/^from openerp import release$/;"	kind:namespace	line:30
+release	l10n_mx_import_info/stock.py	/^from openerp import release$/;"	kind:namespace	line:21
+release	l10n_mx_invoice_datetime/invoice.py	/^from openerp import release$/;"	kind:namespace	line:32
+release	l10n_mx_invoice_discount/invoice.py	/^from openerp import netsvc, release$/;"	kind:namespace	line:31
+release	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp import release$/;"	kind:namespace	line:27
+release	l10n_mx_payment_method/invoice.py	/^from openerp import release$/;"	kind:namespace	line:32
+release	l10n_mx_payment_method/partner.py	/^from openerp import release$/;"	kind:namespace	line:33
+release	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp import release$/;"	kind:namespace	line:31
+report_sxw	l10n_mx_import_info/report/label_report.py	/^from openerp.report import report_sxw$/;"	kind:namespace	line:3
+required	city/res_city.py	/^                    required=True),$/;"	kind:variable	line:45
+required	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^            required=True),$/;"	kind:variable	line:44
+res_bank	l10n_mx_res_partner_bank/__init__.py	/^import res_bank$/;"	kind:namespace	line:30
+res_bank.py	l10n_mx_res_partner_bank/res_bank.py	1;"	kind:file	line:1
+res_city	city/__init__.py	/^import res_city$/;"	kind:namespace	line:29
+res_city.py	city/res_city.py	1;"	kind:file	line:1
+res_company	l10n_mx_company_cif/__init__.py	/^import res_company$/;"	kind:namespace	line:28
+res_company	l10n_mx_company_cif/res_company.py	/^class res_company(osv.Model):$/;"	kind:class	line:35
+res_company	l10n_mx_company_multi_address/__init__.py	/^import res_company$/;"	kind:namespace	line:29
+res_company	l10n_mx_company_multi_address/res_company.py	/^class res_company(osv.Model):$/;"	kind:class	line:35
+res_company	l10n_mx_facturae_cer/__init__.py	/^import res_company$/;"	kind:namespace	line:28
+res_company	l10n_mx_facturae_cer/res_company.py	/^class res_company(osv.Model):$/;"	kind:class	line:225
+res_company	l10n_mx_notes_invoice/__init__.py	/^import res_company$/;"	kind:namespace	line:28
+res_company	l10n_mx_notes_invoice/res_company.py	/^class res_company(osv.Model):$/;"	kind:class	line:33
+res_company	l10n_mx_partner_address/__init__.py	/^import res_company$/;"	kind:namespace	line:29
+res_company	l10n_mx_partner_address/res_company.py	/^class res_company(osv.Model):$/;"	kind:class	line:30
+res_company.py	l10n_mx_company_cif/res_company.py	1;"	kind:file	line:1
+res_company.py	l10n_mx_company_multi_address/res_company.py	1;"	kind:file	line:1
+res_company.py	l10n_mx_facturae_cer/res_company.py	1;"	kind:file	line:1
+res_company.py	l10n_mx_notes_invoice/res_company.py	1;"	kind:file	line:1
+res_company.py	l10n_mx_partner_address/res_company.py	1;"	kind:file	line:1
+res_company_facturae_certificate	l10n_mx_facturae_cer/res_company.py	/^class res_company_facturae_certificate(osv.Model):$/;"	kind:class	line:38
+res_config	l10n_mx_ir_attachment_facturae/__init__.py	/^import res_config$/;"	kind:namespace	line:25
+res_config	l10n_mx_settings_facturae/model/__init__.py	/^import res_config$/;"	kind:namespace	line:23
+res_config.py	l10n_mx_ir_attachment_facturae/res_config.py	1;"	kind:file	line:1
+res_config.py	l10n_mx_settings_facturae/model/res_config.py	1;"	kind:file	line:1
+res_country_state_city	city/res_city.py	/^class res_country_state_city(osv.Model):$/;"	kind:class	line:38
+res_partner	city/partner_address.py	/^class res_partner(osv.Model):$/;"	kind:class	line:41
+res_partner	l10n_mx_base_vat_split/base_vat.py	/^class res_partner(osv.Model):$/;"	kind:class	line:30
+res_partner	l10n_mx_diot_report/partner.py	/^class res_partner(osv.osv):$/;"	kind:class	line:26
+res_partner	l10n_mx_invoice_discount/partner.py	/^class res_partner(osv.Model):$/;"	kind:class	line:34
+res_partner	l10n_mx_partner_address/partner_address.py	/^class res_partner(osv.Model):$/;"	kind:class	line:38
+res_partner	l10n_mx_payment_method/partner.py	/^class res_partner(osv.Model):$/;"	kind:class	line:36
+res_partner	l10n_mx_regimen_fiscal/partner.py	/^class res_partner(osv.Model):$/;"	kind:class	line:34
+res_partner_bank	l10n_mx_res_partner_bank/res_bank.py	/^class res_partner_bank(osv.Model):$/;"	kind:class	line:32
+reset_to_draft	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def reset_to_draft(self, cr, uid, ids, *args):$/;"	kind:member	line:593
+root	l10n_mx_cities/tools/read_write_xml.py	/^root = tree.getroot()$/;"	kind:variable	line:49
+sale	l10n_mx_sale_payment_method/model/__init__.py	/^import sale$/;"	kind:namespace	line:1
+sale.py	l10n_mx_sale_payment_method/model/sale.py	1;"	kind:file	line:1
+sale_order	l10n_mx_sale_payment_method/model/sale.py	/^class sale_order(osv.Model):$/;"	kind:class	line:33
+send_email	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def send_email($/;"	kind:member	line:638
+sf_cancel	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^    def sf_cancel(self, cr, uid, ids, context=None):$/;"	kind:member	line:91
+show_cancel	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def show_cancel(self, cr, uid, ids, context=None):$/;"	kind:member	line:200
+show_done	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def show_done(self, cr, uid, ids, context=None):$/;"	kind:member	line:206
+show_not_found	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    def show_not_found(self, cr, uid, ids, context=None):$/;"	kind:member	line:203
+signal_cancel	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_cancel(self, cr, uid, ids, context=None):$/;"	kind:member	line:520
+signal_confirm	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_confirm(self, cr, uid, ids, context=None):$/;"	kind:member	line:121
+signal_done	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_done(self, cr, uid, ids, context=None):$/;"	kind:member	line:499
+signal_printable	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_printable(self, cr, uid, ids, context=None):$/;"	kind:member	line:265
+signal_send_backup	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_send_backup(self, cr, uid, ids, context=None):$/;"	kind:member	line:477
+signal_send_customer	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_send_customer(self, cr, uid, ids, context=None):$/;"	kind:member	line:337
+signal_sign	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def signal_sign(self, cr, uid, ids, context=None):$/;"	kind:member	line:199
+source_full_path	l10n_mx_cities/tools/read_write_xml.py	/^source_full_path = os.path.join(source_path, file_source)$/;"	kind:variable	line:37
+source_path	l10n_mx_cities/tools/read_write_xml.py	/^source_path = '..\/source'$/;"	kind:variable	line:34
+state	l10n_mx_cities/tools/read_write_xml.py	/^            state = a.text and a.text or ''$/;"	kind:variable	line:66
+state_code	l10n_mx_cities/tools/read_write_xml.py	/^            state_code = a.text and a.text or ''$/;"	kind:variable	line:68
+states	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^    states = {$/;"	kind:variable	line:92
+states	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^    states = {$/;"	kind:variable	line:207
+states	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^    states = {$/;"	kind:variable	line:101
+states	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^    states = {$/;"	kind:variable	line:77
+stock	l10n_mx_import_info/__init__.py	/^import stock$/;"	kind:namespace	line:18
+stock	l10n_mx_purchase_payment_method/__init__.py	/^import stock$/;"	kind:namespace	line:27
+stock	l10n_mx_sale_payment_method/model/__init__.py	/^import stock$/;"	kind:namespace	line:2
+stock.py	l10n_mx_import_info/stock.py	1;"	kind:file	line:1
+stock.py	l10n_mx_purchase_payment_method/stock.py	1;"	kind:file	line:1
+stock.py	l10n_mx_sale_payment_method/model/stock.py	1;"	kind:file	line:1
+stock_move	l10n_mx_import_info/stock.py	/^class stock_move(osv.osv):$/;"	kind:class	line:32
+stock_picking	l10n_mx_purchase_payment_method/stock.py	/^class stock_picking(osv.Model):$/;"	kind:class	line:31
+stock_quant_package	l10n_mx_import_info/stock.py	/^class stock_quant_package(osv.Model):$/;"	kind:class	line:24
+strftime	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from time import strftime$/;"	kind:namespace	line:27
+string	l10n_mx_import_info/invoice.py	/^                                             string='Líneas de Factura'),$/;"	kind:variable	line:40
+string	l10n_mx_import_info/invoice.py	/^                                        string='Pedimentos'),$/;"	kind:variable	line:29
+sys	l10n_mx_cities/tools/add_node.py	/^import sys$/;"	kind:namespace	line:28
+sys	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^import sys$/;"	kind:namespace	line:39
+sys	l10n_mx_facturae_lib/facturae_lib.py	/^import sys$/;"	kind:namespace	line:33
+sys	l10n_mx_facturae_pac_sf/invoice.py	/^import sys$/;"	kind:namespace	line:40
+sys	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import sys$/;"	kind:namespace	line:41
+sys	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import sys$/;"	kind:namespace	line:41
+sys	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import sys$/;"	kind:namespace	line:40
+sys	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import sys$/;"	kind:namespace	line:37
+sys	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import sys$/;"	kind:namespace	line:36
+sys	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import sys$/;"	kind:namespace	line:36
+tempfile	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^import tempfile$/;"	kind:namespace	line:31
+tempfile	l10n_mx_facturae/invoice.py	/^import tempfile$/;"	kind:namespace	line:44
+tempfile	l10n_mx_facturae_cbb/invoice.py	/^import tempfile$/;"	kind:namespace	line:35
+tempfile	l10n_mx_facturae_cer/res_company.py	/^import tempfile$/;"	kind:namespace	line:34
+tempfile	l10n_mx_facturae_lib/facturae_lib.py	/^import tempfile$/;"	kind:namespace	line:35
+tempfile	l10n_mx_facturae_pac/invoice.py	/^import tempfile$/;"	kind:namespace	line:28
+tempfile	l10n_mx_facturae_pac_sf/invoice.py	/^import tempfile$/;"	kind:namespace	line:38
+tempfile	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import tempfile$/;"	kind:namespace	line:39
+tempfile	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import tempfile$/;"	kind:namespace	line:39
+tempfile	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import tempfile$/;"	kind:namespace	line:38
+tempfile	l10n_mx_invoice_discount/invoice.py	/^import tempfile$/;"	kind:namespace	line:38
+tempfile	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import tempfile$/;"	kind:namespace	line:35
+tempfile	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import tempfile$/;"	kind:namespace	line:34
+tempfile	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import tempfile$/;"	kind:namespace	line:29
+tempfile	l10n_mx_payment_method/invoice.py	/^import tempfile$/;"	kind:namespace	line:39
+tempfile	l10n_mx_upload_ftp/upload_ftp.py	/^import tempfile$/;"	kind:namespace	line:38
+text_name	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^        text_name = name_file_split[0]$/;"	kind:variable	line:126
+the	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^        'file': fields.binary('File', readonly=True, help='This file, you can import the SAT'),$/;"	kind:namespace	line:50
+time	l10n_mx_account_tax_category/invoice.py	/^import time$/;"	kind:namespace	line:33
+time	l10n_mx_company_cif/res_company.py	/^import time$/;"	kind:namespace	line:32
+time	l10n_mx_company_multi_address/res_company.py	/^import time$/;"	kind:namespace	line:32
+time	l10n_mx_facturae/invoice.py	/^import time$/;"	kind:namespace	line:34
+time	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^import time$/;"	kind:namespace	line:32
+time	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^import time$/;"	kind:namespace	line:34
+time	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^import time$/;"	kind:namespace	line:33
+time	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^import time$/;"	kind:namespace	line:32
+time	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^import time$/;"	kind:namespace	line:34
+time	l10n_mx_facturae_cbb/invoice.py	/^import time$/;"	kind:namespace	line:33
+time	l10n_mx_facturae_cer/res_company.py	/^import time$/;"	kind:namespace	line:33
+time	l10n_mx_facturae_lib/facturae_lib.py	/^import time$/;"	kind:namespace	line:34
+time	l10n_mx_facturae_pac/invoice.py	/^import time$/;"	kind:namespace	line:40
+time	l10n_mx_facturae_pac_sf/invoice.py	/^import time$/;"	kind:namespace	line:35
+time	l10n_mx_facturae_pac_sf/invoice.py	/^import time$/;"	kind:namespace	line:49
+time	l10n_mx_facturae_pac_sf/invoice.py	/^import time$/;"	kind:namespace	line:51
+time	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import time$/;"	kind:namespace	line:36
+time	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import time$/;"	kind:namespace	line:50
+time	l10n_mx_facturae_pac_sf/params_pac.py	/^import time$/;"	kind:namespace	line:29
+time	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import time$/;"	kind:namespace	line:35
+time	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^import time$/;"	kind:namespace	line:48
+time	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import time$/;"	kind:namespace	line:34
+time	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import time$/;"	kind:namespace	line:44
+time	l10n_mx_import_info/invoice.py	/^import time$/;"	kind:namespace	line:17
+time	l10n_mx_import_info/report/label_report.py	/^import time$/;"	kind:namespace	line:2
+time	l10n_mx_import_info/stock.py	/^import time$/;"	kind:namespace	line:17
+time	l10n_mx_invoice_datetime/invoice.py	/^import time$/;"	kind:namespace	line:39
+time	l10n_mx_invoice_discount/invoice.py	/^import time$/;"	kind:namespace	line:33
+time	l10n_mx_invoice_discount/partner.py	/^import time$/;"	kind:namespace	line:28
+time	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import time$/;"	kind:namespace	line:31
+time	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^import time$/;"	kind:namespace	line:39
+time	l10n_mx_ir_attachment_facturae/invoice.py	/^import time$/;"	kind:namespace	line:28
+time	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import time$/;"	kind:namespace	line:28
+time	l10n_mx_params_pac/params_pac.py	/^import time$/;"	kind:namespace	line:28
+time	l10n_mx_payment_method/invoice.py	/^import time$/;"	kind:namespace	line:34
+time	l10n_mx_payment_method/partner.py	/^import time$/;"	kind:namespace	line:28
+time	l10n_mx_payment_method/pay_method.py	/^import time$/;"	kind:namespace	line:32
+time	l10n_mx_regimen_fiscal/partner.py	/^import time$/;"	kind:namespace	line:28
+time	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^import time$/;"	kind:namespace	line:31
+time	l10n_mx_sale_payment_method/model/stock.py	/^import time$/;"	kind:namespace	line:33
+time	l10n_mx_settings_facturae/model/res_config.py	/^import time$/;"	kind:namespace	line:22
+time	l10n_mx_upload_ftp/upload_ftp.py	/^import time$/;"	kind:namespace	line:35
+timedelta	l10n_mx_facturae/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:47
+timedelta	l10n_mx_facturae_pac/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:33
+timedelta	l10n_mx_facturae_pac_sf/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:46
+timedelta	l10n_mx_facturae_pac_sf/invoice.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:50
+timedelta	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:47
+timedelta	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:43
+timedelta	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^from datetime import datetime, timedelta$/;"	kind:namespace	line:31
+timezone	l10n_mx_facturae_pac_sf/invoice.py	/^from pytz import timezone$/;"	kind:namespace	line:47
+timezone	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from pytz import timezone$/;"	kind:namespace	line:48
+timezone	l10n_mx_invoice_datetime/invoice.py	/^from pytz import timezone$/;"	kind:namespace	line:34
+tools	city/partner_address.py	/^from openerp import tools, pooler$/;"	kind:namespace	line:32
+tools	city/res_city.py	/^from openerp import tools$/;"	kind:namespace	line:29
+tools	l10n_mx_account_tax_category/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_company_cif/res_company.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_company_multi_address/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:28
+tools	l10n_mx_company_multi_address/res_company.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:24
+tools	l10n_mx_facturae/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:28
+tools	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:30
+tools	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_facturae_cbb/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_facturae_cer/invoice.py	/^from openerp import tools$/;"	kind:namespace	line:30
+tools	l10n_mx_facturae_cer/res_company.py	/^from openerp import pooler, tools, release$/;"	kind:namespace	line:30
+tools	l10n_mx_facturae_lib/facturae_lib.py	/^from openerp import tools$/;"	kind:namespace	line:29
+tools	l10n_mx_facturae_pac/invoice.py	/^from openerp import tools$/;"	kind:namespace	line:41
+tools	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp import tools$/;"	kind:namespace	line:29
+tools	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp import tools$/;"	kind:namespace	line:30
+tools	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp import tools$/;"	kind:namespace	line:51
+tools	l10n_mx_facturae_pac_sf/params_pac.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:32
+tools	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:31
+tools	l10n_mx_facturae_seq/invoice.py	/^from openerp import tools, release$/;"	kind:namespace	line:30
+tools	l10n_mx_import_info/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:20
+tools	l10n_mx_import_info/product.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:25
+tools	l10n_mx_import_info/report/label_report.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:5
+tools	l10n_mx_import_info/stock.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:20
+tools	l10n_mx_invoice_amount_to_text/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_invoice_currency_chgdft/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_invoice_datetime/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_invoice_discount/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_invoice_discount/partner.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:29
+tools	l10n_mx_ir_attachment_facturae/invoice.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:26
+tools	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:25
+tools	l10n_mx_notes_invoice/res_company.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_params_pac/params_pac.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_partner_address/partner_address.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:29
+tools	l10n_mx_payment_method/invoice.py	/^from openerp import tools$/;"	kind:namespace	line:30
+tools	l10n_mx_payment_method/partner.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_payment_method/pay_method.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:30
+tools	l10n_mx_purchase_payment_method/purchase.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:28
+tools	l10n_mx_purchase_payment_method/stock.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:28
+tools	l10n_mx_regimen_fiscal/partner.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:31
+tools	l10n_mx_regimen_fiscal/regimen_fiscal.py	/^from openerp import pooler, tools$/;"	kind:namespace	line:29
+tools	l10n_mx_settings_facturae/model/res_config.py	/^from openerp import tools$/;"	kind:namespace	line:31
+tools	l10n_mx_upload_ftp/upload_ftp.py	/^from openerp import pooler, tools, netsvc$/;"	kind:namespace	line:28
+traceback	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^import traceback$/;"	kind:namespace	line:35
+tree	l10n_mx_cities/tools/read_write_xml.py	/^tree = ET.ElementTree(file=source_full_path)$/;"	kind:variable	line:48
+unlink	l10n_mx_ir_attachment_facturae/ir_attachment_facturae.py	/^    def unlink(self, cr, uid, ids, context=None):$/;"	kind:member	line:624
+upload_cancel_to_pac	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^    def upload_cancel_to_pac(self, cr, uid, ids, context=None):$/;"	kind:member	line:65
+upload_ftp	l10n_mx_upload_ftp/__init__.py	/^import upload_ftp$/;"	kind:namespace	line:26
+upload_ftp.py	l10n_mx_upload_ftp/upload_ftp.py	1;"	kind:file	line:1
+upload_to_pac	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^    def upload_to_pac(self, cr, uid, ids, context=None):$/;"	kind:member	line:62
+upper	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^from string import upper$/;"	kind:namespace	line:28
+url	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            url = config.get('options', 'url')$/;"	kind:variable	line:50
+url	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            url = include.getAttribute("href")$/;"	kind:variable	line:104
+url	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            url = str(url)$/;"	kind:variable	line:105
+url	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    url = raw_input('Enter Url of file to download: ')$/;"	kind:variable	line:62
+urllib	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^import urllib$/;"	kind:namespace	line:36
+urllib	l10n_mx_facturae_pac_sf/invoice.py	/^import urllib$/;"	kind:namespace	line:43
+urllib	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import urllib$/;"	kind:namespace	line:44
+urllib2	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^import urllib2$/;"	kind:namespace	line:37
+urlopen	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from urllib2 import Request, urlopen, URLError, HTTPError$/;"	kind:namespace	line:40
+urls_list	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^            urls_list =  url.split(',')$/;"	kind:variable	line:52
+urls_list	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^    urls_list =  url.split(',')$/;"	kind:variable	line:63
+urlsplit	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^from urlparse import urlsplit$/;"	kind:namespace	line:38
+ustr	l10n_mx_facturae_pac_sf/invoice.py	/^from openerp.tools.misc import ustr$/;"	kind:namespace	line:31
+ustr	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^from openerp.tools.misc import ustr$/;"	kind:namespace	line:32
+ustr	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^from openerp.tools.misc import ustr$/;"	kind:namespace	line:33
+ustr	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^from openerp.tools.misc import ustr$/;"	kind:namespace	line:32
+validate_scheme_facturae_xml	l10n_mx_facturae/invoice.py	/^    def validate_scheme_facturae_xml(self, cr, uid, ids, datas_xmls=[], facturae_version = None, facturae_type="cfdv", scheme_type='xsd'):$/;"	kind:member	line:831
+validate_scheme_facturae_xml	l10n_mx_facturae_pac/invoice.py	/^    def validate_scheme_facturae_xml(self, cr, uid, ids, datas_xmls=[], facturae_version = None, facturae_type="cfdv", scheme_type='xsd'):$/;"	kind:member	line:233
+wizard	l10n_mx_company_cif/__init__.py	/^import wizard$/;"	kind:namespace	line:29
+wizard	l10n_mx_diot_report/__init__.py	/^import wizard$/;"	kind:namespace	line:28
+wizard	l10n_mx_facturae/__init__.py	/^import wizard$/;"	kind:namespace	line:29
+wizard	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^import wizard$/;"	kind:namespace	line:30
+wizard	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^import wizard$/;"	kind:namespace	line:32
+wizard	l10n_mx_facturae_cer/__init__.py	/^import wizard$/;"	kind:namespace	line:30
+wizard	l10n_mx_facturae_pac_sf/__init__.py	/^import wizard$/;"	kind:namespace	line:28
+wizard	l10n_mx_facturae_pac_sf/invoice.py	/^import wizard$/;"	kind:namespace	line:32
+wizard	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import wizard$/;"	kind:namespace	line:33
+wizard	l10n_mx_facturae_seq/__init__.py	/^import wizard$/;"	kind:namespace	line:30
+wizard	l10n_mx_invoice_ftp/__init__.py	/^import wizard$/;"	kind:namespace	line:26
+wizard	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^import wizard$/;"	kind:namespace	line:28
+wizard	l10n_mx_validate_xml_sat/__init__.py	/^import wizard$/;"	kind:namespace	line:26
+wizard_account_diot_mx	l10n_mx_diot_report/wizard/wizard_diot_report.py	/^class wizard_account_diot_mx(osv.osv_memory):$/;"	kind:class	line:37
+wizard_cancel_invoice_pac_sf	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	/^class wizard_cancel_invoice_pac_sf(osv.TransientModel):$/;"	kind:class	line:51
+wizard_cancel_invoice_pac_sf_v6	l10n_mx_facturae_pac_sf/wizard/__init__.py	/^import wizard_cancel_invoice_pac_sf_v6$/;"	kind:namespace	line:27
+wizard_cancel_invoice_pac_sf_v6.py	l10n_mx_facturae_pac_sf/wizard/wizard_cancel_invoice_pac_sf_v6.py	1;"	kind:file	line:1
+wizard_create_facturae_file	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	/^class wizard_create_facturae_file(wizard.interface):$/;"	kind:class	line:91
+wizard_create_facturae_file.py	l10n_mx_facturae/wizard/wizard_create_facturae_file.py	1;"	kind:file	line:1
+wizard_diot_report	l10n_mx_diot_report/wizard/__init__.py	/^import wizard_diot_report$/;"	kind:namespace	line:1
+wizard_diot_report.py	l10n_mx_diot_report/wizard/wizard_diot_report.py	1;"	kind:file	line:1
+wizard_export_invoice_pac_sf_v6	l10n_mx_facturae_pac_sf/wizard/__init__.py	/^import wizard_export_invoice_pac_sf_v6$/;"	kind:namespace	line:28
+wizard_export_invoice_pac_sf_v6	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^class wizard_export_invoice_pac_sf_v6(osv.TransientModel):$/;"	kind:class	line:47
+wizard_export_invoice_pac_sf_v6.py	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	1;"	kind:file	line:1
+wizard_facturae_ftp	l10n_mx_invoice_ftp/wizard/__init__.py	/^import wizard_facturae_ftp$/;"	kind:namespace	line:26
+wizard_facturae_ftp	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	/^class wizard_facturae_ftp(osv.TransientModel):$/;"	kind:class	line:42
+wizard_facturae_ftp	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	/^class wizard_facturae_ftp(wizard.interface):$/;"	kind:class	line:76
+wizard_facturae_ftp.py	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp.py	1;"	kind:file	line:1
+wizard_facturae_ftp_v5.py	l10n_mx_invoice_ftp/wizard/wizard_facturae_ftp_v5.py	1;"	kind:file	line:1
+wizard_invoice_facturae_txt	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	/^class wizard_invoice_facturae_txt(wizard.interface):$/;"	kind:class	line:206
+wizard_invoice_facturae_txt.py	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt.py	1;"	kind:file	line:1
+wizard_invoice_facturae_txt_v6	l10n_mx_facturae/wizard/__init__.py	/^import wizard_invoice_facturae_txt_v6$/;"	kind:namespace	line:30
+wizard_invoice_facturae_txt_v6	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	/^class wizard_invoice_facturae_txt_v6(osv.TransientModel):$/;"	kind:class	line:38
+wizard_invoice_facturae_txt_v6.py	l10n_mx_facturae/wizard/wizard_invoice_facturae_txt_v6.py	1;"	kind:file	line:1
+wizard_invoice_facturae_xml	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	/^class wizard_invoice_facturae_xml(wizard.interface):$/;"	kind:class	line:100
+wizard_invoice_facturae_xml.py	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml.py	1;"	kind:file	line:1
+wizard_invoice_facturae_xml_v6	l10n_mx_facturae/wizard/__init__.py	/^import wizard_invoice_facturae_xml_v6$/;"	kind:namespace	line:31
+wizard_invoice_facturae_xml_v6	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	/^class wizard_invoice_facturae_xml_v6(osv.TransientModel):$/;"	kind:class	line:37
+wizard_invoice_facturae_xml_v6.py	l10n_mx_facturae/wizard/wizard_invoice_facturae_xml_v6.py	1;"	kind:file	line:1
+wizard_validate_uuid_sat	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^class wizard_validate_uuid_sat(osv.osv_memory):$/;"	kind:class	line:39
+wizard_validate_xml_sat	l10n_mx_validate_xml_sat/wizard/__init__.py	/^import wizard_validate_xml_sat$/;"	kind:namespace	line:26
+wizard_validate_xml_sat.py	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	1;"	kind:file	line:1
+write_cfd_data	l10n_mx_facturae/invoice.py	/^    def write_cfd_data(self, cr, uid, ids, cfd_datas, context=None):$/;"	kind:member	line:856
+write_cfd_data	l10n_mx_facturae_pac_sf/invoice.py	/^    def write_cfd_data(self, cr, uid, ids, cfd_datas, context=None):$/;"	kind:member	line:293
+xml	l10n_mx_cities/tools/add_node.py	/^import xml.dom.minidom$/;"	kind:namespace	line:30
+xml	l10n_mx_cities/tools/add_node.py	/^import xml.etree.cElementTree as ET$/;"	kind:namespace	line:29
+xml	l10n_mx_cities/tools/read_write_xml.py	/^import xml.dom.minidom$/;"	kind:namespace	line:28
+xml	l10n_mx_cities/tools/read_write_xml.py	/^import xml.etree.cElementTree as ET$/;"	kind:namespace	line:29
+xml	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	/^import xml$/;"	kind:namespace	line:34
+xml	l10n_mx_facturae_pac/invoice.py	/^import xml.dom.minidom$/;"	kind:namespace	line:32
+xml	l10n_mx_facturae_pac_sf/invoice.py	/^import xml.dom.minidom$/;"	kind:namespace	line:34
+xml	l10n_mx_facturae_pac_sf/ir_attachment_facturae.py	/^import xml.dom.minidom$/;"	kind:namespace	line:35
+xml	l10n_mx_facturae_pac_sf/wizard/wizard_export_invoice_pac_sf_v6.py	/^import xml.dom.minidom$/;"	kind:namespace	line:42
+xml_doc	l10n_mx_cities/tools/read_write_xml.py	/^xml_doc = xml.dom.minidom.Document()$/;"	kind:variable	line:52
+xml_id_states	l10n_mx_cities/tools/read_write_xml.py	/^            parser_states_codes.get(state_code, '')$/;"	kind:variable	line:107
+xml_to_validate_line	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^class xml_to_validate_line(osv.osv_memory):$/;"	kind:class	line:119
+xmlstarlet_path	l10n_mx_facturae_lib/facturae_lib.py	/^        xmlstarlet_path = my_path and os.path.join(my_path, 'l10n_mx_facturae', 'depends_app', u'xmlstarlet_win') or ''$/;"	kind:variable	line:49
+xmlstarlet_path	l10n_mx_facturae_lib/facturae_lib.py	/^xmlstarlet_path = ''$/;"	kind:variable	line:43
+xmltodict	l10n_mx_validate_xml_sat/wizard/wizard_validate_xml_sat.py	/^    import xmltodict$/;"	kind:namespace	line:33
+xslt_sync.py	l10n_mx_facturae/SAT/cadenaoriginal_3_2/xslt_sync.py	1;"	kind:file	line:1
+xsltproc_path	l10n_mx_facturae_lib/facturae_lib.py	/^        xsltproc_path = my_path and os.path.join(my_path, 'l10n_mx_facturae', 'depends_app', u'xsltproc_win') or ''$/;"	kind:variable	line:48
+xsltproc_path	l10n_mx_facturae_lib/facturae_lib.py	/^xsltproc_path = ''$/;"	kind:variable	line:42
